@@ -2,6 +2,13 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-16 08:28 KST — GA4 페이지·전화 CTA 계측 스캐폴딩
+
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID`가 유효한 `G-` 형식일 때만 GA4를 빌드 결과에 포함하도록 했다. App Router 최초 진입·경로 변경에는 query/hash 없는 `page_path`·`page_location`, 개인정보 형태를 제거하고 100자로 제한한 `page_title`, `page_type`, `platform_id=feeling-hometai`를 수동 `page_view`로 보낸다.
+- 문서 전체 `tel:` 링크를 위임 클릭으로 포착해 `phone_cta_clicked`를 보내며 `cta_location`은 명시 data 속성 또는 표시 문구에서 만들고 전화번호·이메일·href는 전송하지 않는다. 이 이벤트는 통화 연결이 아니라 클릭 의도만 뜻한다. 실제 유효 콜은 콜트래킹 번호와 통신사 webhook/Measurement Protocol을 통한 별도 연결 이벤트가 필요하다.
+- Netlify 환경 변수 키와 GA4 맞춤 측정기준·중복 page view 방지 설정·전화 전환 한계를 README와 `docs/ANALYTICS.md`에 기록했다. 실제 GA 속성 생성, 운영 측정 ID 등록, 배포·push는 하지 않았다.
+- 검증: focused Vitest 1 file/5 tests PASS, 변경 파일 ESLint PASS, `pnpm typecheck` PASS. 가짜 ID와 환경변수 미설정 조건의 Next 정적 빌드가 각각 PASS(1,303페이지)했고, 생성 HTML에서 전자는 태그 존재·후자는 GA 태그 0건을 확인했다.
+
 ## 2026-08-16 06:51 KST — feelinghometai.kr 운영 SEO 공개 전환
 
 - 승인된 운영 origin을 `https://feelinghometai.kr`로 단일화했다. 홈·고정·1,291개 지역·블로그 2개 페이지의 canonical과 Open Graph URL, 블로그 JSON-LD, sitemap이 모두 같은 apex HTTPS origin을 사용하며 페이지 robots는 `index, follow`, `robots.txt`는 `Allow: /`와 운영 sitemap을 출력한다. Search Console에는 접근하거나 제출하지 않았다.

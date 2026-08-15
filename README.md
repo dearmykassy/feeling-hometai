@@ -20,6 +20,16 @@ pnpm lint
 pnpm build
 ```
 
+## GA4 환경 변수
+
+Netlify의 `Site configuration → Environment variables`에 사이트 전용 GA4 웹 스트림 값을 빌드 환경 변수로 등록합니다.
+
+```text
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+값이 없거나 잘못된 형식이면 계측 코드는 출력되지 않습니다. 이벤트와 개인정보 제외 규칙은 `docs/ANALYTICS.md`를 따릅니다.
+
 `artifacts/content-corpus.json`은 고객 화면에 영향을 주는 앱·컴포넌트·지역·콘텐츠 소스 manifest SHA와 함께 결정적으로 재생성됩니다. `artifacts:generate`는 승인된 이미지 release receipt의 schema/status, assignment manifest SHA, route/asset/reuse/public WebP 수와 실제 파일 존재를 exact 검증합니다. 운영 origin이 승인된 `https://feelinghometai.kr`과 정확히 일치하고 이미지 결속도 유효할 때 `deploymentAllowed: true`, `deploymentBlockers: []`를 기록합니다. 브라우저 QA 결과와 320/390/1440 증거는 `qa/browser/report.json`에 고정했습니다.
 
 운영 공개 계약은 다음 조건을 고정합니다. `/Users/ssm/Documents/Codex/platform-governance/bin/audit-platforms`의 플랫폼 간 콘텐츠 감사는 이 SEO 출력 계약과 분리해 관리합니다.
