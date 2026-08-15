@@ -65,6 +65,9 @@ const REQUIRED_ZERO_AUDIT_FIELDS = [
   "openGraphExactMismatches",
   "twitterExactMismatches",
   "canonicalMismatches",
+  "robotsMetaMismatches",
+  "robotsTxtMismatches",
+  "sitemapMismatches",
   "renderCorpusMissing",
   "renderBuiltMissing",
   "actualDomCorpusMissing",
@@ -170,6 +173,7 @@ function assertBuiltAudit(corpus: UnknownRecord, audit: UnknownRecord, corpusBuf
     documents.length !== 1291 ||
     audit.regionPages !== documents.length ||
     audit.metadataRoutes !== routeTotal ||
+    audit.sitemapUrls !== routeTotal ||
     audit.actualDomSurfaceRoutes !== routeTotal ||
     audit.telActionLinks !== counts.telActionLinks ||
     audit.fixedPages !== fixedDocuments.length ||
@@ -193,9 +197,8 @@ function assertImageReleaseBoundary(corpus: UnknownRecord) {
   if (
     images.contractVersion !== "feeling-hometai-image-release-boundary/v1" ||
     images.status !== "ROOT_APPROVED_RELEASE_VALIDATED_INTEGRATED" ||
-    images.deploymentAllowed !== false ||
-    JSON.stringify(images.deploymentBlockers) !==
-      JSON.stringify(["PREVIEW_INVALID_ORIGIN_NO_APPROVED_DOMAIN"]) ||
+    images.deploymentAllowed !== true ||
+    JSON.stringify(images.deploymentBlockers) !== JSON.stringify([]) ||
     integration.activated !== true ||
     integration.publicAssetManifestBound !== true ||
     integration.routeAssignmentsBound !== true

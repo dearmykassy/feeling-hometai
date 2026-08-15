@@ -29,8 +29,8 @@ import {
 import { createRegionPageModel } from "../src/lib/region-page-model";
 import {
   createRouteMetadataContract,
-  PREVIEW_ORIGIN,
   SITE_NAME,
+  SITE_ORIGIN,
 } from "../src/lib/metadata";
 import { ACTIVE_REGION_NODES, getKeywordRegionLabel } from "../src/lib/regions";
 
@@ -185,7 +185,7 @@ function assertImageDistribution(value: unknown, code: string) {
 function blogPostMetadataContract(post: (typeof BLOG_POSTS)[number]) {
   const route = getBlogPostPath(post);
   const title = `${post.title} | ${SITE_NAME}`;
-  const canonicalUrl = new URL(route, PREVIEW_ORIGIN).href;
+  const canonicalUrl = new URL(route, SITE_ORIGIN).href;
   return {
     route,
     title,
@@ -222,10 +222,7 @@ async function loadImageReleaseBoundary() {
       receipt: null,
       integration: inactiveIntegration,
       deploymentAllowed: false,
-      deploymentBlockers: [
-        "RELEASE_RECEIPT_NOT_BOUND",
-        "PREVIEW_INVALID_ORIGIN_NO_APPROVED_DOMAIN",
-      ],
+      deploymentBlockers: ["RELEASE_RECEIPT_NOT_BOUND"],
     } as const;
   }
 
@@ -417,8 +414,11 @@ async function loadImageReleaseBoundary() {
     const file = await stat(resolve(ROOT, "public", source.slice(1)));
     if (!file.isFile()) imageReleaseError("PUBLIC_WEBP_NOT_FILE");
   }));
-  if (!new URL(PREVIEW_ORIGIN).hostname.endsWith(".invalid")) {
-    imageReleaseError("PREVIEW_DEPLOYMENT_BLOCKER_CHANGED");
+  if (
+    SITE_ORIGIN !== "https://feelinghometai.kr" ||
+    new URL(SITE_ORIGIN).origin !== SITE_ORIGIN
+  ) {
+    imageReleaseError("PRODUCTION_ORIGIN_NOT_APPROVED");
   }
 
   return {
@@ -449,8 +449,8 @@ async function loadImageReleaseBoundary() {
       publicAssetManifestBound: true,
       routeAssignmentsBound: true,
     },
-    deploymentAllowed: false,
-    deploymentBlockers: ["PREVIEW_INVALID_ORIGIN_NO_APPROVED_DOMAIN"],
+    deploymentAllowed: true,
+    deploymentBlockers: [],
   } as const;
 }
 

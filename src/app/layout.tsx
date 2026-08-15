@@ -3,13 +3,13 @@ import type { ReactNode } from "react";
 import { BottomNav } from "@/components/BottomNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { PREVIEW_ORIGIN } from "@/lib/metadata";
+import { SITE_ORIGIN } from "@/lib/metadata";
 import "@/components/RegionTemplate3.css";
 import "./fixed-pages.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(PREVIEW_ORIGIN),
+  metadataBase: new URL(SITE_ORIGIN),
   title: {
     default: "필링홈타이 | 전국 출장 마사지 지역·가격 안내",
     template: "%s | 필링홈타이",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "출장스웨디시",
     "출장홈타이",
   ],
-  robots: { index: false, follow: false, nocache: true },
+  robots: { index: true, follow: true },
   icons: {
     icon: [{ url: "/images/feeling-hometai-brand/v1/feeling-hometai-mark-openai-v1.png", type: "image/png" }],
     shortcut: "/images/feeling-hometai-brand/v1/feeling-hometai-mark-openai-v1.png",

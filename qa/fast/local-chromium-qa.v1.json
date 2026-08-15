@@ -1,26 +1,27 @@
 {
-  "schemaVersion": "rang-fast-local-chromium-qa/v1",
+  "schemaVersion": "feeling-hometai-fast-local-chromium-qa/v1",
   "status": "PASS",
-  "platformId": "rang-therapy",
+  "platformId": "feeling-hometai",
   "candidate": {
-    "protocol": "rang-fast-candidate-binding/v1",
-    "platformId": "rang-therapy",
-    "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
-    "sourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
-    "builtOutputAuditSha256": "799ca097c8cd1e6061eb0f4a8fbeb4e2081d5828973d2251362cd033db51f445",
-    "builtOutputAuditSemanticSha256": "9fd2be42d0552ef16a4f3db262cdda109acc1b4f1a6bc3fdafdecb78082eea2f",
-    "qaHarnessSha256": "974e6a50c6e1471124edd3e19e980fe76776d50dab14e5ce825aa4b7032bcd5f",
+    "protocol": "feeling-hometai-fast-candidate-binding/v1",
+    "platformId": "feeling-hometai",
+    "corpusSha256": "d587f259216ba6697d3d9f2fd474e7e6ef19e3491e15529149da109e74024584",
+    "sourceManifestSha256": "63ce10a7678c5d75262fb14e25d3988a192993c9b427f55d57b32351c284ce22",
+    "builtOutputAuditSha256": "03588c92ef07e7a9c17468fe096cffaa35aa89fbee6aab70a6fbef18d7857ce8",
+    "builtOutputAuditSemanticSha256": "1fab2727eaafc5dbe1950ba0c939b95ca813b7b550af4028515596511baa9f54",
+    "qaHarnessSha256": "4bc7ede358a1cf2556f2de8cfdd0c5d7dfee0306262d76b80c27e11b9c4442b7",
     "inputHashes": {
-      "seoMetadataSha256": "a71508cef7e7b038dc4be027e77ee0dcc557e236c08fb10a7cbc8e321e317eaa",
-      "renderedCopySurfaceSha256": "71dcc725ae2748475e5ea16619ac1ff4a28917d1dbd5bf4f2a8f83162b5c9227",
-      "actualDomSurfaceSha256": "2fb9dfae454001fbc2249d104e55981850a12499fd60165ba8cc226424990a7e"
+      "seoMetadataSha256": "28a518ba7a2b879134fe4840b4df796a4a43c507197ea3891fa2db26cfe4fd68",
+      "renderedCopySurfaceSha256": "da5954b2a0973c58559a0dd4c5b5ea194497d47f6c26d1e4025d3e8f12e8981a",
+      "actualDomSurfaceSha256": "92a7b4663fb32e83938e91460ebad574cb012f3607a94979536d153b1954afd8"
     },
     "routeCounts": {
       "regional": 1291,
       "fixed": 6,
-      "total": 1297
+      "blogPosts": 2,
+      "total": 1299
     },
-    "id": "6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928"
+    "id": "5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f"
   },
   "qa": {
     "kind": "LOCAL_CHROMIUM",
@@ -60,7 +61,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+        "title": "서울특별시홈타이 서울특별시출장마사지 | 필링홈타이",
         "viewport": [
           320,
           844
@@ -75,6 +76,14 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -83,7 +92,9 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "전화상담",
+          "0508-202-3906",
+          "☎전화상담24시간 상담 안내"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -101,17 +112,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 6,
+        "tracks": 1,
+        "minHeight": 56.046875,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/seoul-root-320.png",
-      "screenshotSha256": "c45b1db67794d9c2ef4415349b812d24cbc4d4ac073167a13b3ea32f517307a7",
+      "screenshot": "qa/fast/screenshots/5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f/seoul-root-320.png",
+      "screenshotSha256": "aa44bf6833df2e84856567b32fee280ce011062263b1785e7231a46884590d2e",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         320,
@@ -131,7 +142,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+        "title": "서울특별시홈타이 서울특별시출장마사지 | 필링홈타이",
         "viewport": [
           390,
           844
@@ -146,6 +157,14 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -154,7 +173,9 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "전화상담",
+          "0508-202-3906",
+          "☎전화상담24시간 상담 안내"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -172,17 +193,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 6,
+        "tracks": 1,
+        "minHeight": 56.046875,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/seoul-root-390.png",
-      "screenshotSha256": "629dcb7911dbb50cbc6a951f2a34116115473c8d480269520536043d533a6ce2",
+      "screenshot": "qa/fast/screenshots/5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f/seoul-root-390.png",
+      "screenshotSha256": "8d3ead12bec4c7cae6485eaf085c048eaadeb11e3e0f2e540d6dc07ec16e5608",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         390,
@@ -202,7 +223,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+        "title": "서울특별시홈타이 서울특별시출장마사지 | 필링홈타이",
         "viewport": [
           1440,
           1000
@@ -217,6 +238,14 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -225,7 +254,9 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "전화상담",
+          "0508-202-3906",
+          "☎전화상담24시간 상담 안내"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -245,8 +276,8 @@
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/seoul-root-1440.png",
-      "screenshotSha256": "00d496e885059f60c33af146c5521095158779e8ecc77d05d633ebe280e84177",
+      "screenshot": "qa/fast/screenshots/5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f/seoul-root-1440.png",
+      "screenshotSha256": "874c170b9f056c50fb645347782446df365e921c13e88789eb5351d5ae724bf7",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         1440,
@@ -266,7 +297,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+        "title": "강남구홈타이 강남구출장마사지 | 필링홈타이",
         "viewport": [
           320,
           844
@@ -281,6 +312,14 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -289,7 +328,9 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "전화상담",
+          "0508-202-3906",
+          "☎전화상담24시간 상담 안내"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -307,17 +348,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 6,
+        "tracks": 1,
+        "minHeight": 56.046875,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/gangnam-hub-320.png",
-      "screenshotSha256": "2e77ad9cb7b0e035e5061d45eccf08cf149c8ab9094a7f3740aebe053b76bb1c",
+      "screenshot": "qa/fast/screenshots/5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f/gangnam-hub-320.png",
+      "screenshotSha256": "e1b9ee968f4e64be9a4852f38bd41e85821f03f117693e6303fae56f683570f6",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         320,
@@ -337,7 +378,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+        "title": "강남구홈타이 강남구출장마사지 | 필링홈타이",
         "viewport": [
           390,
           844
@@ -352,6 +393,14 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -360,7 +409,9 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "전화상담",
+          "0508-202-3906",
+          "☎전화상담24시간 상담 안내"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -378,17 +429,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 6,
+        "tracks": 1,
+        "minHeight": 56.046875,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/gangnam-hub-390.png",
-      "screenshotSha256": "80a5687ec681afb51ba8850a67332298426c5ddbe2637af9b786dbf194629a7e",
+      "screenshot": "qa/fast/screenshots/5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f/gangnam-hub-390.png",
+      "screenshotSha256": "c5551158d1c546b1e3333ca19dd0611be40d6bd0f2569b9768b86ae405aa67cf",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         390,
@@ -408,7 +459,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+        "title": "강남구홈타이 강남구출장마사지 | 필링홈타이",
         "viewport": [
           1440,
           1000
@@ -423,6 +474,14 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -431,7 +490,9 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "전화상담",
+          "0508-202-3906",
+          "☎전화상담24시간 상담 안내"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -451,8 +512,8 @@
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/gangnam-hub-1440.png",
-      "screenshotSha256": "723b1bd588a725b91c5bf0eb8e07037e97c8a6744db838b99b734ce4e3a38bec",
+      "screenshot": "qa/fast/screenshots/5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f/gangnam-hub-1440.png",
+      "screenshotSha256": "f5d70f4322f34cbd2b49c0d1c80406f03a1519daf5d73b5c862a34e9e1e4304e",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         1440,
@@ -472,7 +533,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+        "title": "화북동홈타이 화북동출장마사지 | 필링홈타이",
         "viewport": [
           320,
           844
@@ -487,6 +548,14 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -495,7 +564,9 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "전화상담",
+          "0508-202-3906",
+          "☎전화상담24시간 상담 안내"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -513,17 +584,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 6,
+        "tracks": 1,
+        "minHeight": 56.046875,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/hwabuk-leaf-320.png",
-      "screenshotSha256": "39908052f2bb8b42ed8b8b005fb4672f9b2bae65fce61436ed958147984f4b0b",
+      "screenshot": "qa/fast/screenshots/5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f/hwabuk-leaf-320.png",
+      "screenshotSha256": "092f8131a581ffbbbef9def221e091c707a11c9d9476889f96b55c305bdf68c2",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         320,
@@ -543,7 +614,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+        "title": "화북동홈타이 화북동출장마사지 | 필링홈타이",
         "viewport": [
           390,
           844
@@ -558,6 +629,14 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -566,7 +645,9 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "전화상담",
+          "0508-202-3906",
+          "☎전화상담24시간 상담 안내"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -584,17 +665,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 6,
+        "tracks": 1,
+        "minHeight": 56.046875,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/hwabuk-leaf-390.png",
-      "screenshotSha256": "0ac0f8521d7876a449568ca554d6a05b3b4b1448b997c83ca7f348079a7f2af9",
+      "screenshot": "qa/fast/screenshots/5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f/hwabuk-leaf-390.png",
+      "screenshotSha256": "46c700e12d68af23c4120afe0ba397520238fd715214fbee71cd37f834e4ed40",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         390,
@@ -614,7 +695,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+        "title": "화북동홈타이 화북동출장마사지 | 필링홈타이",
         "viewport": [
           1440,
           1000
@@ -629,6 +710,14 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -637,7 +726,9 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "전화상담",
+          "0508-202-3906",
+          "☎전화상담24시간 상담 안내"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -657,8 +748,8 @@
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/hwabuk-leaf-1440.png",
-      "screenshotSha256": "dab2edd0e6c558cf98d412c13d446a0a5a3d9024012b1cdde5dc8f2ae9cb8a3b",
+      "screenshot": "qa/fast/screenshots/5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f/hwabuk-leaf-1440.png",
+      "screenshotSha256": "8da1d5935c586db157c6cc7dc82617ae6b17ecfe4652e8bd1300e0e2099225ff",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         1440,

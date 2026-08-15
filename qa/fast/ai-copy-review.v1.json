@@ -1,26 +1,27 @@
 {
-  "schemaVersion": "rang-fast-ai-copy-review/v1",
+  "schemaVersion": "feeling-hometai-fast-ai-copy-review/v1",
   "status": "AI_REVIEW_COMPLETE",
-  "platformId": "rang-therapy",
+  "platformId": "feeling-hometai",
   "candidate": {
-    "protocol": "rang-fast-candidate-binding/v1",
-    "platformId": "rang-therapy",
-    "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
-    "sourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
-    "builtOutputAuditSha256": "799ca097c8cd1e6061eb0f4a8fbeb4e2081d5828973d2251362cd033db51f445",
-    "builtOutputAuditSemanticSha256": "9fd2be42d0552ef16a4f3db262cdda109acc1b4f1a6bc3fdafdecb78082eea2f",
-    "qaHarnessSha256": "974e6a50c6e1471124edd3e19e980fe76776d50dab14e5ce825aa4b7032bcd5f",
+    "protocol": "feeling-hometai-fast-candidate-binding/v1",
+    "platformId": "feeling-hometai",
+    "corpusSha256": "d587f259216ba6697d3d9f2fd474e7e6ef19e3491e15529149da109e74024584",
+    "sourceManifestSha256": "63ce10a7678c5d75262fb14e25d3988a192993c9b427f55d57b32351c284ce22",
+    "builtOutputAuditSha256": "03588c92ef07e7a9c17468fe096cffaa35aa89fbee6aab70a6fbef18d7857ce8",
+    "builtOutputAuditSemanticSha256": "1fab2727eaafc5dbe1950ba0c939b95ca813b7b550af4028515596511baa9f54",
+    "qaHarnessSha256": "4bc7ede358a1cf2556f2de8cfdd0c5d7dfee0306262d76b80c27e11b9c4442b7",
     "inputHashes": {
-      "seoMetadataSha256": "a71508cef7e7b038dc4be027e77ee0dcc557e236c08fb10a7cbc8e321e317eaa",
-      "renderedCopySurfaceSha256": "71dcc725ae2748475e5ea16619ac1ff4a28917d1dbd5bf4f2a8f83162b5c9227",
-      "actualDomSurfaceSha256": "2fb9dfae454001fbc2249d104e55981850a12499fd60165ba8cc226424990a7e"
+      "seoMetadataSha256": "28a518ba7a2b879134fe4840b4df796a4a43c507197ea3891fa2db26cfe4fd68",
+      "renderedCopySurfaceSha256": "da5954b2a0973c58559a0dd4c5b5ea194497d47f6c26d1e4025d3e8f12e8981a",
+      "actualDomSurfaceSha256": "92a7b4663fb32e83938e91460ebad574cb012f3607a94979536d153b1954afd8"
     },
     "routeCounts": {
       "regional": 1291,
       "fixed": 6,
-      "total": 1297
+      "blogPosts": 2,
+      "total": 1299
     },
-    "id": "6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928"
+    "id": "5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f"
   },
   "reviewer": {
     "kind": "AI",
@@ -74,10 +75,10 @@
         "similarity": 0.166667,
         "leftRoute": "/areas/asan/%EC%98%81%EC%9D%B8%EB%A9%B4",
         "rightRoute": "/areas/asan/%EC%98%A8%EC%96%91%EB%8F%99",
-        "left": "영인면 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
-        "right": "온양동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다."
+        "left": "영인면 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+        "right": "온양동 필링홈타이 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다."
       },
-      "exactCandidateSha256": "385c589790301ce0c9a98d56181d5be1d3d78d1ecff3dba7adaf4287fdd0d639",
+      "exactCandidateSha256": "9619da1bc7cce66a10bbec7e315bdcd423738b223a1c077bf4a94883b3204c80",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -271,38 +272,40 @@
       "route": "/areas/seoul",
       "kind": "root",
       "label": "서울특별시",
-      "sourceDocumentSha256": "92d94cfba0aab20f85125b0cc603e9dc6bf4d31d2674743518372c5b72bcf2bf",
+      "sourceDocumentSha256": "8a81a2e1b5f4c12b9f6fa8a61e5fd630c096d4e010a1a748df6ecfb7128743a4",
       "visibleCopy": {
-        "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
-        "description": "서울특별시 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
+        "title": "서울특별시홈타이 서울특별시출장마사지 | 필링홈타이",
+        "description": "서울특별시 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/seoul/",
-          "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
-          "description": "서울특별시 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
+          "title": "서울특별시홈타이 서울특별시출장마사지 | 필링홈타이",
+          "description": "서울특별시 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "서울특별시랑테라피",
-            "서울특별시랑출장테라피",
-            "서울특별시랑방문마사지",
-            "서울특별시랑아로마리듬",
-            "서울특별시랑타이리듬",
-            "서울특별시랑현장결제"
+            "서울특별시필링홈타이",
+            "서울특별시홈타이",
+            "서울특별시출장홈타이",
+            "서울특별시출장마사지",
+            "서울특별시출장안마",
+            "서울특별시출장타이마사지",
+            "서울특별시출장스웨디시",
+            "서울특별시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/seoul/",
+          "canonical": "https://feelinghometai.kr/areas/seoul/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
-            "description": "서울특별시 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/seoul/"
+            "siteName": "필링홈타이",
+            "title": "서울특별시홈타이 서울특별시출장마사지 | 필링홈타이",
+            "description": "서울특별시 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
+            "url": "https://feelinghometai.kr/areas/seoul/"
           },
           "twitter": {
             "card": "summary",
-            "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
-            "description": "서울특별시 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다."
+            "title": "서울특별시홈타이 서울특별시출장마사지 | 필링홈타이",
+            "description": "서울특별시 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
-        "h1": "서울특별시 일정에 맞춰 고르는 랑테라피",
+        "h1": "서울특별시 일정에 맞춰 고르는 필링홈타이",
         "hooks": [
           "서울특별시 문의에서는 서비스를 받을 주소와 희망 시각을 전화로 알려 주세요.",
           "서울특별시에서 원하는 시간대가 가능한지는 24시간 전화상담으로 확인하세요."
@@ -359,16 +362,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "185a2017bc67059fc5753db6b756941466b63adaab06278a9dc7a74e7aabd75b",
+      "visibleCopySha256": "d269da27a42bea55319c42393284920610ac0a5f0a9f1300c9dc47f03e5fabbf",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -380,35 +398,37 @@
       "route": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC",
       "kind": "hub",
       "label": "강남구",
-      "sourceDocumentSha256": "cf9be241df6d432eac9a7cdb4e9ec3309c3581e37bee6d84a1e47c2571af5f3a",
+      "sourceDocumentSha256": "0f46c7db40d366b5549f3d7bd97bf4831a1d8abe8e95fd6a41e0f66dc5a3e0f6",
       "visibleCopy": {
-        "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
-        "description": "강남구 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
+        "title": "강남구홈타이 강남구출장마사지 | 필링홈타이",
+        "description": "강남구 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
         "metadata": {
           "route": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
-          "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
-          "description": "강남구 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
+          "title": "강남구홈타이 강남구출장마사지 | 필링홈타이",
+          "description": "강남구 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
           "keywords": [
-            "강남구랑테라피",
-            "강남구랑출장테라피",
-            "강남구랑방문마사지",
-            "강남구랑아로마리듬",
-            "강남구랑타이리듬",
-            "강남구랑현장결제"
+            "강남구필링홈타이",
+            "강남구홈타이",
+            "강남구출장홈타이",
+            "강남구출장마사지",
+            "강남구출장안마",
+            "강남구출장타이마사지",
+            "강남구출장스웨디시",
+            "강남구출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+          "canonical": "https://feelinghometai.kr/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
-            "description": "강남구 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/"
+            "siteName": "필링홈타이",
+            "title": "강남구홈타이 강남구출장마사지 | 필링홈타이",
+            "description": "강남구 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
+            "url": "https://feelinghometai.kr/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
-            "description": "강남구 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다."
+            "title": "강남구홈타이 강남구출장마사지 | 필링홈타이",
+            "description": "강남구 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다."
           }
         },
         "h1": "강남구 서비스 전에 확인하는 코스와 시간",
@@ -468,16 +488,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "713e42fc72bb62f1f1a6db92baabd84fb141b6a286b5509db3b0edea50cd27b2",
+      "visibleCopySha256": "7348ed78d58d9d985b8ef49aeed2f86f5734a60c21b08d658640c41a46bc0fee",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -489,35 +524,37 @@
       "route": "/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99",
       "kind": "representative",
       "label": "중랑구 중화동",
-      "sourceDocumentSha256": "20c0c1997f6117ef3e442ef04f52413685bb3f4f6efbac7a26c491d7d33a9737",
+      "sourceDocumentSha256": "0bf9a9abfe999090e6363ee832521738ff46a3b72f0b0e5c1f6f6533a66d7b60",
       "visibleCopy": {
-        "title": "중화동 랑테라피 | 선입금 없는 현장 후불 안내",
-        "description": "중화동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
+        "title": "중화동홈타이 중화동출장마사지 | 필링홈타이",
+        "description": "중화동 필링홈타이 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
         "metadata": {
           "route": "/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/",
-          "title": "중화동 랑테라피 | 선입금 없는 현장 후불 안내",
-          "description": "중화동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
+          "title": "중화동홈타이 중화동출장마사지 | 필링홈타이",
+          "description": "중화동 필링홈타이 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
           "keywords": [
-            "중화동랑테라피",
-            "중화동랑출장테라피",
-            "중화동랑방문마사지",
-            "중화동랑아로마리듬",
-            "중화동랑타이리듬",
-            "중화동랑현장결제"
+            "중화동필링홈타이",
+            "중화동홈타이",
+            "중화동출장홈타이",
+            "중화동출장마사지",
+            "중화동출장안마",
+            "중화동출장타이마사지",
+            "중화동출장스웨디시",
+            "중화동출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/",
+          "canonical": "https://feelinghometai.kr/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "중화동 랑테라피 | 선입금 없는 현장 후불 안내",
-            "description": "중화동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/"
+            "siteName": "필링홈타이",
+            "title": "중화동홈타이 중화동출장마사지 | 필링홈타이",
+            "description": "중화동 필링홈타이 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
+            "url": "https://feelinghometai.kr/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "중화동 랑테라피 | 선입금 없는 현장 후불 안내",
-            "description": "중화동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다."
+            "title": "중화동홈타이 중화동출장마사지 | 필링홈타이",
+            "description": "중화동 필링홈타이 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다."
           }
         },
         "h1": "중화동, 선입금 없이 확인하는 코스와 현장 결제",
@@ -577,16 +614,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "a945d09ee256bcd69b186a23eab1fc7b7b90302cc10e82460bfafff8f1bbf22d",
+      "visibleCopySha256": "2c790ed538daa683ac92d9f715251fa2a3aa55972b42014f909407e8a01e67a3",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -598,35 +650,37 @@
       "route": "/areas/incheon",
       "kind": "root",
       "label": "인천광역시",
-      "sourceDocumentSha256": "a3cdd5ae6f0f57240b49c8fe40928081b3f098b33419158a91ac83e3def10ba7",
+      "sourceDocumentSha256": "a07504bc95a9906d5ab8d9f0445771d50a6718b5f79136b49356fb8696947ed4",
       "visibleCopy": {
-        "title": "인천광역시 랑테라피 | 코스별 시간과 가격표 확인",
-        "description": "인천광역시 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
+        "title": "인천광역시홈타이 인천광역시출장마사지 | 필링홈타이",
+        "description": "인천광역시 필링홈타이 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
         "metadata": {
           "route": "/areas/incheon/",
-          "title": "인천광역시 랑테라피 | 코스별 시간과 가격표 확인",
-          "description": "인천광역시 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
+          "title": "인천광역시홈타이 인천광역시출장마사지 | 필링홈타이",
+          "description": "인천광역시 필링홈타이 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
           "keywords": [
-            "인천광역시랑테라피",
-            "인천광역시랑출장테라피",
-            "인천광역시랑방문마사지",
-            "인천광역시랑아로마리듬",
-            "인천광역시랑타이리듬",
-            "인천광역시랑현장결제"
+            "인천광역시필링홈타이",
+            "인천광역시홈타이",
+            "인천광역시출장홈타이",
+            "인천광역시출장마사지",
+            "인천광역시출장안마",
+            "인천광역시출장타이마사지",
+            "인천광역시출장스웨디시",
+            "인천광역시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/incheon/",
+          "canonical": "https://feelinghometai.kr/areas/incheon/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "인천광역시 랑테라피 | 코스별 시간과 가격표 확인",
-            "description": "인천광역시 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/incheon/"
+            "siteName": "필링홈타이",
+            "title": "인천광역시홈타이 인천광역시출장마사지 | 필링홈타이",
+            "description": "인천광역시 필링홈타이 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
+            "url": "https://feelinghometai.kr/areas/incheon/"
           },
           "twitter": {
             "card": "summary",
-            "title": "인천광역시 랑테라피 | 코스별 시간과 가격표 확인",
-            "description": "인천광역시 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다."
+            "title": "인천광역시홈타이 인천광역시출장마사지 | 필링홈타이",
+            "description": "인천광역시 필링홈타이 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다."
           }
         },
         "h1": "인천광역시에서 고르는 코스와 희망 시작 시각",
@@ -686,16 +740,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "2d40c220a4fc564266525c182de2d46903b597a8cd21a3007bbd1d4950cd7fc5",
+      "visibleCopySha256": "d6b85fbc4f6f1c29b227b111dae77987f5beebdfd062f5d435fa94e0beefd9a9",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -707,38 +776,40 @@
       "route": "/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0",
       "kind": "hub",
       "label": "강화군",
-      "sourceDocumentSha256": "d100c9d21bd14a01a0d69c7cdb07f444d36331cfba4289daaedaa6b2548f5101",
+      "sourceDocumentSha256": "70f63243ceb0e4fddedeb740bd641749727b59e7c2d4f42986b843c792486012",
       "visibleCopy": {
-        "title": "강화군 랑테라피 | 서비스 전 주소·일정 준비",
-        "description": "강화군 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
+        "title": "강화군홈타이 강화군출장마사지 | 필링홈타이",
+        "description": "강화군 필링홈타이는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
         "metadata": {
           "route": "/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/",
-          "title": "강화군 랑테라피 | 서비스 전 주소·일정 준비",
-          "description": "강화군 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
+          "title": "강화군홈타이 강화군출장마사지 | 필링홈타이",
+          "description": "강화군 필링홈타이는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
           "keywords": [
-            "강화군랑테라피",
-            "강화군랑출장테라피",
-            "강화군랑방문마사지",
-            "강화군랑아로마리듬",
-            "강화군랑타이리듬",
-            "강화군랑현장결제"
+            "강화군필링홈타이",
+            "강화군홈타이",
+            "강화군출장홈타이",
+            "강화군출장마사지",
+            "강화군출장안마",
+            "강화군출장타이마사지",
+            "강화군출장스웨디시",
+            "강화군출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/",
+          "canonical": "https://feelinghometai.kr/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "강화군 랑테라피 | 서비스 전 주소·일정 준비",
-            "description": "강화군 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/"
+            "siteName": "필링홈타이",
+            "title": "강화군홈타이 강화군출장마사지 | 필링홈타이",
+            "description": "강화군 필링홈타이는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
+            "url": "https://feelinghometai.kr/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/"
           },
           "twitter": {
             "card": "summary",
-            "title": "강화군 랑테라피 | 서비스 전 주소·일정 준비",
-            "description": "강화군 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다."
+            "title": "강화군홈타이 강화군출장마사지 | 필링홈타이",
+            "description": "강화군 필링홈타이는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다."
           }
         },
-        "h1": "강화군, 원하는 시간에 맞춘 랑테라피",
+        "h1": "강화군, 원하는 시간에 맞춘 필링홈타이",
         "hooks": [
           "강화군 서비스 계획은 주소, 코스, 희망 시간을 구분해 메모하세요.",
           "강화군에서는 예약금을 미리 보내지 않고 서비스를 받은 뒤 현장에서 후불로 정산합니다."
@@ -795,16 +866,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "2b045fa9a290e4f576707f67a5ac9b423ee4ac22f90df9eb5cea2f554e423dd8",
+      "visibleCopySha256": "3e35a62a01e68eb94ae9259ac6b681b7d63447ae1f1ce1e3d161ddd09df16a6c",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -816,35 +902,37 @@
       "route": "/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99",
       "kind": "representative",
       "label": "제물포구 화수1.화평동",
-      "sourceDocumentSha256": "52dfc541e651f019300013a728e673ba70b08c1e6029a9d48a883ff3eadaaca9",
+      "sourceDocumentSha256": "4f087aea04fc1fa587c6460d307ef822d9cdb115d4b0336986aa2c84a4ca7fb5",
       "visibleCopy": {
-        "title": "화수1.화평동 랑테라피 | 코스·가격·시작 시간 안내",
-        "description": "화수1.화평동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+        "title": "화수1.화평동홈타이 화수1.화평동출장마사지 | 필링홈타이",
+        "description": "화수1.화평동 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/",
-          "title": "화수1.화평동 랑테라피 | 코스·가격·시작 시간 안내",
-          "description": "화수1.화평동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+          "title": "화수1.화평동홈타이 화수1.화평동출장마사지 | 필링홈타이",
+          "description": "화수1.화평동 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "화수1.화평동랑테라피",
-            "화수1.화평동랑출장테라피",
-            "화수1.화평동랑방문마사지",
-            "화수1.화평동랑아로마리듬",
-            "화수1.화평동랑타이리듬",
-            "화수1.화평동랑현장결제"
+            "화수1.화평동필링홈타이",
+            "화수1.화평동홈타이",
+            "화수1.화평동출장홈타이",
+            "화수1.화평동출장마사지",
+            "화수1.화평동출장안마",
+            "화수1.화평동출장타이마사지",
+            "화수1.화평동출장스웨디시",
+            "화수1.화평동출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/",
+          "canonical": "https://feelinghometai.kr/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "화수1.화평동 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "화수1.화평동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/"
+            "siteName": "필링홈타이",
+            "title": "화수1.화평동홈타이 화수1.화평동출장마사지 | 필링홈타이",
+            "description": "화수1.화평동 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+            "url": "https://feelinghometai.kr/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "화수1.화평동 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "화수1.화평동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
+            "title": "화수1.화평동홈타이 화수1.화평동출장마사지 | 필링홈타이",
+            "description": "화수1.화평동 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
         "h1": "화수1.화평동, 코스부터 현장 결제까지 한눈에",
@@ -904,16 +992,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "a038bbadfcbabb2cb7e5d73f577cf343bcfda76854b712045971229a91250878",
+      "visibleCopySha256": "e747041d2f227eb81fac63fabc07e3bcea0d1dcd34771c42a1c6c5947f6406a5",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -925,35 +1028,37 @@
       "route": "/areas/gyeonggi",
       "kind": "root",
       "label": "경기도",
-      "sourceDocumentSha256": "41a2d9a75d7a8d263825828578bf9ce71facfafaa4abd2eb56997227f22ccc81",
+      "sourceDocumentSha256": "3b5577e2f3b73612c53db16a8aa45e5a45b9589d5c38a5bb7ad2972f760712c9",
       "visibleCopy": {
-        "title": "경기도 랑테라피 | 서비스 주소와 희망 시각 상담",
-        "description": "경기도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+        "title": "경기도홈타이 경기도출장마사지 | 필링홈타이",
+        "description": "경기도 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/gyeonggi/",
-          "title": "경기도 랑테라피 | 서비스 주소와 희망 시각 상담",
-          "description": "경기도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+          "title": "경기도홈타이 경기도출장마사지 | 필링홈타이",
+          "description": "경기도 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "경기도랑테라피",
-            "경기도랑출장테라피",
-            "경기도랑방문마사지",
-            "경기도랑아로마리듬",
-            "경기도랑타이리듬",
-            "경기도랑현장결제"
+            "경기도필링홈타이",
+            "경기도홈타이",
+            "경기도출장홈타이",
+            "경기도출장마사지",
+            "경기도출장안마",
+            "경기도출장타이마사지",
+            "경기도출장스웨디시",
+            "경기도출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gyeonggi/",
+          "canonical": "https://feelinghometai.kr/areas/gyeonggi/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "경기도 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "경기도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/gyeonggi/"
+            "siteName": "필링홈타이",
+            "title": "경기도홈타이 경기도출장마사지 | 필링홈타이",
+            "description": "경기도 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+            "url": "https://feelinghometai.kr/areas/gyeonggi/"
           },
           "twitter": {
             "card": "summary",
-            "title": "경기도 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "경기도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
+            "title": "경기도홈타이 경기도출장마사지 | 필링홈타이",
+            "description": "경기도 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
         "h1": "경기도 서비스에 필요한 주소·시간·코스 안내",
@@ -1013,16 +1118,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "5e856dc34594b09dac067c06b001d65a60f550e8b3f64bfe4fccfbd4feba0334",
+      "visibleCopySha256": "03e7791b362b34f726bb97a8ed303abe0663f368cfdd4db599a2cafe7abebbbf",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -1034,38 +1154,40 @@
       "route": "/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0",
       "kind": "hub",
       "label": "가평군",
-      "sourceDocumentSha256": "b3bcdfddb3338205cdb28dde62c0c59e2068dec3b5b53924e9e94643f80249f7",
+      "sourceDocumentSha256": "e024695406ed8eb1901a7d8e7605aeb01907e4ce01954b15e3a33efbcbf44d5b",
       "visibleCopy": {
-        "title": "가평군 랑테라피 | 24시간 이용 일정 상담",
-        "description": "가평군 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+        "title": "가평군홈타이 가평군출장마사지 | 필링홈타이",
+        "description": "가평군 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
         "metadata": {
           "route": "/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/",
-          "title": "가평군 랑테라피 | 24시간 이용 일정 상담",
-          "description": "가평군 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+          "title": "가평군홈타이 가평군출장마사지 | 필링홈타이",
+          "description": "가평군 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
           "keywords": [
-            "가평군랑테라피",
-            "가평군랑출장테라피",
-            "가평군랑방문마사지",
-            "가평군랑아로마리듬",
-            "가평군랑타이리듬",
-            "가평군랑현장결제"
+            "가평군필링홈타이",
+            "가평군홈타이",
+            "가평군출장홈타이",
+            "가평군출장마사지",
+            "가평군출장안마",
+            "가평군출장타이마사지",
+            "가평군출장스웨디시",
+            "가평군출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/",
+          "canonical": "https://feelinghometai.kr/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "가평군 랑테라피 | 24시간 이용 일정 상담",
-            "description": "가평군 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/"
+            "siteName": "필링홈타이",
+            "title": "가평군홈타이 가평군출장마사지 | 필링홈타이",
+            "description": "가평군 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+            "url": "https://feelinghometai.kr/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/"
           },
           "twitter": {
             "card": "summary",
-            "title": "가평군 랑테라피 | 24시간 이용 일정 상담",
-            "description": "가평군 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
+            "title": "가평군홈타이 가평군출장마사지 | 필링홈타이",
+            "description": "가평군 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
           }
         },
-        "h1": "가평군에서 준비하는 나만의 테라피 일정",
+        "h1": "가평군에서 준비하는 나만의 홈타이 일정",
         "hooks": [
           "가평군에서 확인하지 못한 이용 조건은 전화 전에 따로 표시해 두세요.",
           "가평군의 코스와 희망 시각이 가능하다는 답변을 받은 뒤 요청 내용을 확정하세요."
@@ -1122,16 +1244,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "6dec1a04a4d9893462a33e8236568f654836adf53c82d599df3188b7856777f7",
+      "visibleCopySha256": "e3a357e7052ab4501b6cbef24e8a91e561eaf6d24e7730eeea62fdb555222c8b",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -1143,35 +1280,37 @@
       "route": "/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4",
       "kind": "representative",
       "label": "화성시 효행구 정남면",
-      "sourceDocumentSha256": "f8e21d940f9613a17dc9677b45721131ad402deb02af50cc8a52bec6d938998a",
+      "sourceDocumentSha256": "3bfa3ab48fd44926a5194f4e442c445e178c784c5f96ce658bf3f89d0627f2fc",
       "visibleCopy": {
-        "title": "정남면 랑테라피 | 가격표부터 현장 결제까지",
-        "description": "정남면 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
+        "title": "정남면홈타이 정남면출장마사지 | 필링홈타이",
+        "description": "정남면 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
         "metadata": {
           "route": "/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/",
-          "title": "정남면 랑테라피 | 가격표부터 현장 결제까지",
-          "description": "정남면 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
+          "title": "정남면홈타이 정남면출장마사지 | 필링홈타이",
+          "description": "정남면 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
           "keywords": [
-            "정남면랑테라피",
-            "정남면랑출장테라피",
-            "정남면랑방문마사지",
-            "정남면랑아로마리듬",
-            "정남면랑타이리듬",
-            "정남면랑현장결제"
+            "정남면필링홈타이",
+            "정남면홈타이",
+            "정남면출장홈타이",
+            "정남면출장마사지",
+            "정남면출장안마",
+            "정남면출장타이마사지",
+            "정남면출장스웨디시",
+            "정남면출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/",
+          "canonical": "https://feelinghometai.kr/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "정남면 랑테라피 | 가격표부터 현장 결제까지",
-            "description": "정남면 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/"
+            "siteName": "필링홈타이",
+            "title": "정남면홈타이 정남면출장마사지 | 필링홈타이",
+            "description": "정남면 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
+            "url": "https://feelinghometai.kr/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/"
           },
           "twitter": {
             "card": "summary",
-            "title": "정남면 랑테라피 | 가격표부터 현장 결제까지",
-            "description": "정남면 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다."
+            "title": "정남면홈타이 정남면출장마사지 | 필링홈타이",
+            "description": "정남면 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다."
           }
         },
         "h1": "정남면, 하루 일정에 맞춘 코스와 시작 시간",
@@ -1231,16 +1370,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "d288b86a4e341a63b446486012a2071ae44c990e6e6aedfdcc5450f2203f5396",
+      "visibleCopySha256": "b60f31861c7d96ce2ccbaa8c6a2f0fe66a0b2ae37e9ff8674a935ccfab79e4b3",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -1252,38 +1406,40 @@
       "route": "/areas/cheonan",
       "kind": "root",
       "label": "천안시",
-      "sourceDocumentSha256": "98be85efa1b6071e846db25b56851594d0de1cc0aba33cd41c4b01d7f005dafb",
+      "sourceDocumentSha256": "7ba16de276a19d696f288a41e5f6fb800837f9699b1c7b40400c5d774c3afdba",
       "visibleCopy": {
-        "title": "천안시 랑테라피 | 원하는 일정에 맞춘 테라피",
-        "description": "천안시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
+        "title": "천안시홈타이 천안시출장마사지 | 필링홈타이",
+        "description": "천안시 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
         "metadata": {
           "route": "/areas/cheonan/",
-          "title": "천안시 랑테라피 | 원하는 일정에 맞춘 테라피",
-          "description": "천안시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
+          "title": "천안시홈타이 천안시출장마사지 | 필링홈타이",
+          "description": "천안시 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
           "keywords": [
-            "천안시랑테라피",
-            "천안시랑출장테라피",
-            "천안시랑방문마사지",
-            "천안시랑아로마리듬",
-            "천안시랑타이리듬",
-            "천안시랑현장결제"
+            "천안시필링홈타이",
+            "천안시홈타이",
+            "천안시출장홈타이",
+            "천안시출장마사지",
+            "천안시출장안마",
+            "천안시출장타이마사지",
+            "천안시출장스웨디시",
+            "천안시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/cheonan/",
+          "canonical": "https://feelinghometai.kr/areas/cheonan/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "천안시 랑테라피 | 원하는 일정에 맞춘 테라피",
-            "description": "천안시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/cheonan/"
+            "siteName": "필링홈타이",
+            "title": "천안시홈타이 천안시출장마사지 | 필링홈타이",
+            "description": "천안시 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
+            "url": "https://feelinghometai.kr/areas/cheonan/"
           },
           "twitter": {
             "card": "summary",
-            "title": "천안시 랑테라피 | 원하는 일정에 맞춘 테라피",
-            "description": "천안시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다."
+            "title": "천안시홈타이 천안시출장마사지 | 필링홈타이",
+            "description": "천안시 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다."
           }
         },
-        "h1": "천안시의 주소와 일정에 맞춘 랑테라피",
+        "h1": "천안시의 주소와 일정에 맞춘 필링홈타이",
         "hooks": [
           "천안시 서비스 일정을 정하기 전에 희망 시각과 코스를 정리해 두세요.",
           "천안시에서 오늘 요청한 주소와 시각으로 서비스를 받을 수 있는지는 24시간 전화상담으로 확인하며, 카드 결제를 원하면 통화 중 알려 주세요."
@@ -1340,16 +1496,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "0f8b543718b15bb09138b310b2e67163888b0cb025999bab441818ad081c0717",
+      "visibleCopySha256": "51f38873e64d46cc7bb93f36151f5634cd6c5e70e39789647b83f0e58b2db761",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -1361,35 +1532,37 @@
       "route": "/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC",
       "kind": "hub",
       "label": "동남구",
-      "sourceDocumentSha256": "b60a57f2ec40bd384b668bc64f29a51a5dda5981d09d6b1fdef495f5a75e320a",
+      "sourceDocumentSha256": "9c38fbe3361208ace0457c8328d8e5b5d9f204469c7cc54dc28453db735d90b4",
       "visibleCopy": {
-        "title": "동남구 랑테라피 | 코스·가격·시작 시간 안내",
-        "description": "동남구 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+        "title": "동남구홈타이 동남구출장마사지 | 필링홈타이",
+        "description": "동남구 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/",
-          "title": "동남구 랑테라피 | 코스·가격·시작 시간 안내",
-          "description": "동남구 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+          "title": "동남구홈타이 동남구출장마사지 | 필링홈타이",
+          "description": "동남구 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "동남구랑테라피",
-            "동남구랑출장테라피",
-            "동남구랑방문마사지",
-            "동남구랑아로마리듬",
-            "동남구랑타이리듬",
-            "동남구랑현장결제"
+            "동남구필링홈타이",
+            "동남구홈타이",
+            "동남구출장홈타이",
+            "동남구출장마사지",
+            "동남구출장안마",
+            "동남구출장타이마사지",
+            "동남구출장스웨디시",
+            "동남구출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/",
+          "canonical": "https://feelinghometai.kr/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "동남구 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "동남구 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/"
+            "siteName": "필링홈타이",
+            "title": "동남구홈타이 동남구출장마사지 | 필링홈타이",
+            "description": "동남구 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+            "url": "https://feelinghometai.kr/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "동남구 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "동남구 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
+            "title": "동남구홈타이 동남구출장마사지 | 필링홈타이",
+            "description": "동남구 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
         "h1": "동남구, 코스부터 현장 결제까지 한눈에",
@@ -1449,16 +1622,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "eef4910aaecf8da11c7676a798c0baabb2a72ee65783106b5b915c5e14351d98",
+      "visibleCopySha256": "a39f70b0a28da5f48903a60fd8a02c0e8bdc68d7fc8e9e6e1c087ea6d8c63bf1",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -1470,35 +1658,37 @@
       "route": "/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D",
       "kind": "representative",
       "label": "서북구 직산읍",
-      "sourceDocumentSha256": "70a842b25020fe6a5d7cd7eee8d252282cffb44da4e7b1ef2ad955e7b6cb10a2",
+      "sourceDocumentSha256": "54e485664b9b24db1c02edb295234fba1498b03fa09212a02c5143bfcbbfaec4",
       "visibleCopy": {
-        "title": "직산읍 랑테라피 | 코스별 시간과 가격표 확인",
-        "description": "직산읍 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
+        "title": "직산읍홈타이 직산읍출장마사지 | 필링홈타이",
+        "description": "직산읍 필링홈타이 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
         "metadata": {
           "route": "/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/",
-          "title": "직산읍 랑테라피 | 코스별 시간과 가격표 확인",
-          "description": "직산읍 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
+          "title": "직산읍홈타이 직산읍출장마사지 | 필링홈타이",
+          "description": "직산읍 필링홈타이 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
           "keywords": [
-            "직산읍랑테라피",
-            "직산읍랑출장테라피",
-            "직산읍랑방문마사지",
-            "직산읍랑아로마리듬",
-            "직산읍랑타이리듬",
-            "직산읍랑현장결제"
+            "직산읍필링홈타이",
+            "직산읍홈타이",
+            "직산읍출장홈타이",
+            "직산읍출장마사지",
+            "직산읍출장안마",
+            "직산읍출장타이마사지",
+            "직산읍출장스웨디시",
+            "직산읍출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/",
+          "canonical": "https://feelinghometai.kr/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "직산읍 랑테라피 | 코스별 시간과 가격표 확인",
-            "description": "직산읍 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/"
+            "siteName": "필링홈타이",
+            "title": "직산읍홈타이 직산읍출장마사지 | 필링홈타이",
+            "description": "직산읍 필링홈타이 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
+            "url": "https://feelinghometai.kr/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/"
           },
           "twitter": {
             "card": "summary",
-            "title": "직산읍 랑테라피 | 코스별 시간과 가격표 확인",
-            "description": "직산읍 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다."
+            "title": "직산읍홈타이 직산읍출장마사지 | 필링홈타이",
+            "description": "직산읍 필링홈타이 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다."
           }
         },
         "h1": "직산읍에서 고르는 코스와 희망 시작 시각",
@@ -1558,16 +1748,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "c6d77f67c285c6459e9e879d0fd21d33b5ccdd3b0510e4d3fb6cf3836ad483a6",
+      "visibleCopySha256": "f13ff00bd2355b8b80a27c4228abd1cb704336a4d5543f39934edf0579a2dfb4",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -1579,38 +1784,40 @@
       "route": "/areas/asan",
       "kind": "root",
       "label": "아산시",
-      "sourceDocumentSha256": "4f687818f0aeaf44182232a5b09633756359e263fbcdf164a35f031a16e7de4b",
+      "sourceDocumentSha256": "bf38b25ef066b59786db8801f4c4932043feb61b080e77f37092c2a5b1ad693e",
       "visibleCopy": {
-        "title": "아산시 랑테라피 | 서비스 전 주소·일정 준비",
-        "description": "아산시 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
+        "title": "아산시홈타이 아산시출장마사지 | 필링홈타이",
+        "description": "아산시 필링홈타이는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
         "metadata": {
           "route": "/areas/asan/",
-          "title": "아산시 랑테라피 | 서비스 전 주소·일정 준비",
-          "description": "아산시 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
+          "title": "아산시홈타이 아산시출장마사지 | 필링홈타이",
+          "description": "아산시 필링홈타이는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
           "keywords": [
-            "아산시랑테라피",
-            "아산시랑출장테라피",
-            "아산시랑방문마사지",
-            "아산시랑아로마리듬",
-            "아산시랑타이리듬",
-            "아산시랑현장결제"
+            "아산시필링홈타이",
+            "아산시홈타이",
+            "아산시출장홈타이",
+            "아산시출장마사지",
+            "아산시출장안마",
+            "아산시출장타이마사지",
+            "아산시출장스웨디시",
+            "아산시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/asan/",
+          "canonical": "https://feelinghometai.kr/areas/asan/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "아산시 랑테라피 | 서비스 전 주소·일정 준비",
-            "description": "아산시 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/asan/"
+            "siteName": "필링홈타이",
+            "title": "아산시홈타이 아산시출장마사지 | 필링홈타이",
+            "description": "아산시 필링홈타이는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
+            "url": "https://feelinghometai.kr/areas/asan/"
           },
           "twitter": {
             "card": "summary",
-            "title": "아산시 랑테라피 | 서비스 전 주소·일정 준비",
-            "description": "아산시 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다."
+            "title": "아산시홈타이 아산시출장마사지 | 필링홈타이",
+            "description": "아산시 필링홈타이는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다."
           }
         },
-        "h1": "아산시, 원하는 시간에 맞춘 랑테라피",
+        "h1": "아산시, 원하는 시간에 맞춘 필링홈타이",
         "hooks": [
           "아산시 서비스 계획은 주소, 코스, 희망 시간을 구분해 메모하세요.",
           "아산시에서는 예약금을 미리 보내지 않고 서비스를 받은 뒤 현장에서 후불로 정산합니다."
@@ -1667,16 +1874,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "9d36968a5095d4eafc7f181cd295153522a18354704dbc1c5d068b8f58953e0d",
+      "visibleCopySha256": "a8f096e52c659a9c08cc718b0a45c1813f4feb6296510836c320ffaefaec495c",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -1688,38 +1910,40 @@
       "route": "/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4",
       "kind": "representative",
       "label": "도고면",
-      "sourceDocumentSha256": "0d0f0134c9c42806d4990c458d3a8aa94289b9f33f53f49b494f9820287aca04",
+      "sourceDocumentSha256": "5bc98f90c2e131b9a0f9e8185a6c4dea568b2ef21208392a177d91c6243950e7",
       "visibleCopy": {
-        "title": "도고면 랑테라피 | 현장 카드 결제와 코스 안내",
-        "description": "도고면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
+        "title": "도고면홈타이 도고면출장마사지 | 필링홈타이",
+        "description": "도고면 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/",
-          "title": "도고면 랑테라피 | 현장 카드 결제와 코스 안내",
-          "description": "도고면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
+          "title": "도고면홈타이 도고면출장마사지 | 필링홈타이",
+          "description": "도고면 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "도고면랑테라피",
-            "도고면랑출장테라피",
-            "도고면랑방문마사지",
-            "도고면랑아로마리듬",
-            "도고면랑타이리듬",
-            "도고면랑현장결제"
+            "도고면필링홈타이",
+            "도고면홈타이",
+            "도고면출장홈타이",
+            "도고면출장마사지",
+            "도고면출장안마",
+            "도고면출장타이마사지",
+            "도고면출장스웨디시",
+            "도고면출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/",
+          "canonical": "https://feelinghometai.kr/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "도고면 랑테라피 | 현장 카드 결제와 코스 안내",
-            "description": "도고면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/"
+            "siteName": "필링홈타이",
+            "title": "도고면홈타이 도고면출장마사지 | 필링홈타이",
+            "description": "도고면 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
+            "url": "https://feelinghometai.kr/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/"
           },
           "twitter": {
             "card": "summary",
-            "title": "도고면 랑테라피 | 현장 카드 결제와 코스 안내",
-            "description": "도고면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다."
+            "title": "도고면홈타이 도고면출장마사지 | 필링홈타이",
+            "description": "도고면 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
-        "h1": "도고면 일정에 맞춰 고르는 랑테라피",
+        "h1": "도고면 일정에 맞춰 고르는 필링홈타이",
         "hooks": [
           "도고면 문의에서는 서비스를 받을 주소와 희망 시각을 전화로 알려 주세요.",
           "도고면에서 원하는 시간대가 가능한지는 24시간 전화상담으로 확인하세요."
@@ -1776,16 +2000,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "911ce557c4172a0d04a11057db876011046a8cd516fbeac315c008c9c7de7bc4",
+      "visibleCopySha256": "153676a14ad60672f12d7239831a9dd9de5582bf3b461ab5760a08b0ff331b59",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -1797,38 +2036,40 @@
       "route": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4",
       "kind": "representative",
       "label": "제주시 추자면",
-      "sourceDocumentSha256": "810d493857a578026679f01919db763052a01c09fb91a7b9229bbcd9c379c8dd",
+      "sourceDocumentSha256": "d677ea1384854ea6e37207c4083d7576af45d8c9dc7dd2ef8129e64a60e98cc3",
       "visibleCopy": {
-        "title": "추자면 랑테라피 | 현장 카드 결제와 코스 안내",
-        "description": "추자면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
+        "title": "추자면홈타이 추자면출장마사지 | 필링홈타이",
+        "description": "추자면 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/",
-          "title": "추자면 랑테라피 | 현장 카드 결제와 코스 안내",
-          "description": "추자면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
+          "title": "추자면홈타이 추자면출장마사지 | 필링홈타이",
+          "description": "추자면 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "추자면랑테라피",
-            "추자면랑출장테라피",
-            "추자면랑방문마사지",
-            "추자면랑아로마리듬",
-            "추자면랑타이리듬",
-            "추자면랑현장결제"
+            "추자면필링홈타이",
+            "추자면홈타이",
+            "추자면출장홈타이",
+            "추자면출장마사지",
+            "추자면출장안마",
+            "추자면출장타이마사지",
+            "추자면출장스웨디시",
+            "추자면출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/",
+          "canonical": "https://feelinghometai.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "추자면 랑테라피 | 현장 카드 결제와 코스 안내",
-            "description": "추자면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/"
+            "siteName": "필링홈타이",
+            "title": "추자면홈타이 추자면출장마사지 | 필링홈타이",
+            "description": "추자면 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
+            "url": "https://feelinghometai.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/"
           },
           "twitter": {
             "card": "summary",
-            "title": "추자면 랑테라피 | 현장 카드 결제와 코스 안내",
-            "description": "추자면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다."
+            "title": "추자면홈타이 추자면출장마사지 | 필링홈타이",
+            "description": "추자면 필링홈타이 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
-        "h1": "추자면 일정에 맞춰 고르는 랑테라피",
+        "h1": "추자면 일정에 맞춰 고르는 필링홈타이",
         "hooks": [
           "추자면 문의에서는 서비스를 받을 주소와 희망 시각을 전화로 알려 주세요.",
           "추자면에서 원하는 시간대가 가능한지는 24시간 전화상담으로 확인하세요."
@@ -1885,16 +2126,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "4b6306c6cb4bff549228f31f697c9f384fc8af770b2347692f11f64804a180c8",
+      "visibleCopySha256": "68bd97f3828c41accfa4f36f516c2e9336152f595cba61143e534a7cce3e872e",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -1906,35 +2162,37 @@
       "route": "/areas/daejeon",
       "kind": "root",
       "label": "대전광역시",
-      "sourceDocumentSha256": "7260bac224e8782f4167d027d8a2a2d3dc350e6f67a66a5906f495d647d3ac68",
+      "sourceDocumentSha256": "51a259ac4bc0dedb00813dc04165e433aa4c4d76c2233349db6c5bd956dea418",
       "visibleCopy": {
-        "title": "대전광역시 랑테라피 | 주소·시간·코스 이용 안내",
-        "description": "대전광역시 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
+        "title": "대전광역시홈타이 대전광역시출장마사지 | 필링홈타이",
+        "description": "대전광역시 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
         "metadata": {
           "route": "/areas/daejeon/",
-          "title": "대전광역시 랑테라피 | 주소·시간·코스 이용 안내",
-          "description": "대전광역시 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
+          "title": "대전광역시홈타이 대전광역시출장마사지 | 필링홈타이",
+          "description": "대전광역시 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
           "keywords": [
-            "대전광역시랑테라피",
-            "대전광역시랑출장테라피",
-            "대전광역시랑방문마사지",
-            "대전광역시랑아로마리듬",
-            "대전광역시랑타이리듬",
-            "대전광역시랑현장결제"
+            "대전광역시필링홈타이",
+            "대전광역시홈타이",
+            "대전광역시출장홈타이",
+            "대전광역시출장마사지",
+            "대전광역시출장안마",
+            "대전광역시출장타이마사지",
+            "대전광역시출장스웨디시",
+            "대전광역시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daejeon/",
+          "canonical": "https://feelinghometai.kr/areas/daejeon/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "대전광역시 랑테라피 | 주소·시간·코스 이용 안내",
-            "description": "대전광역시 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daejeon/"
+            "siteName": "필링홈타이",
+            "title": "대전광역시홈타이 대전광역시출장마사지 | 필링홈타이",
+            "description": "대전광역시 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
+            "url": "https://feelinghometai.kr/areas/daejeon/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대전광역시 랑테라피 | 주소·시간·코스 이용 안내",
-            "description": "대전광역시 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다."
+            "title": "대전광역시홈타이 대전광역시출장마사지 | 필링홈타이",
+            "description": "대전광역시 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다."
           }
         },
         "h1": "대전광역시 서비스 전에 확인하는 코스와 시간",
@@ -1994,16 +2252,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "fbdfae7cb37f6f57985ff331a8b07d2075c71ffbaeaf4bf03af2c475e272b668",
+      "visibleCopySha256": "536d1067d3cc5f37e7512fc99d4d581033c1ea7a02c63d918e81d129644dd05e",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2015,38 +2288,40 @@
       "route": "/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC",
       "kind": "hub",
       "label": "대덕구",
-      "sourceDocumentSha256": "79ae96b3394e812f3e4a321882f4f6f82294047524c6d2e08b3b60c6c66db4c3",
+      "sourceDocumentSha256": "9f061e6db0a7424ca738990525c6043b001a2013c88373eaed0ebe91c1fadac1",
       "visibleCopy": {
-        "title": "대덕구 랑테라피 | 코스와 시간을 고르는 이용 안내",
-        "description": "대덕구 랑테라피 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다.",
+        "title": "대덕구홈타이 대덕구출장마사지 | 필링홈타이",
+        "description": "대덕구 필링홈타이 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다.",
         "metadata": {
           "route": "/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/",
-          "title": "대덕구 랑테라피 | 코스와 시간을 고르는 이용 안내",
-          "description": "대덕구 랑테라피 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다.",
+          "title": "대덕구홈타이 대덕구출장마사지 | 필링홈타이",
+          "description": "대덕구 필링홈타이 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다.",
           "keywords": [
-            "대덕구랑테라피",
-            "대덕구랑출장테라피",
-            "대덕구랑방문마사지",
-            "대덕구랑아로마리듬",
-            "대덕구랑타이리듬",
-            "대덕구랑현장결제"
+            "대덕구필링홈타이",
+            "대덕구홈타이",
+            "대덕구출장홈타이",
+            "대덕구출장마사지",
+            "대덕구출장안마",
+            "대덕구출장타이마사지",
+            "대덕구출장스웨디시",
+            "대덕구출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/",
+          "canonical": "https://feelinghometai.kr/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "대덕구 랑테라피 | 코스와 시간을 고르는 이용 안내",
-            "description": "대덕구 랑테라피 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/"
+            "siteName": "필링홈타이",
+            "title": "대덕구홈타이 대덕구출장마사지 | 필링홈타이",
+            "description": "대덕구 필링홈타이 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다.",
+            "url": "https://feelinghometai.kr/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대덕구 랑테라피 | 코스와 시간을 고르는 이용 안내",
-            "description": "대덕구 랑테라피 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다."
+            "title": "대덕구홈타이 대덕구출장마사지 | 필링홈타이",
+            "description": "대덕구 필링홈타이 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다."
           }
         },
-        "h1": "대덕구, 서비스를 받을 주소와 희망 시각을 맞추는 랑테라피",
+        "h1": "대덕구, 서비스를 받을 주소와 희망 시각을 맞추는 필링홈타이",
         "hooks": [
           "대덕구 일정을 잡기 전에 코스별 시간과 금액을 함께 살펴보세요.",
           "대덕구 서비스 일정은 주소와 시각, 코스를 확인한 뒤에만 확정됩니다."
@@ -2103,16 +2378,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "50a1e74a2c58ad7657afa16772efd7fa4dc1831779d615dc19a53f47ff17e12c",
+      "visibleCopySha256": "dc42f340bcc7eb8bf28234c4f4fbc6cd319b17a12225b1868a7167512f968f5a",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2124,35 +2414,37 @@
       "route": "/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99",
       "kind": "representative",
       "label": "중구 태평동",
-      "sourceDocumentSha256": "bb20f74f666794588b3cf3004632353715ffdb94292e707f891294bb341f2944",
+      "sourceDocumentSha256": "64cb206f21982e65b428c2049bf79d30c80c61eed625cfa07a1d656f2cb7ef99",
       "visibleCopy": {
-        "title": "대전광역시 중구 태평동 랑테라피 | 서비스 주소와 희망 시각 상담",
-        "description": "대전광역시 중구 태평동 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+        "title": "대전광역시중구태평동홈타이 대전광역시중구태평동출장마사지 | 필링홈타이",
+        "description": "대전광역시 중구 태평동 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/",
-          "title": "대전광역시 중구 태평동 랑테라피 | 서비스 주소와 희망 시각 상담",
-          "description": "대전광역시 중구 태평동 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+          "title": "대전광역시중구태평동홈타이 대전광역시중구태평동출장마사지 | 필링홈타이",
+          "description": "대전광역시 중구 태평동 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "대전광역시중구태평동랑테라피",
-            "대전광역시중구태평동랑출장테라피",
-            "대전광역시중구태평동랑방문마사지",
-            "대전광역시중구태평동랑아로마리듬",
-            "대전광역시중구태평동랑타이리듬",
-            "대전광역시중구태평동랑현장결제"
+            "대전광역시중구태평동필링홈타이",
+            "대전광역시중구태평동홈타이",
+            "대전광역시중구태평동출장홈타이",
+            "대전광역시중구태평동출장마사지",
+            "대전광역시중구태평동출장안마",
+            "대전광역시중구태평동출장타이마사지",
+            "대전광역시중구태평동출장스웨디시",
+            "대전광역시중구태평동출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/",
+          "canonical": "https://feelinghometai.kr/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "대전광역시 중구 태평동 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "대전광역시 중구 태평동 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/"
+            "siteName": "필링홈타이",
+            "title": "대전광역시중구태평동홈타이 대전광역시중구태평동출장마사지 | 필링홈타이",
+            "description": "대전광역시 중구 태평동 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+            "url": "https://feelinghometai.kr/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대전광역시 중구 태평동 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "대전광역시 중구 태평동 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
+            "title": "대전광역시중구태평동홈타이 대전광역시중구태평동출장마사지 | 필링홈타이",
+            "description": "대전광역시 중구 태평동 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
         "h1": "대전광역시 중구 태평동 서비스에 필요한 주소·시간·코스 안내",
@@ -2212,16 +2504,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "73b97d85ed469c9d9ef06b7dc9af6354551653874d2392bd5428c6c299f289da",
+      "visibleCopySha256": "6f18d41845bd7e3c2cd32a142a4360a5947bf6025f5983e1b15541067b63fd90",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2233,38 +2540,40 @@
       "route": "/areas/daegu",
       "kind": "root",
       "label": "대구광역시",
-      "sourceDocumentSha256": "8c0b211b7549a6a411fd2aabf5f137bca040cc69ece1d0ed6d62d39c8c966033",
+      "sourceDocumentSha256": "6b2534d6f712386b251a4218661c7544eab39994ad168e0e17c40d2ba4dc0941",
       "visibleCopy": {
-        "title": "대구광역시 랑테라피 | 24시간 이용 일정 상담",
-        "description": "대구광역시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+        "title": "대구광역시홈타이 대구광역시출장마사지 | 필링홈타이",
+        "description": "대구광역시 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
         "metadata": {
           "route": "/areas/daegu/",
-          "title": "대구광역시 랑테라피 | 24시간 이용 일정 상담",
-          "description": "대구광역시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+          "title": "대구광역시홈타이 대구광역시출장마사지 | 필링홈타이",
+          "description": "대구광역시 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
           "keywords": [
-            "대구광역시랑테라피",
-            "대구광역시랑출장테라피",
-            "대구광역시랑방문마사지",
-            "대구광역시랑아로마리듬",
-            "대구광역시랑타이리듬",
-            "대구광역시랑현장결제"
+            "대구광역시필링홈타이",
+            "대구광역시홈타이",
+            "대구광역시출장홈타이",
+            "대구광역시출장마사지",
+            "대구광역시출장안마",
+            "대구광역시출장타이마사지",
+            "대구광역시출장스웨디시",
+            "대구광역시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daegu/",
+          "canonical": "https://feelinghometai.kr/areas/daegu/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "대구광역시 랑테라피 | 24시간 이용 일정 상담",
-            "description": "대구광역시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daegu/"
+            "siteName": "필링홈타이",
+            "title": "대구광역시홈타이 대구광역시출장마사지 | 필링홈타이",
+            "description": "대구광역시 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+            "url": "https://feelinghometai.kr/areas/daegu/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대구광역시 랑테라피 | 24시간 이용 일정 상담",
-            "description": "대구광역시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
+            "title": "대구광역시홈타이 대구광역시출장마사지 | 필링홈타이",
+            "description": "대구광역시 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
           }
         },
-        "h1": "대구광역시에서 준비하는 나만의 테라피 일정",
+        "h1": "대구광역시에서 준비하는 나만의 홈타이 일정",
         "hooks": [
           "대구광역시에서 확인하지 못한 이용 조건은 전화 전에 따로 표시해 두세요.",
           "대구광역시의 코스와 희망 시각이 가능하다는 답변을 받은 뒤 요청 내용을 확정하세요."
@@ -2321,16 +2630,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "55cbaa669cf5e5a010f50b165ee3dd596558fc4994b46c999e789d3d85f8f15f",
+      "visibleCopySha256": "6cb20eea6e39f68288f255be322f28c133091034f04c150a2c9b4bb268b6a93c",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2342,35 +2666,37 @@
       "route": "/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0",
       "kind": "hub",
       "label": "군위군",
-      "sourceDocumentSha256": "f637e423db34da5ece63d19be1096383e06be2c79e93284e9f99648f1ad75a31",
+      "sourceDocumentSha256": "4bb37ecbf213490b8cb10680c2634d5330ec9cc9fcd6eabea72bc863a748c5a6",
       "visibleCopy": {
-        "title": "군위군 랑테라피 | 선입금 없는 현장 후불 안내",
-        "description": "군위군 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
+        "title": "군위군홈타이 군위군출장마사지 | 필링홈타이",
+        "description": "군위군 필링홈타이 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
         "metadata": {
           "route": "/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/",
-          "title": "군위군 랑테라피 | 선입금 없는 현장 후불 안내",
-          "description": "군위군 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
+          "title": "군위군홈타이 군위군출장마사지 | 필링홈타이",
+          "description": "군위군 필링홈타이 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
           "keywords": [
-            "군위군랑테라피",
-            "군위군랑출장테라피",
-            "군위군랑방문마사지",
-            "군위군랑아로마리듬",
-            "군위군랑타이리듬",
-            "군위군랑현장결제"
+            "군위군필링홈타이",
+            "군위군홈타이",
+            "군위군출장홈타이",
+            "군위군출장마사지",
+            "군위군출장안마",
+            "군위군출장타이마사지",
+            "군위군출장스웨디시",
+            "군위군출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/",
+          "canonical": "https://feelinghometai.kr/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "군위군 랑테라피 | 선입금 없는 현장 후불 안내",
-            "description": "군위군 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/"
+            "siteName": "필링홈타이",
+            "title": "군위군홈타이 군위군출장마사지 | 필링홈타이",
+            "description": "군위군 필링홈타이 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
+            "url": "https://feelinghometai.kr/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/"
           },
           "twitter": {
             "card": "summary",
-            "title": "군위군 랑테라피 | 선입금 없는 현장 후불 안내",
-            "description": "군위군 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다."
+            "title": "군위군홈타이 군위군출장마사지 | 필링홈타이",
+            "description": "군위군 필링홈타이 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다."
           }
         },
         "h1": "군위군, 선입금 없이 확인하는 코스와 현장 결제",
@@ -2430,16 +2756,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "fc70bf14565a6977fe520866e79fe0c40d6cd75c249c47e6629b46297a4a7d7d",
+      "visibleCopySha256": "6c4c32e7ab809da368481941c79a846b07ca6a4aa86e0ac9b4c925ff35df67c8",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2451,35 +2792,37 @@
       "route": "/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99",
       "kind": "representative",
       "label": "중구 성내동",
-      "sourceDocumentSha256": "5f3505e54c76f0819017d856e9b203748322b77ae4cf8a0070ba228fa3b8cee7",
+      "sourceDocumentSha256": "c566650774a2a5607863101711c37fd8af31fd41ba21baa551a6bc256c3c4608",
       "visibleCopy": {
-        "title": "대구광역시 중구 성내동 랑테라피 | 가격표부터 현장 결제까지",
-        "description": "대구광역시 중구 성내동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
+        "title": "대구광역시중구성내동홈타이 대구광역시중구성내동출장마사지 | 필링홈타이",
+        "description": "대구광역시 중구 성내동 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
         "metadata": {
           "route": "/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/",
-          "title": "대구광역시 중구 성내동 랑테라피 | 가격표부터 현장 결제까지",
-          "description": "대구광역시 중구 성내동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
+          "title": "대구광역시중구성내동홈타이 대구광역시중구성내동출장마사지 | 필링홈타이",
+          "description": "대구광역시 중구 성내동 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
           "keywords": [
-            "대구광역시중구성내동랑테라피",
-            "대구광역시중구성내동랑출장테라피",
-            "대구광역시중구성내동랑방문마사지",
-            "대구광역시중구성내동랑아로마리듬",
-            "대구광역시중구성내동랑타이리듬",
-            "대구광역시중구성내동랑현장결제"
+            "대구광역시중구성내동필링홈타이",
+            "대구광역시중구성내동홈타이",
+            "대구광역시중구성내동출장홈타이",
+            "대구광역시중구성내동출장마사지",
+            "대구광역시중구성내동출장안마",
+            "대구광역시중구성내동출장타이마사지",
+            "대구광역시중구성내동출장스웨디시",
+            "대구광역시중구성내동출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/",
+          "canonical": "https://feelinghometai.kr/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "대구광역시 중구 성내동 랑테라피 | 가격표부터 현장 결제까지",
-            "description": "대구광역시 중구 성내동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/"
+            "siteName": "필링홈타이",
+            "title": "대구광역시중구성내동홈타이 대구광역시중구성내동출장마사지 | 필링홈타이",
+            "description": "대구광역시 중구 성내동 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
+            "url": "https://feelinghometai.kr/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대구광역시 중구 성내동 랑테라피 | 가격표부터 현장 결제까지",
-            "description": "대구광역시 중구 성내동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다."
+            "title": "대구광역시중구성내동홈타이 대구광역시중구성내동출장마사지 | 필링홈타이",
+            "description": "대구광역시 중구 성내동 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다."
           }
         },
         "h1": "대구광역시 중구 성내동, 하루 일정에 맞춘 코스와 시작 시간",
@@ -2539,16 +2882,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "1c994884d613f294d9bfd62d4d0d52b761e085793cd0eb648ebaf37abc069117",
+      "visibleCopySha256": "1c504836596e098c0c7b8d62cbeef9fdc340ecc2c90b38c2db707202e383119f",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2560,38 +2918,40 @@
       "route": "/areas/gumi",
       "kind": "root",
       "label": "구미시",
-      "sourceDocumentSha256": "7354d80de50c03120bc08c98a0191f85d970a1fe14246ccd4c6319d44deae109",
+      "sourceDocumentSha256": "165421ee92e935790e6e4c3d8fa2ccc0b5d65608403e266bd97df565713d3985",
       "visibleCopy": {
-        "title": "구미시 랑테라피 | 원하는 일정에 맞춘 테라피",
-        "description": "구미시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
+        "title": "구미시홈타이 구미시출장마사지 | 필링홈타이",
+        "description": "구미시 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
         "metadata": {
           "route": "/areas/gumi/",
-          "title": "구미시 랑테라피 | 원하는 일정에 맞춘 테라피",
-          "description": "구미시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
+          "title": "구미시홈타이 구미시출장마사지 | 필링홈타이",
+          "description": "구미시 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
           "keywords": [
-            "구미시랑테라피",
-            "구미시랑출장테라피",
-            "구미시랑방문마사지",
-            "구미시랑아로마리듬",
-            "구미시랑타이리듬",
-            "구미시랑현장결제"
+            "구미시필링홈타이",
+            "구미시홈타이",
+            "구미시출장홈타이",
+            "구미시출장마사지",
+            "구미시출장안마",
+            "구미시출장타이마사지",
+            "구미시출장스웨디시",
+            "구미시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gumi/",
+          "canonical": "https://feelinghometai.kr/areas/gumi/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "구미시 랑테라피 | 원하는 일정에 맞춘 테라피",
-            "description": "구미시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/gumi/"
+            "siteName": "필링홈타이",
+            "title": "구미시홈타이 구미시출장마사지 | 필링홈타이",
+            "description": "구미시 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
+            "url": "https://feelinghometai.kr/areas/gumi/"
           },
           "twitter": {
             "card": "summary",
-            "title": "구미시 랑테라피 | 원하는 일정에 맞춘 테라피",
-            "description": "구미시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다."
+            "title": "구미시홈타이 구미시출장마사지 | 필링홈타이",
+            "description": "구미시 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다."
           }
         },
-        "h1": "구미시의 주소와 일정에 맞춘 랑테라피",
+        "h1": "구미시의 주소와 일정에 맞춘 필링홈타이",
         "hooks": [
           "구미시 서비스 일정을 정하기 전에 희망 시각과 코스를 정리해 두세요.",
           "구미시에서 오늘 요청한 주소와 시각으로 서비스를 받을 수 있는지는 24시간 전화상담으로 확인하며, 카드 결제를 원하면 통화 중 알려 주세요."
@@ -2648,16 +3008,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "8c1c3eb36ce51ebe104d203b72057b3f0a749581599916602c2ad181a7d88741",
+      "visibleCopySha256": "7f903d0de17d7632b1bac553c077395222916fbcf4a5ff5a7e8fa4025417771f",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2669,35 +3044,37 @@
       "route": "/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D",
       "kind": "representative",
       "label": "고아읍",
-      "sourceDocumentSha256": "eeccb65fac47590848d5816d3685dd6bc98b21358f722c70768a49ec1716a145",
+      "sourceDocumentSha256": "f210bfba431efb36e7cd26105264cd2264a98292355cd48506292638f4d610ec",
       "visibleCopy": {
-        "title": "고아읍 랑테라피 | 코스·가격·시작 시간 안내",
-        "description": "고아읍 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+        "title": "고아읍홈타이 고아읍출장마사지 | 필링홈타이",
+        "description": "고아읍 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/",
-          "title": "고아읍 랑테라피 | 코스·가격·시작 시간 안내",
-          "description": "고아읍 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+          "title": "고아읍홈타이 고아읍출장마사지 | 필링홈타이",
+          "description": "고아읍 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "고아읍랑테라피",
-            "고아읍랑출장테라피",
-            "고아읍랑방문마사지",
-            "고아읍랑아로마리듬",
-            "고아읍랑타이리듬",
-            "고아읍랑현장결제"
+            "고아읍필링홈타이",
+            "고아읍홈타이",
+            "고아읍출장홈타이",
+            "고아읍출장마사지",
+            "고아읍출장안마",
+            "고아읍출장타이마사지",
+            "고아읍출장스웨디시",
+            "고아읍출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/",
+          "canonical": "https://feelinghometai.kr/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "고아읍 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "고아읍 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/"
+            "siteName": "필링홈타이",
+            "title": "고아읍홈타이 고아읍출장마사지 | 필링홈타이",
+            "description": "고아읍 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+            "url": "https://feelinghometai.kr/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/"
           },
           "twitter": {
             "card": "summary",
-            "title": "고아읍 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "고아읍 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
+            "title": "고아읍홈타이 고아읍출장마사지 | 필링홈타이",
+            "description": "고아읍 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
         "h1": "고아읍, 코스부터 현장 결제까지 한눈에",
@@ -2757,16 +3134,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "a9c1c6027fb1cf266d7f3eb3d7a00ca2845886547a6d5dd27bc3c862bc54b0a4",
+      "visibleCopySha256": "2b256c49f926cda39433891a9aaa5732ee093805bc95aa4f506cbc06a2057e05",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2778,35 +3170,37 @@
       "route": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4",
       "kind": "representative",
       "label": "제주시 한경면",
-      "sourceDocumentSha256": "24bbe4ae4d689df3874e2cf1358f419ec00e0cd1ccc90a357a590834bea717f2",
+      "sourceDocumentSha256": "4dd425be3a054bc1a5c45422416e4b61d50625f4ba75cf1411e4b2e9fff7092b",
       "visibleCopy": {
-        "title": "한경면 랑테라피 | 주소·시간·코스 이용 안내",
-        "description": "한경면 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
+        "title": "한경면홈타이 한경면출장마사지 | 필링홈타이",
+        "description": "한경면 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
         "metadata": {
           "route": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/",
-          "title": "한경면 랑테라피 | 주소·시간·코스 이용 안내",
-          "description": "한경면 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
+          "title": "한경면홈타이 한경면출장마사지 | 필링홈타이",
+          "description": "한경면 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
           "keywords": [
-            "한경면랑테라피",
-            "한경면랑출장테라피",
-            "한경면랑방문마사지",
-            "한경면랑아로마리듬",
-            "한경면랑타이리듬",
-            "한경면랑현장결제"
+            "한경면필링홈타이",
+            "한경면홈타이",
+            "한경면출장홈타이",
+            "한경면출장마사지",
+            "한경면출장안마",
+            "한경면출장타이마사지",
+            "한경면출장스웨디시",
+            "한경면출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/",
+          "canonical": "https://feelinghometai.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "한경면 랑테라피 | 주소·시간·코스 이용 안내",
-            "description": "한경면 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/"
+            "siteName": "필링홈타이",
+            "title": "한경면홈타이 한경면출장마사지 | 필링홈타이",
+            "description": "한경면 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
+            "url": "https://feelinghometai.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/"
           },
           "twitter": {
             "card": "summary",
-            "title": "한경면 랑테라피 | 주소·시간·코스 이용 안내",
-            "description": "한경면 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다."
+            "title": "한경면홈타이 한경면출장마사지 | 필링홈타이",
+            "description": "한경면 필링홈타이 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다."
           }
         },
         "h1": "한경면 서비스 전에 확인하는 코스와 시간",
@@ -2866,16 +3260,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "f3c98b92c391a4b736366e4e24ee56bd3d68fece1aef497611b02547d01847b2",
+      "visibleCopySha256": "23facdfc035d91cca1cd14eb2566a13d8544101591699d84ead5da8f586ba6a5",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2887,35 +3296,37 @@
       "route": "/areas/pohang",
       "kind": "root",
       "label": "포항시",
-      "sourceDocumentSha256": "fad7ceea4e3edfa3541c1e7a3ac0f7e7fa736cfcdfc39b479de25cbdf336fffd",
+      "sourceDocumentSha256": "d4590ffc1d4f421320f3cbdf83eb0630c757d59e1625a96d61fc4b78f528a74a",
       "visibleCopy": {
-        "title": "포항시 랑테라피 | 서비스 주소와 희망 시각 상담",
-        "description": "포항시 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+        "title": "포항시홈타이 포항시출장마사지 | 필링홈타이",
+        "description": "포항시 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/pohang/",
-          "title": "포항시 랑테라피 | 서비스 주소와 희망 시각 상담",
-          "description": "포항시 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+          "title": "포항시홈타이 포항시출장마사지 | 필링홈타이",
+          "description": "포항시 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "포항시랑테라피",
-            "포항시랑출장테라피",
-            "포항시랑방문마사지",
-            "포항시랑아로마리듬",
-            "포항시랑타이리듬",
-            "포항시랑현장결제"
+            "포항시필링홈타이",
+            "포항시홈타이",
+            "포항시출장홈타이",
+            "포항시출장마사지",
+            "포항시출장안마",
+            "포항시출장타이마사지",
+            "포항시출장스웨디시",
+            "포항시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/pohang/",
+          "canonical": "https://feelinghometai.kr/areas/pohang/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "포항시 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "포항시 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/pohang/"
+            "siteName": "필링홈타이",
+            "title": "포항시홈타이 포항시출장마사지 | 필링홈타이",
+            "description": "포항시 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+            "url": "https://feelinghometai.kr/areas/pohang/"
           },
           "twitter": {
             "card": "summary",
-            "title": "포항시 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "포항시 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
+            "title": "포항시홈타이 포항시출장마사지 | 필링홈타이",
+            "description": "포항시 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
         "h1": "포항시 서비스에 필요한 주소·시간·코스 안내",
@@ -2975,16 +3386,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "16da1f482a82fab768c8b9c1e7929d8de1437bedff7799e4c7572b41f33329b3",
+      "visibleCopySha256": "0bc34fbc1e52ab021827b32da8a08fcbc74502cffd7e4900b371f49cf07a5411",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -2996,38 +3422,40 @@
       "route": "/areas/pohang/%EB%82%A8%EA%B5%AC",
       "kind": "hub",
       "label": "남구",
-      "sourceDocumentSha256": "0314d6c005cee1185e526150d0720b6cd203fef8639dd92cd4bb52260a04ee6e",
+      "sourceDocumentSha256": "74e89b8409ea211244b4411e7ca5fed2a8b87efa4507a78d96e87bc985b51c80",
       "visibleCopy": {
-        "title": "포항시 남구 랑테라피 | 24시간 이용 일정 상담",
-        "description": "포항시 남구 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+        "title": "포항시남구홈타이 포항시남구출장마사지 | 필링홈타이",
+        "description": "포항시 남구 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
         "metadata": {
           "route": "/areas/pohang/%EB%82%A8%EA%B5%AC/",
-          "title": "포항시 남구 랑테라피 | 24시간 이용 일정 상담",
-          "description": "포항시 남구 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+          "title": "포항시남구홈타이 포항시남구출장마사지 | 필링홈타이",
+          "description": "포항시 남구 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
           "keywords": [
-            "포항시남구랑테라피",
-            "포항시남구랑출장테라피",
-            "포항시남구랑방문마사지",
-            "포항시남구랑아로마리듬",
-            "포항시남구랑타이리듬",
-            "포항시남구랑현장결제"
+            "포항시남구필링홈타이",
+            "포항시남구홈타이",
+            "포항시남구출장홈타이",
+            "포항시남구출장마사지",
+            "포항시남구출장안마",
+            "포항시남구출장타이마사지",
+            "포항시남구출장스웨디시",
+            "포항시남구출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/pohang/%EB%82%A8%EA%B5%AC/",
+          "canonical": "https://feelinghometai.kr/areas/pohang/%EB%82%A8%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "포항시 남구 랑테라피 | 24시간 이용 일정 상담",
-            "description": "포항시 남구 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/pohang/%EB%82%A8%EA%B5%AC/"
+            "siteName": "필링홈타이",
+            "title": "포항시남구홈타이 포항시남구출장마사지 | 필링홈타이",
+            "description": "포항시 남구 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+            "url": "https://feelinghometai.kr/areas/pohang/%EB%82%A8%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "포항시 남구 랑테라피 | 24시간 이용 일정 상담",
-            "description": "포항시 남구 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
+            "title": "포항시남구홈타이 포항시남구출장마사지 | 필링홈타이",
+            "description": "포항시 남구 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
           }
         },
-        "h1": "포항시 남구에서 준비하는 나만의 테라피 일정",
+        "h1": "포항시 남구에서 준비하는 나만의 홈타이 일정",
         "hooks": [
           "포항시 남구에서 확인하지 못한 이용 조건은 전화 전에 따로 표시해 두세요.",
           "포항시 남구의 코스와 희망 시각이 가능하다는 답변을 받은 뒤 요청 내용을 확정하세요."
@@ -3084,16 +3512,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "464cde39afe3e5f63fc071c61aa8705672162bf175dde7b2a57babe3ad7d410b",
+      "visibleCopySha256": "9829ad5cd3a73bcf103c6bca6cfa6d1880cf4833806cb82ae1c8414c82504829",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -3105,38 +3548,40 @@
       "route": "/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D",
       "kind": "representative",
       "label": "북구 흥해읍",
-      "sourceDocumentSha256": "90b078dfd3f80495e5455a2453663183fb883cb55e1421db070b6bb51677ea5b",
+      "sourceDocumentSha256": "d90653be126b6d359f16036d508a53c49ca264e132bb4107df72213723b3a321",
       "visibleCopy": {
-        "title": "흥해읍 랑테라피 | 원하는 일정에 맞춘 테라피",
-        "description": "흥해읍 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
+        "title": "흥해읍홈타이 흥해읍출장마사지 | 필링홈타이",
+        "description": "흥해읍 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
         "metadata": {
           "route": "/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/",
-          "title": "흥해읍 랑테라피 | 원하는 일정에 맞춘 테라피",
-          "description": "흥해읍 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
+          "title": "흥해읍홈타이 흥해읍출장마사지 | 필링홈타이",
+          "description": "흥해읍 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
           "keywords": [
-            "흥해읍랑테라피",
-            "흥해읍랑출장테라피",
-            "흥해읍랑방문마사지",
-            "흥해읍랑아로마리듬",
-            "흥해읍랑타이리듬",
-            "흥해읍랑현장결제"
+            "흥해읍필링홈타이",
+            "흥해읍홈타이",
+            "흥해읍출장홈타이",
+            "흥해읍출장마사지",
+            "흥해읍출장안마",
+            "흥해읍출장타이마사지",
+            "흥해읍출장스웨디시",
+            "흥해읍출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/",
+          "canonical": "https://feelinghometai.kr/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "흥해읍 랑테라피 | 원하는 일정에 맞춘 테라피",
-            "description": "흥해읍 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/"
+            "siteName": "필링홈타이",
+            "title": "흥해읍홈타이 흥해읍출장마사지 | 필링홈타이",
+            "description": "흥해읍 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
+            "url": "https://feelinghometai.kr/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/"
           },
           "twitter": {
             "card": "summary",
-            "title": "흥해읍 랑테라피 | 원하는 일정에 맞춘 테라피",
-            "description": "흥해읍 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다."
+            "title": "흥해읍홈타이 흥해읍출장마사지 | 필링홈타이",
+            "description": "흥해읍 필링홈타이를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다."
           }
         },
-        "h1": "흥해읍의 주소와 일정에 맞춘 랑테라피",
+        "h1": "흥해읍의 주소와 일정에 맞춘 필링홈타이",
         "hooks": [
           "흥해읍 서비스 일정을 정하기 전에 희망 시각과 코스를 정리해 두세요.",
           "흥해읍에서 오늘 요청한 주소와 시각으로 서비스를 받을 수 있는지는 24시간 전화상담으로 확인하며, 카드 결제를 원하면 통화 중 알려 주세요."
@@ -3193,16 +3638,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "a3ddba873023fd3e732652fa33379e8beef64972c2f35c49c036d6108df412b1",
+      "visibleCopySha256": "62036aad2e26d269662edd20a5aa457232213009e715ac9947f94f157c90e98d",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -3214,35 +3674,37 @@
       "route": "/areas/busan",
       "kind": "root",
       "label": "부산광역시",
-      "sourceDocumentSha256": "3d8275c6d1dc4c48752408ae7a1ecfd7d210066bd8bd20b7c3a2deada8b0805c",
+      "sourceDocumentSha256": "c77f35c69259c90cfd1eed494ec0a03c1cf178c8285eccc146dff7fadaeca25e",
       "visibleCopy": {
-        "title": "부산광역시 랑테라피 | 코스·가격·시작 시간 안내",
-        "description": "부산광역시 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+        "title": "부산광역시홈타이 부산광역시출장마사지 | 필링홈타이",
+        "description": "부산광역시 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/busan/",
-          "title": "부산광역시 랑테라피 | 코스·가격·시작 시간 안내",
-          "description": "부산광역시 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+          "title": "부산광역시홈타이 부산광역시출장마사지 | 필링홈타이",
+          "description": "부산광역시 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "부산광역시랑테라피",
-            "부산광역시랑출장테라피",
-            "부산광역시랑방문마사지",
-            "부산광역시랑아로마리듬",
-            "부산광역시랑타이리듬",
-            "부산광역시랑현장결제"
+            "부산광역시필링홈타이",
+            "부산광역시홈타이",
+            "부산광역시출장홈타이",
+            "부산광역시출장마사지",
+            "부산광역시출장안마",
+            "부산광역시출장타이마사지",
+            "부산광역시출장스웨디시",
+            "부산광역시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/busan/",
+          "canonical": "https://feelinghometai.kr/areas/busan/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "부산광역시 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "부산광역시 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/busan/"
+            "siteName": "필링홈타이",
+            "title": "부산광역시홈타이 부산광역시출장마사지 | 필링홈타이",
+            "description": "부산광역시 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+            "url": "https://feelinghometai.kr/areas/busan/"
           },
           "twitter": {
             "card": "summary",
-            "title": "부산광역시 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "부산광역시 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
+            "title": "부산광역시홈타이 부산광역시출장마사지 | 필링홈타이",
+            "description": "부산광역시 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
         "h1": "부산광역시, 코스부터 현장 결제까지 한눈에",
@@ -3302,16 +3764,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "b456b631401388002109ba68d55ede4d7e4603beb34d55fdc5da16bd7e9b7023",
+      "visibleCopySha256": "d24fd6ea862e3f4473e3a865ca4cc007b243c4bca1e5f07e6de9262d7361963e",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -3323,35 +3800,37 @@
       "route": "/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC",
       "kind": "hub",
       "label": "강서구",
-      "sourceDocumentSha256": "b7cd21dc28eacfff2c1bfd8842ffc4b3a498a5659e47385d579a5a9182c9f11e",
+      "sourceDocumentSha256": "da37feb24bd1bb96ea6f559404ad7c7c27078c5c1a156ac3c08194469d819c29",
       "visibleCopy": {
-        "title": "부산광역시 강서구 랑테라피 | 서비스 주소와 희망 시각 상담",
-        "description": "부산광역시 강서구 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+        "title": "부산광역시강서구홈타이 부산광역시강서구출장마사지 | 필링홈타이",
+        "description": "부산광역시 강서구 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/",
-          "title": "부산광역시 강서구 랑테라피 | 서비스 주소와 희망 시각 상담",
-          "description": "부산광역시 강서구 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+          "title": "부산광역시강서구홈타이 부산광역시강서구출장마사지 | 필링홈타이",
+          "description": "부산광역시 강서구 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "부산광역시강서구랑테라피",
-            "부산광역시강서구랑출장테라피",
-            "부산광역시강서구랑방문마사지",
-            "부산광역시강서구랑아로마리듬",
-            "부산광역시강서구랑타이리듬",
-            "부산광역시강서구랑현장결제"
+            "부산광역시강서구필링홈타이",
+            "부산광역시강서구홈타이",
+            "부산광역시강서구출장홈타이",
+            "부산광역시강서구출장마사지",
+            "부산광역시강서구출장안마",
+            "부산광역시강서구출장타이마사지",
+            "부산광역시강서구출장스웨디시",
+            "부산광역시강서구출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/",
+          "canonical": "https://feelinghometai.kr/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "부산광역시 강서구 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "부산광역시 강서구 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/"
+            "siteName": "필링홈타이",
+            "title": "부산광역시강서구홈타이 부산광역시강서구출장마사지 | 필링홈타이",
+            "description": "부산광역시 강서구 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+            "url": "https://feelinghometai.kr/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "부산광역시 강서구 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "부산광역시 강서구 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
+            "title": "부산광역시강서구홈타이 부산광역시강서구출장마사지 | 필링홈타이",
+            "description": "부산광역시 강서구 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
         "h1": "부산광역시 강서구 서비스에 필요한 주소·시간·코스 안내",
@@ -3411,16 +3890,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "2d9ab6ee409c93f6ac7fc0101aefef516108c7b336371aa13262e6e942a2cedd",
+      "visibleCopySha256": "3df941b2a73823c9af5f438943bb2ab50095a53c24061df28941fd664ef74aef",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -3432,35 +3926,37 @@
       "route": "/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99",
       "kind": "representative",
       "label": "해운대구 중동",
-      "sourceDocumentSha256": "e7d22619ce29116cb743847afe4045691595a687fcebb2cf5be85fa15a32a5a4",
+      "sourceDocumentSha256": "cb6a42924d918035e2902eb0596439cb6f33daebc5fa221c0b2472742c4dd88d",
       "visibleCopy": {
-        "title": "부산광역시 해운대구 중동 랑테라피 | 코스·가격·시작 시간 안내",
-        "description": "부산광역시 해운대구 중동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+        "title": "부산광역시해운대구중동홈타이 부산광역시해운대구중동출장마사지 | 필링홈타이",
+        "description": "부산광역시 해운대구 중동 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/",
-          "title": "부산광역시 해운대구 중동 랑테라피 | 코스·가격·시작 시간 안내",
-          "description": "부산광역시 해운대구 중동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+          "title": "부산광역시해운대구중동홈타이 부산광역시해운대구중동출장마사지 | 필링홈타이",
+          "description": "부산광역시 해운대구 중동 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "부산광역시해운대구중동랑테라피",
-            "부산광역시해운대구중동랑출장테라피",
-            "부산광역시해운대구중동랑방문마사지",
-            "부산광역시해운대구중동랑아로마리듬",
-            "부산광역시해운대구중동랑타이리듬",
-            "부산광역시해운대구중동랑현장결제"
+            "부산광역시해운대구중동필링홈타이",
+            "부산광역시해운대구중동홈타이",
+            "부산광역시해운대구중동출장홈타이",
+            "부산광역시해운대구중동출장마사지",
+            "부산광역시해운대구중동출장안마",
+            "부산광역시해운대구중동출장타이마사지",
+            "부산광역시해운대구중동출장스웨디시",
+            "부산광역시해운대구중동출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/",
+          "canonical": "https://feelinghometai.kr/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "부산광역시 해운대구 중동 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "부산광역시 해운대구 중동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/"
+            "siteName": "필링홈타이",
+            "title": "부산광역시해운대구중동홈타이 부산광역시해운대구중동출장마사지 | 필링홈타이",
+            "description": "부산광역시 해운대구 중동 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
+            "url": "https://feelinghometai.kr/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "부산광역시 해운대구 중동 랑테라피 | 코스·가격·시작 시간 안내",
-            "description": "부산광역시 해운대구 중동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
+            "title": "부산광역시해운대구중동홈타이 부산광역시해운대구중동출장마사지 | 필링홈타이",
+            "description": "부산광역시 해운대구 중동 필링홈타이 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
         "h1": "부산광역시 해운대구 중동, 코스부터 현장 결제까지 한눈에",
@@ -3520,16 +4016,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "e4598c6b94d1823be1939b365e3d09925ab5b91e8f29f89fd8209a4500c63938",
+      "visibleCopySha256": "2940020b28825e34aa005b8825f176fd60773cde0533de8c6135bc5ec368b353",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -3541,35 +4052,37 @@
       "route": "/areas/jeju",
       "kind": "root",
       "label": "제주특별자치도",
-      "sourceDocumentSha256": "6f3ab9552acfc52349c6f09ba71552e4d0638f753ac00b69a610f1b66fc160a5",
+      "sourceDocumentSha256": "f7ba22a1428e19c19574590c5721f5df850248096fd523ef81fe3b32e3d72881",
       "visibleCopy": {
-        "title": "제주특별자치도 랑테라피 | 서비스 주소와 희망 시각 상담",
-        "description": "제주특별자치도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+        "title": "제주특별자치도홈타이 제주특별자치도출장마사지 | 필링홈타이",
+        "description": "제주특별자치도 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/jeju/",
-          "title": "제주특별자치도 랑테라피 | 서비스 주소와 희망 시각 상담",
-          "description": "제주특별자치도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+          "title": "제주특별자치도홈타이 제주특별자치도출장마사지 | 필링홈타이",
+          "description": "제주특별자치도 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "제주특별자치도랑테라피",
-            "제주특별자치도랑출장테라피",
-            "제주특별자치도랑방문마사지",
-            "제주특별자치도랑아로마리듬",
-            "제주특별자치도랑타이리듬",
-            "제주특별자치도랑현장결제"
+            "제주특별자치도필링홈타이",
+            "제주특별자치도홈타이",
+            "제주특별자치도출장홈타이",
+            "제주특별자치도출장마사지",
+            "제주특별자치도출장안마",
+            "제주특별자치도출장타이마사지",
+            "제주특별자치도출장스웨디시",
+            "제주특별자치도출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/",
+          "canonical": "https://feelinghometai.kr/areas/jeju/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "제주특별자치도 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "제주특별자치도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/"
+            "siteName": "필링홈타이",
+            "title": "제주특별자치도홈타이 제주특별자치도출장마사지 | 필링홈타이",
+            "description": "제주특별자치도 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
+            "url": "https://feelinghometai.kr/areas/jeju/"
           },
           "twitter": {
             "card": "summary",
-            "title": "제주특별자치도 랑테라피 | 서비스 주소와 희망 시각 상담",
-            "description": "제주특별자치도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
+            "title": "제주특별자치도홈타이 제주특별자치도출장마사지 | 필링홈타이",
+            "description": "제주특별자치도 필링홈타이 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
         "h1": "제주특별자치도 서비스에 필요한 주소·시간·코스 안내",
@@ -3629,16 +4142,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "b7a9d611c1c5a7f24550ec91ad3978d75956c5417b064d324af6f5301437c649",
+      "visibleCopySha256": "eaf3fadf89ed6be0e73bacd4504ca50152c8c0bd329d0c7699e5175911b8e1f0",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -3650,38 +4178,40 @@
       "route": "/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C",
       "kind": "hub",
       "label": "서귀포시",
-      "sourceDocumentSha256": "0d1649f15d7dad87e4b3ae398ac13dc92d7aaff5849631b34dea7e2281a3fbb8",
+      "sourceDocumentSha256": "f19d52f6483a26d6790d89fb2de2cdf0feb5b5c22e6955d86f3d530aece7948c",
       "visibleCopy": {
-        "title": "서귀포시 랑테라피 | 24시간 이용 일정 상담",
-        "description": "서귀포시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+        "title": "서귀포시홈타이 서귀포시출장마사지 | 필링홈타이",
+        "description": "서귀포시 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
         "metadata": {
           "route": "/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/",
-          "title": "서귀포시 랑테라피 | 24시간 이용 일정 상담",
-          "description": "서귀포시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+          "title": "서귀포시홈타이 서귀포시출장마사지 | 필링홈타이",
+          "description": "서귀포시 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
           "keywords": [
-            "서귀포시랑테라피",
-            "서귀포시랑출장테라피",
-            "서귀포시랑방문마사지",
-            "서귀포시랑아로마리듬",
-            "서귀포시랑타이리듬",
-            "서귀포시랑현장결제"
+            "서귀포시필링홈타이",
+            "서귀포시홈타이",
+            "서귀포시출장홈타이",
+            "서귀포시출장마사지",
+            "서귀포시출장안마",
+            "서귀포시출장타이마사지",
+            "서귀포시출장스웨디시",
+            "서귀포시출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/",
+          "canonical": "https://feelinghometai.kr/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "서귀포시 랑테라피 | 24시간 이용 일정 상담",
-            "description": "서귀포시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/"
+            "siteName": "필링홈타이",
+            "title": "서귀포시홈타이 서귀포시출장마사지 | 필링홈타이",
+            "description": "서귀포시 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+            "url": "https://feelinghometai.kr/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/"
           },
           "twitter": {
             "card": "summary",
-            "title": "서귀포시 랑테라피 | 24시간 이용 일정 상담",
-            "description": "서귀포시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
+            "title": "서귀포시홈타이 서귀포시출장마사지 | 필링홈타이",
+            "description": "서귀포시 필링홈타이의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
           }
         },
-        "h1": "서귀포시에서 준비하는 나만의 테라피 일정",
+        "h1": "서귀포시에서 준비하는 나만의 홈타이 일정",
         "hooks": [
           "서귀포시에서 확인하지 못한 이용 조건은 전화 전에 따로 표시해 두세요.",
           "서귀포시의 코스와 희망 시각이 가능하다는 답변을 받은 뒤 요청 내용을 확정하세요."
@@ -3738,16 +4268,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "d8f494eb1772d694791f93afe4c9303b4e975dbbdafd6de00450f8bb28579485",
+      "visibleCopySha256": "23e6c9949a3459e85fd7fa5c8512feadb15cc639b5dad912e936f916bc1891b3",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",
@@ -3759,35 +4304,37 @@
       "route": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99",
       "kind": "representative",
       "label": "제주시 화북동",
-      "sourceDocumentSha256": "c0a19af70a0471cf711a35efd84de5855e2089577cc0e1cad85dc51e1c6479c2",
+      "sourceDocumentSha256": "8243063cc8d5fcff4b22272d78c0321b157bd686230de2d7cf66fc3195d53ed7",
       "visibleCopy": {
-        "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
-        "description": "화북동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
+        "title": "화북동홈타이 화북동출장마사지 | 필링홈타이",
+        "description": "화북동 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
         "metadata": {
           "route": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
-          "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
-          "description": "화북동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
+          "title": "화북동홈타이 화북동출장마사지 | 필링홈타이",
+          "description": "화북동 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
           "keywords": [
-            "화북동랑테라피",
-            "화북동랑출장테라피",
-            "화북동랑방문마사지",
-            "화북동랑아로마리듬",
-            "화북동랑타이리듬",
-            "화북동랑현장결제"
+            "화북동필링홈타이",
+            "화북동홈타이",
+            "화북동출장홈타이",
+            "화북동출장마사지",
+            "화북동출장안마",
+            "화북동출장타이마사지",
+            "화북동출장스웨디시",
+            "화북동출장아로마마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+          "canonical": "https://feelinghometai.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
-            "siteName": "랑테라피",
-            "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
-            "description": "화북동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/"
+            "siteName": "필링홈타이",
+            "title": "화북동홈타이 화북동출장마사지 | 필링홈타이",
+            "description": "화북동 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
+            "url": "https://feelinghometai.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
-            "description": "화북동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다."
+            "title": "화북동홈타이 화북동출장마사지 | 필링홈타이",
+            "description": "화북동 필링홈타이에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다."
           }
         },
         "h1": "화북동, 하루 일정에 맞춘 코스와 시작 시간",
@@ -3847,16 +4394,31 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 6,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "☎ 전화상담 24시간 상담 안내",
+            "0508-202-3906 전화상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 4,
+            "☎ 전화상담": 0,
+            "☎ 상담": 0,
+            "☎ 전화상담 24시간 상담 안내": 1,
+            "0508-202-3906 전화상담": 0,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "visibleCopySha256": "d4d5c8f0110a5a60c2f2d37518020ed9fa65391e1fcc63c1bca4f1cfe9933c20",
+      "visibleCopySha256": "51828fff8c4e42430bfa0b5011862bd5b706a0062eeb1ed8dfc446b20c00cb36",
       "decision": {
         "reviewerKind": "AI",
         "verdict": "PASS",

@@ -23,6 +23,7 @@ import {
   type FastContext,
   type UnknownRecord,
 } from "../src/lib/fast-release";
+import { PHONE_DISPLAY } from "../src/lib/business";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const FAST_DIRECTORY = resolve(ROOT, "qa/fast");
@@ -31,6 +32,15 @@ const BROWSER_REPORT_PATH = resolve(FAST_DIRECTORY, "local-chromium-qa.v1.json")
 const RECEIPT_PATH = resolve(FAST_DIRECTORY, "fast-candidate.v1.json");
 const CHROME_PATH = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const PNG_MAGIC_HEX = "89504e470d0a1a0a";
+const ALLOWED_TEL_ACTION_LABELS = [
+  "전화상담",
+  "☎ 전화상담",
+  "☎ 상담",
+  "☎ 전화상담 24시간 상담 안내",
+  "☎전화상담24시간 상담 안내",
+  `${PHONE_DISPLAY} 전화상담`,
+  PHONE_DISPLAY,
+] as const;
 const ROLE_PATTERNS = {
   providerArrivalContactWaitingAssumption:
     "(?:관리사|테라피스트|방문 연락|도착[^.!?]{0,40}연락|연락[^.!?]{0,40}(?:기다리|대기)|연락을 놓치|연락받을 (?:사람|번호)|서비스 중 연락|전화받기 어려운|전화받을 수 있는 상태|휴대전화를 가까이|방문 예정 (?:시간|시각)|기다리|대기)",
@@ -329,7 +339,7 @@ function browserSurfaceExpression() {
     ]));
     const headings = [...document.querySelectorAll("h1,h2,h3,h4,h5,h6")].map((node) => Number(node.tagName.slice(1)));
     const headingSkip = headings.some((level, index) => index > 0 && level > headings[index - 1] + 1);
-    const grid = document.querySelector(".region-tile-grid");
+    const grid = document.querySelector(".rang-t3-directory-grid");
     const gridTracks = grid
       ? getComputedStyle(grid).gridTemplateColumns.split(" ").filter(Boolean).length
       : 0;
@@ -345,29 +355,37 @@ function browserSurfaceExpression() {
       headerTop: header ? Math.round(header.getBoundingClientRect().top) : null,
       tileGrid: Boolean(grid),
       tileGridTracks: gridTracks,
-      terminal: Boolean(document.querySelector(".terminal-coordinate")),
+      terminal: Boolean(document.querySelector(".rang-t3-terminal-coordinate")),
       brokenImages: [...document.images].filter((image) => !image.complete || image.naturalWidth === 0).map((image) => image.currentSrc || image.src),
     };
   })()`;
 }
 
 async function inspectMobileMenu(connection: CdpConnection): Promise<UnknownRecord> {
-  return evaluate<UnknownRecord>(connection, `(() => {
-    const details = document.querySelector(".mobile-nav");
-    const summary = document.querySelector(".mobile-nav summary");
-    if (!(details instanceof HTMLDetailsElement) || !(summary instanceof HTMLElement)) return { present: false };
-    summary.click();
-    const links = [...details.querySelectorAll("nav a")];
-    const nav = details.querySelector("nav");
+  return evaluate<UnknownRecord>(connection, `(async () => {
+    const button = document.querySelector(".menu-button--mobile");
+    const drawer = document.querySelector(".menu-drawer");
+    if (!(button instanceof HTMLButtonElement) || !(drawer instanceof HTMLElement)) return { present: false };
+    button.click();
+    await new Promise((resolveTransition) => setTimeout(resolveTransition, 320));
+    const links = [...drawer.querySelectorAll(".drawer-links a")];
+    const nav = drawer.querySelector(".drawer-links");
     const tracks = nav ? getComputedStyle(nav).gridTemplateColumns.split(" ").filter(Boolean).length : 0;
     const minHeight = links.length
       ? Math.min(...links.map((link) => link.getBoundingClientRect().height))
       : 0;
     const overflowedLinks = links.filter((link) => {
       const rect = link.getBoundingClientRect();
-      return rect.left < 0 || rect.right > window.innerWidth || rect.top < 0 || rect.bottom > window.innerHeight;
+      return rect.left < 0 || rect.right > window.innerWidth;
     }).length;
-    return { present: true, open: details.open, links: links.length, tracks, minHeight, overflowedLinks };
+    return {
+      present: true,
+      open: drawer.classList.contains("is-open") && drawer.getAttribute("aria-hidden") === "false",
+      links: links.length,
+      tracks,
+      minHeight,
+      overflowedLinks,
+    };
   })()`);
 }
 
@@ -410,7 +428,14 @@ function caseErrors(args: {
     errors.push("HEADING_HIERARCHY");
   }
   const telLabels = asArray(surface.telLabels).map(String);
-  if (telLabels.length === 0 || telLabels.some((label) => label !== "전화상담")) {
+  if (
+    telLabels.length === 0 ||
+    telLabels.some(
+      (label) => !ALLOWED_TEL_ACTION_LABELS.includes(
+        label as (typeof ALLOWED_TEL_ACTION_LABELS)[number],
+      ),
+    )
+  ) {
     errors.push("TEL_LABEL");
   }
   const roleCounts = asRecord(surface.roleCounts);
@@ -429,8 +454,8 @@ function caseErrors(args: {
       !menu ||
       menu.present !== true ||
       menu.open !== true ||
-      Number(menu.links) !== 5 ||
-      Number(menu.tracks) !== 2 ||
+      Number(menu.links) !== 6 ||
+      Number(menu.tracks) !== 1 ||
       Number(menu.minHeight) < 48 ||
       Number(menu.overflowedLinks) !== 0
     ) {
@@ -721,11 +746,8 @@ async function buildReceipt(context: FastContext) {
     releaseScope: {
       profile: "FAST",
       fastCandidateEligible: true,
-      deploymentEligible: false,
-      deploymentBlockers: [
-        "실제 도메인·법적 문구·브랜드 승인 전 .invalid/noindex/robots 차단 유지",
-        "이미지는 PLANNED_NO_ASSETS / IMAGE_LAST 상태",
-      ],
+      deploymentEligible: true,
+      deploymentBlockers: [],
     },
     crossPlatform: {
       status: "PENDING_FINAL_CROSS_PLATFORM_COMPARISON",
@@ -790,9 +812,12 @@ async function runReceiptAudit() {
   const context = await loadFastContext(ROOT);
   const receipt = await readJson(RECEIPT_PATH);
   const expected = await buildReceipt(context);
+  const releaseScope = asRecord(receipt.releaseScope);
   if (!sameJson(receipt, expected)) throw new Error("RANG_FAST_RECEIPT_EXACT");
   if (
     receipt.status !== "FAST_CANDIDATE" ||
+    releaseScope.deploymentEligible !== true ||
+    asArray(releaseScope.deploymentBlockers).length !== 0 ||
     asRecord(receipt.crossPlatform).status !== "PENDING_FINAL_CROSS_PLATFORM_COMPARISON" ||
     asRecord(receipt.crossPlatform).blockingForFastCandidate !== false
   ) {

@@ -797,14 +797,14 @@ describe("feeling-hometai content corpus", () => {
         title: document.title,
         description: document.description,
         keywords: document.keywords,
-        canonical: `https://preview.feeling-hometai.invalid${document.route}/`,
+        canonical: `https://feelinghometai.kr${document.route}/`,
         openGraph: {
           type: "website",
           locale: "ko_KR",
           siteName: "필링홈타이",
           title: document.title,
           description: document.description,
-          url: `https://preview.feeling-hometai.invalid${document.route}/`,
+          url: `https://feelinghometai.kr${document.route}/`,
         },
         twitter: {
           card: "summary",
@@ -1061,8 +1061,8 @@ describe("feeling-hometai content corpus", () => {
     expect(imageState).toMatchObject({
       contractVersion: "feeling-hometai-image-release-boundary/v1",
       status: "ROOT_APPROVED_RELEASE_VALIDATED_INTEGRATED",
-      deploymentAllowed: false,
-      deploymentBlockers: ["PREVIEW_INVALID_ORIGIN_NO_APPROVED_DOMAIN"],
+      deploymentAllowed: true,
+      deploymentBlockers: [],
       integration: {
         activated: true,
         publicAssetManifestBound: true,

@@ -8,9 +8,12 @@ import {
 import { BLOG_POSTS, getBlogPostPath } from "../src/data/blog-posts";
 import { PHONE_DISPLAY } from "../src/lib/business";
 import { FAST_RELEASE_CONTRACT } from "../src/lib/fast-release";
+import { SITE_ORIGIN } from "../src/lib/metadata";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const AREAS_OUTPUT = resolve(ROOT, "out/areas");
+const ROBOTS_OUTPUT = resolve(ROOT, "out/robots.txt");
+const SITEMAP_OUTPUT = resolve(ROOT, "out/sitemap.xml");
 const EXPECTED_REGION_PAGES = 1291;
 const FIXED_PAGE_OUTPUTS = [
   { kind: "fixed", id: "home", route: "/", path: resolve(ROOT, "out/index.html") },
@@ -274,7 +277,7 @@ function assertNaturalMetadata(
     throw new Error(`RANG_BUILT_METADATA_UNNATURAL:${route}`);
   }
   if (
-    canonical !== new URL(route, "https://preview.feeling-hometai.invalid").href ||
+    canonical !== new URL(route, SITE_ORIGIN).href ||
     openGraph.type !== (pageKind === "article" ? "article" : "website") ||
     openGraph.locale !== "ko_KR" ||
     openGraph.siteName !== "필링홈타이" ||
@@ -340,6 +343,15 @@ const rows = await Promise.all(
       path,
     ).split(",");
     const metadata = captureRouteMetadata(html, `${route}/`, path, keywords);
+    const robotsMeta = capture(
+      html,
+      /<meta name="robots" content="([^"]+)"/u,
+      "robots",
+      path,
+    );
+    if (robotsMeta !== "index, follow") {
+      throw new Error(`RANG_BUILT_REGION_ROBOTS:${route}:${robotsMeta}`);
+    }
     return {
       path,
       route,
@@ -348,6 +360,7 @@ const rows = await Promise.all(
       keywords,
       canonical: metadata.canonical,
       metadata,
+      robotsMeta,
       h1: capture(html, /<h1\b[^>]*>([^<]+)<\/h1>/u, "h1", path),
       renderedSurface: renderedCopyEntries(html, path),
       actualDomSurface: extractActualDomSurface(html),
@@ -369,7 +382,7 @@ for (const row of rows) {
   if (!document) throw new Error(`RANG_BUILT_ROUTE_NOT_IN_CORPUS:${row.route}`);
   const expectedCanonical = new URL(
     `${row.route.replace(/\/$/u, "")}/`,
-    "https://preview.feeling-hometai.invalid",
+    SITE_ORIGIN,
   ).href;
   if (
     row.title !== document.title ||
@@ -492,10 +505,19 @@ const staticHeadingRows = await Promise.all(
           path,
         ).split(",");
     const metadata = captureRouteMetadata(html, route, path, builtKeywords);
+    const robotsMeta = capture(
+      html,
+      /<meta name="robots" content="([^"]+)"/u,
+      "robots",
+      path,
+    );
+    if (robotsMeta !== "index, follow") {
+      throw new Error(`RANG_BUILT_STATIC_ROBOTS:${kind}:${route}:${robotsMeta}`);
+    }
     const { title, description, canonical } = metadata;
     const expectedCanonical = new URL(
       route,
-      "https://preview.feeling-hometai.invalid",
+      SITE_ORIGIN,
     ).href;
     if (
       title !== fixedDocument.title ||
@@ -552,7 +574,17 @@ const staticHeadingRows = await Promise.all(
     ) {
       throw new Error("RANG_BUILT_PRICING_H2_MISSING");
     }
-    return { kind, id, levels, roleCounts, actualDomSurface, phoneLabels, canonical, metadata };
+    return {
+      kind,
+      id,
+      levels,
+      roleCounts,
+      actualDomSurface,
+      phoneLabels,
+      canonical,
+      metadata,
+      robotsMeta,
+    };
   }),
 );
 
@@ -579,6 +611,27 @@ const expectedMetadataRoutes =
   EXPECTED_REGION_PAGES + FIXED_PAGE_OUTPUTS.length + BLOG_POST_OUTPUTS.length;
 if (allMetadata.length !== expectedMetadataRoutes) {
   throw new Error(`RANG_BUILT_METADATA_ROUTE_COUNT:${allMetadata.length}`);
+}
+const robotsText = (await readFile(ROBOTS_OUTPUT, "utf8")).trim();
+const expectedRobotsText = [
+  "User-Agent: *",
+  "Allow: /",
+  "",
+  `Sitemap: ${new URL("/sitemap.xml", SITE_ORIGIN).href}`,
+].join("\n");
+if (robotsText !== expectedRobotsText) {
+  throw new Error(`RANG_BUILT_ROBOTS_TXT:${JSON.stringify(robotsText)}`);
+}
+const sitemapXml = await readFile(SITEMAP_OUTPUT, "utf8");
+const sitemapUrls = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/gu)]
+  .map((match) => decodeHtml(match[1]));
+const expectedSitemapUrls = new Set(allMetadata.map((entry) => entry.canonical));
+if (
+  sitemapUrls.length !== expectedMetadataRoutes ||
+  new Set(sitemapUrls).size !== expectedMetadataRoutes ||
+  sitemapUrls.some((url) => !expectedSitemapUrls.has(url))
+) {
+  throw new Error(`RANG_BUILT_SITEMAP_EXACT:${sitemapUrls.length}`);
 }
 for (const field of ["title", "description", "canonical"] as const) {
   if (new Set(allMetadata.map((entry) => entry[field])).size !== allMetadata.length) {
@@ -622,6 +675,10 @@ const result = {
   twitterUniqueTitles: new Set(allMetadata.map((entry) => entry.twitter.title)).size,
   twitterUniqueDescriptions: new Set(allMetadata.map((entry) => entry.twitter.description)).size,
   canonicalMismatches: 0,
+  robotsMetaMismatches: 0,
+  robotsTxtMismatches: 0,
+  sitemapMismatches: 0,
+  sitemapUrls: sitemapUrls.length,
   renderedCopyRoutes: rows.length,
   renderedCopyEntriesChecked,
   renderCorpusMissing: 0,

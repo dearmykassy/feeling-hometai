@@ -2,6 +2,13 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-16 06:51 KST — feelinghometai.kr 운영 SEO 공개 전환
+
+- 승인된 운영 origin을 `https://feelinghometai.kr`로 단일화했다. 홈·고정·1,291개 지역·블로그 2개 페이지의 canonical과 Open Graph URL, 블로그 JSON-LD, sitemap이 모두 같은 apex HTTPS origin을 사용하며 페이지 robots는 `index, follow`, `robots.txt`는 `Allow: /`와 운영 sitemap을 출력한다. Search Console에는 접근하거나 제출하지 않았다.
+- 이미지 release 생성기는 운영 origin을 exact 확인한 뒤 `deploymentAllowed: true`, `deploymentBlockers: []`를 기록하고, FAST 라이브러리·영수증·감사도 같은 배포 가능 계약을 요구하도록 전환했다. built output 감사에는 1,299개 페이지 robots meta, `robots.txt`, sitemap URL 집합을 실제 `out` 파일에서 검증하는 fail-closed 검사를 추가했다. FAST 브라우저 선택자와 모바일 drawer 검사는 현재 Template3 DOM에 맞춰 갱신했다.
+- 최종 검증은 focused Vitest 3 files/13 tests PASS, full Vitest 8 files/25 tests PASS, typecheck PASS, lint error 0(기존 일반 `<img>` warning 2개), `pnpm build` PASS다. 정적 1,303페이지를 생성했고 built 감사에서 metadata·canonical·Open Graph·robots meta·robots.txt·sitemap mismatch 0, sitemap 1,299개 exact를 확인했다. corpus SHA-256은 `d587f259216ba6697d3d9f2fd474e7e6ef19e3491e15529149da109e74024584`, built 감사 SHA-256은 `03588c92ef07e7a9c17468fe096cffaa35aa89fbee6aab70a6fbef18d7857ce8`이다.
+- FAST Chromium root/hub/leaf × 320/390/1440px 9개 케이스와 FAST receipt 감사가 PASS했고 candidate ID는 `5509af2906295026eb51d5fa1f47b6d1e29ac0b6dd18bf7d8793d53b2abf323f`, receipt SHA-256은 `27c7559e1c202b090dec81cccda68c53b2b4bf26460e1015737af3f966ce535f`다. 통합 `pnpm test`의 선행 legacy cross-platform exact 단계는 랑테라피 시절 고정 snapshot이 현재 공통 지역 키워드 5,410개를 충돌로 판정해 중단됐으며, 이번 SEO 변경·정적 출력과 무관한 별도 거버넌스 부채로 기록하고 실패 산출물은 커밋 범위에서 제외했다.
+
 ## 2026-08-16 05:44 KST — 마사지봄 지역구성 exact 고정·검색 보강
 
 - 사용자 정정에 따라 필링홈타이의 지역 정본을 마사지봄 활성 지역구성과 exact 동일하게 고정했다. 실제 비교 결과 `capital-regions.generated.json` SHA-256은 양쪽 모두 `0242e5d86894321cba66b7f747675115520d856c7aaada870869e19f247500d2`, `service-city-regions.generated.json` SHA-256은 양쪽 모두 `72a318974585509632ba229307a954d01c40adcb8d98ff4ba6fbd1f1655f0d3d`다. 파생 활성 route는 양쪽 1,291개, sorted route SHA-256 `8a80b8a8d68fd6e1f0db9e4c662c82d3dafd24b7a70a532fe8f71b0d16d8c29d`, 필링 전용 0개·마사지봄 누락 0개다. depth는 root 11, 2단계 138, 3단계 941, 4단계 201이다. 따라서 지역 추가·삭제는 하지 않았다.
