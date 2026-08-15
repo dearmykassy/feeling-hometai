@@ -1,0 +1,399 @@
+{
+  "schemaVersion": "rang-therapy-template3-mirror-selfie-lane-receipt/v1",
+  "lane": "I",
+  "status": "PENDING_ROOT_VISUAL_REVIEW",
+  "generatedAt": "2026-08-15T19:13:05Z",
+  "projectRoot": "/Users/ssm/Documents/Codex/rang-therapy",
+  "manifestPath": "/Users/ssm/Documents/Codex/rang-therapy/artifacts/image-campaign/template3-mirror-selfie-v1/campaign.v1.json",
+  "manifestSha256": "2a8f65db0f6e5a5be7bdfa3bcc9e028aa85252342b820689523a2d8933eccf86",
+  "generationMode": "codex-built-in-image_gen",
+  "imagegenSkillRead": true,
+  "scope": {
+    "processedOnlyManifestLane": "I",
+    "jobCount": 13,
+    "routeAssignmentCreated": false,
+    "appCodeTouched": false,
+    "buildRun": false,
+    "gitTouched": false
+  },
+  "finalOwnerCorrection": "Existing generations preserved; new candidates require a clear mirror, reflective surface at least 40%, at least two frame edges, and obvious reflection composition. Technical receipt is not root visual approval.",
+  "jobs": [
+    {
+      "jobId": "rng-t3-rgn-105-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-105-v1.png",
+      "sha256": "3b2952336aaf46057c8c8b1c137c877a3b03eec18e530d9272ac20ae8c046099",
+      "bytes": 1507054,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-106-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-106-v1.png",
+      "sha256": "6a6f18a7d74593ce9b887939a89f82cfd497dd3d94b1d6dd85d8c1a5f28d520b",
+      "bytes": 1595904,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-107-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-107-v1.png",
+      "sha256": "3a25c7c4ccf28072639311d49e596f676e2ae2ff0f6a2594c8dadb76f3f3b25b",
+      "bytes": 1602200,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-108-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-108-v1.png",
+      "sha256": "b019fa52201c4a3087e66411c6b897b8c14c4bd10ea0fe08386393aebac6ee95",
+      "bytes": 1645561,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-109-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-109-v1.png",
+      "sha256": "a71a68163727be53cd4579fd50467c80abf8e9cf73f9fdf47212b9f193d40931",
+      "bytes": 1578828,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-110-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-110-v1.png",
+      "sha256": "de88b25973aafd235af4a59542bf3eda54784c1b3d0676998613ba9de1c89fb8",
+      "bytes": 1800404,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-111-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-111-v1.png",
+      "sha256": "681b8f46816824fae0f8a94d1e7fdd0bf551bafba97656b5ff5e82d88cda5368",
+      "bytes": 1666368,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-112-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-112-v1.png",
+      "sha256": "76973ac32b2748bb2833a9616b7585cbabcc6f8af830a8862da9e65add936150",
+      "bytes": 1515171,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-113-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-113-v1.png",
+      "sha256": "5e1afa64c71da63fae6858e0e777b14d6584c4b92758711be709a489526c34f9",
+      "bytes": 1679810,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-114-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-114-v1.png",
+      "sha256": "7c963585ec187c129464ad3dd8d4e62c0ed1003cae8aefa1d8afa4852b5e6010",
+      "bytes": 1644356,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-115-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-115-v1.png",
+      "sha256": "61a9c5bcada88e5e0728fe755ac3aef6e7e7083e67511d9b37ec9caffe8ed761",
+      "bytes": 1556472,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-116-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-116-v1.png",
+      "sha256": "56f69ce5bf18bdbc00eaec0056bd87602bafaf94470f3267644806f8b05c20b8",
+      "bytes": 1664443,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-117-v1",
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-117-v1.png",
+      "sha256": "f8ee0e376df29b6f722a7ab379a8d4c2dd503e6f56fdb67f3f2d5c531acfe19c",
+      "bytes": 1616101,
+      "mime": "image/png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "technicalVerification": {
+        "pngDecode": true,
+        "sha256Recorded": true,
+        "dimensionsRecorded": true
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "Mirror is visually explicit: large reflective surface, at least two visible frame edges, and a clear mirror-selfie reflection composition. Candidate only; root visual review still required.",
+        "checks": {
+          "clearMirrorSurfaceAtLeast40Percent": true,
+          "atLeastTwoMirrorFrameEdgesVisible": true,
+          "clearReflectionComposition": true,
+          "noTextLogoWatermarkObserved": true,
+          "noBedObserved": true,
+          "noMinorObserved": true,
+          "noDuplicateReflectionObserved": true
+        }
+      }
+    }
+  ]
+}

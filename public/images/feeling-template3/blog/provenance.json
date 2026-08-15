@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "feeling-template3-blog-image-provenance/v1",
+  "platformKey": "feeling-hometai",
+  "generator": "OpenAI built-in image generation",
+  "generatedAt": "2026-08-16",
+  "compositionContract": {
+    "darkCopySpacePercent": 60,
+    "brightSubjectPercent": 40,
+    "copySide": "left",
+    "subjectSide": "right",
+    "textInImage": false
+  },
+  "assets": [
+    {
+      "assetId": "feeling-note-01-v1",
+      "purpose": ["home-feeling-note-card", "blog-index-card", "blog-post-hero"],
+      "promptSummary": "차분한 웰니스 실내에서 상담 체크리스트를 노트에 정리하는 성인 한국인 여성. 왼쪽 60%는 살짝 어둡고 단순한 카피 공간, 오른쪽 40%는 부드럽고 밝은 인물 영역.",
+      "source": {
+        "path": "/Users/ssm/.codex/generated_images/019fed72-9af2-70c2-9986-03c255f0b5be/exec-1c584275-7880-4831-b1a1-be9420c32c2d.png",
+        "sha256": "31bcdac962483526bc8cbfb721504ad62b4e01430a22ff2910bd3fc8b5b0c1ea",
+        "width": 1672,
+        "height": 941
+      },
+      "workspaceOriginal": {
+        "path": "public/images/feeling-template3/blog/feeling-note-01-v1.png",
+        "sha256": "31bcdac962483526bc8cbfb721504ad62b4e01430a22ff2910bd3fc8b5b0c1ea"
+      },
+      "webp": {
+        "path": "public/images/feeling-template3/blog/feeling-note-01-v1.webp",
+        "sha256": "01de7ed186dacf8b22717927bffc3be9db4f7926f77fb6880026ac79fcea5d75",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "assetId": "feeling-note-02-v1",
+      "purpose": ["home-feeling-note-card", "blog-index-card", "blog-post-hero"],
+      "promptSummary": "정돈된 웰니스 공간에서 휴대전화와 메모를 확인하는 성인 한국인 여성. 왼쪽 60%는 살짝 어둡고 단순한 카피 공간, 오른쪽 40%는 창가의 부드럽고 밝은 인물 영역.",
+      "source": {
+        "path": "/Users/ssm/.codex/generated_images/019fed72-9af2-70c2-9986-03c255f0b5be/exec-d8b99c87-0553-4e40-b9bd-398614a5b14b.png",
+        "sha256": "5e245318f99cd8e45daa27eef02ced0d2fd2076d1ff1e831aea5baf0511c2b89",
+        "width": 1672,
+        "height": 941
+      },
+      "workspaceOriginal": {
+        "path": "public/images/feeling-template3/blog/feeling-note-02-v1.png",
+        "sha256": "5e245318f99cd8e45daa27eef02ced0d2fd2076d1ff1e831aea5baf0511c2b89"
+      },
+      "webp": {
+        "path": "public/images/feeling-template3/blog/feeling-note-02-v1.webp",
+        "sha256": "e3d56500eb164e26a87c7c6151a9c2a8b02b408d87dd66bafdeb58e65b093e06",
+        "width": 1600,
+        "height": 900
+      }
+    }
+  ]
+}

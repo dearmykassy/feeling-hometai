@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "feeling-template3-home-image/v1",
+  "platform": "feeling-hometai",
+  "assetId": "feeling-t3-home-mirror-v1",
+  "generator": "OpenAI built-in image generation",
+  "status": "SELECTED_FOR_TEMPLATE3_PREVIEW",
+  "referencePolicy": "The four user-provided photographs were used only for the mirror-selfie composition and casual fashion mood. No identity, face, exact pose, room, or distinctive garment was copied.",
+  "visualContract": {
+    "subject": "clearly adult Korean woman age 27-31",
+    "concept": "tasteful mirror selfie in a premium wellness dressing lounge",
+    "copySide": "left",
+    "subjectSide": "right",
+    "topNavigationSafeArea": 0.18,
+    "noTextLogoWatermark": true,
+    "modestOpaqueClothing": true
+  },
+  "source": {
+    "path": "/Users/ssm/.codex/generated_images/019fed72-9af2-70c2-9986-03c255f0b5be/exec-7e7e2253-bee4-43eb-8a66-1faee3a8f997.png",
+    "workspacePath": "public/images/feeling-template3/home/feeling-t3-home-mirror-v1.png",
+    "sha256": "d73de4f04ad23bb998e7e998762266cb18ef312ded317d10fc7512ba73702180",
+    "width": 1672,
+    "height": 941
+  },
+  "web": {
+    "path": "public/images/feeling-template3/home/feeling-t3-home-mirror-v1.webp",
+    "sha256": "7498bd8841edbdd851a273f33621093d704dc5a591d7e093aff7b4125b2f33b3",
+    "width": 1600,
+    "height": 900
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "feeling-hometai-template3-regional-image-provenance/v1",
+  "platform": "feeling-hometai",
+  "jobId": "rng-t3-rgn-112-v1",
+  "lane": "I",
+  "campaign": {
+    "relativePath": "artifacts/image-campaign/template3-mirror-selfie-v1/campaign.v1.json",
+    "sha256": "2a8f65db0f6e5a5be7bdfa3bcc9e028aa85252342b820689523a2d8933eccf86"
+  },
+  "rootReview": {
+    "relativePath": "artifacts/image-campaign/template3-mirror-selfie-v1/contact-sheets/round-01/review.v1.json",
+    "sha256": "e407f981eaf2b629a395fe51290f0932b707c4ce95996b8591246d3448a588e7"
+  },
+  "source": {
+    "relativePath": "public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-112-v1.png",
+    "sha256": "76973ac32b2748bb2833a9616b7585cbabcc6f8af830a8862da9e65add936150",
+    "width": 1672,
+    "height": 941,
+    "format": "png"
+  },
+  "outputs": {
+    "desktop": {
+      "publicPath": "/assets/feeling-hometai/template3-regional/rng-t3-rgn-112-v1/desktop.webp",
+      "sha256": "f2f4a332aa8b2d29f6016d8cb9da59daf3254a0e4c17a56585d62553ed6b7d94",
+      "width": 1600,
+      "height": 900,
+      "bytes": 45756
+    },
+    "tablet": {
+      "publicPath": "/assets/feeling-hometai/template3-regional/rng-t3-rgn-112-v1/tablet.webp",
+      "sha256": "fdeeed2b5c16b8da8e2db32903cb7e978d7be307f47a8df3d45ccb2ade45d95b",
+      "width": 1200,
+      "height": 675,
+      "bytes": 29484
+    },
+    "mobile": {
+      "publicPath": "/assets/feeling-hometai/template3-regional/rng-t3-rgn-112-v1/mobile.webp",
+      "sha256": "72111539718cd9e4e0c32f3f285733535d3bfea09ed0e18c0c0460337ca382cb",
+      "width": 768,
+      "height": 432,
+      "bytes": 15718
+    }
+  },
+  "palette": {
+    "sourceStrip": {
+      "topPercent": 18,
+      "sourceHeightPx": 169,
+      "sampleWidthPx": 64,
+      "sampleHeightPx": 16
+    },
+    "primary": "#5e4e3e",
+    "secondary": "#5d483e",
+    "navigation": {
+      "text": "#ffffff",
+      "textContrastRatio": 15.9245,
+      "overlay": "#27211a",
+      "gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.76) 0%, rgba(0, 0, 0, 0.46) 62%, rgba(0, 0, 0, 0) 100%)",
+      "backdropFilter": "blur(18px)"
+    }
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "schemaVersion": "rang-template3-mirror-selfie-lane-receipt/v1",
+  "campaignManifest": "artifacts/image-campaign/template3-mirror-selfie-v1/campaign.v1.json",
+  "lane": "F",
+  "status": "PENDING_VISUAL_REVIEW",
+  "imageGeneration": {
+    "mode": "built-in-imagegen",
+    "appIntegration": "NOT_PERFORMED",
+    "publishApproval": "NOT_CLAIMED"
+  },
+  "jobs": [
+    {
+      "jobId": "rng-t3-rgn-066-v1",
+      "laneOrdinal": 1,
+      "manifestPromptSha256": "4fb93797e1568631fdb39067e740d1cd18719656332d70e4d690dbe528972021",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-066-v1.png",
+        "sha256": "b354893fe6940b63dd351ea4a7980d1309eb998c7018ba10b4c9a2a91ad85564",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-067-v1",
+      "laneOrdinal": 2,
+      "manifestPromptSha256": "59ffb8be4117964988ea6c044bb90bb75840cc1167465f9b25f2b696cb4666d3",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-067-v1.png",
+        "sha256": "0a43442aff34d98b8e211d5fbd8be29eb636af7523b9cd8fac1ddfed1b886384",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-068-v1",
+      "laneOrdinal": 3,
+      "manifestPromptSha256": "8bfef5a7976aff77bf167d6a09928772dc88aa091d896e71dd229e011eaa0227",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-068-v1.png",
+        "sha256": "bacd96768fdfc084f1b461292ff74ef2b4e49c67bb2c8d31dad8ae8c69672281",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-069-v1",
+      "laneOrdinal": 4,
+      "manifestPromptSha256": "13d40dff12d2090980fbefc321103496325faf4f5ccdaab531790f3eae6f8e9a",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-069-v1.png",
+        "sha256": "54bd4b5ac33973557ce1163c38fa0c6a3abde2ad4f476af5111be7d5bfe11c47",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-070-v1",
+      "laneOrdinal": 5,
+      "manifestPromptSha256": "80b7b9b79475b09b009c54f6b953cc786dbbb5126a8080346f9a3fc638fcb625",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-070-v1.png",
+        "sha256": "af484de1716759effdcb60a0467a81ce473000217921d274a9668d9516f0d81f",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-071-v1",
+      "laneOrdinal": 6,
+      "manifestPromptSha256": "5cae1689a44ee2dcf860d27c8932a91a04daa7b59eea56725d1558b018b42af4",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-071-v1.png",
+        "sha256": "147784a8ee1a24de21622773244a44d61944c3fd594eb8b867c23b13a1167877",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-072-v1",
+      "laneOrdinal": 7,
+      "manifestPromptSha256": "91420464b1a0f6c56d7598f60e65a456f8781d3e3e3705b7571396be74c382c8",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-072-v1.png",
+        "sha256": "db0a1f0f6636b8cc29f5583d4159c38ef1478984874a18eb58253bd4825e5806",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-073-v1",
+      "laneOrdinal": 8,
+      "manifestPromptSha256": "e9dcfcacbb072141ee012e3f704ea39c13d73de9e79be9d81f350c6782d4a4da",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-073-v1.png",
+        "sha256": "c7d1081fb89355e6ff8ac4b3468dbc452f2828025b22b7e4290a91f35cc06a4c",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-074-v1",
+      "laneOrdinal": 9,
+      "manifestPromptSha256": "873060386aefd034d78385087405f6da4f9a4fa20391e14bbbf7199e75e58eea",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-074-v1.png",
+        "sha256": "adec70676022004351ec39d9cdd571b92249db0d29456089bfb09d89940610f8",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-075-v1",
+      "laneOrdinal": 10,
+      "manifestPromptSha256": "f653a216ddb1fb168a7229155b5e58fb7468b17055eeff7863f8c3d39659f62c",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-075-v1.png",
+        "sha256": "dad820293e9b75730be63c25c437342848412c02bb4d7ef9394702d6dcd1963e",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-076-v1",
+      "laneOrdinal": 11,
+      "manifestPromptSha256": "e026ad731fd72d9abf5de214fac714d44356c3c472b0ad25d7ca95aee3331517",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-076-v1.png",
+        "sha256": "9c6223b37ca42ba272d4eba8ce0e694882eebc4c0dc96eb02513a8c9106f354e",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-077-v1",
+      "laneOrdinal": 12,
+      "manifestPromptSha256": "c9479142973b22b3ac98650384b06c5fdd8eaccd6b212aba56f38b8df051d297",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-077-v1.png",
+        "sha256": "033d746c19432891490e26ad4ee6e63d60128ca5150914eba6bf47d504fe2e08",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-078-v1",
+      "laneOrdinal": 13,
+      "manifestPromptSha256": "ba72f5d12e88a0d01671a1a07637baf2025b85692a77d8788d1efe7b6b92fea0",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-078-v1.png",
+        "sha256": "19eb6850d8670a026cd06b43fc3b6a4fa930f5c72f1bbeaf1c148d811ddfcc11",
+        "format": "PNG",
+        "width": 1672,
+        "height": 941
+      },
+      "manifestReviewStatus": "PENDING",
+      "visualQA": {
+        "status": "PENDING",
+        "requiredHumanReview": true,
+        "criteria": [
+          "adult subject and modest clothing",
+          "mirror reflection is unambiguous",
+          "mirror surface plus at least two frame edges are visible",
+          "no typography, logos, watermark, or interface"
+        ],
+        "disposition": "PENDING"
+      }
+    }
+  ]
+}

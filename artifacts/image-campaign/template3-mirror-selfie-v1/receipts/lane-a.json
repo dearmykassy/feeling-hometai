@@ -1,0 +1,229 @@
+{
+  "schemaVersion": "rang-template3-mirror-selfie-lane-receipt/v1",
+  "campaignPath": "artifacts/image-campaign/template3-mirror-selfie-v1/campaign.v1.json",
+  "lane": "A",
+  "artifactStatus": "GENERATED_NOT_INTEGRATED",
+  "independentVisualReview": "PENDING",
+  "reviewPolicy": {
+    "status": "PENDING_VISUAL_REVIEW",
+    "rejectConditions": [
+      "Text or UI is present.",
+      "A clearly visible actual mirror reflection is absent.",
+      "Mirror reflective surface appears materially below 40% of the frame.",
+      "Fewer than two mirror frame edges are visible.",
+      "A minor or short hair, suggestive outfit, or malformed anatomy is depicted."
+    ]
+  },
+  "summary": {
+    "generated": 13,
+    "pendingVisualReview": 8,
+    "rejected": 5
+  },
+  "jobs": [
+    {
+      "jobId": "rng-t3-rgn-001-v1",
+      "laneOrdinal": 1,
+      "promptSha256": "6c146e60af42ab3bd2ba9f78960cbb3e73892ebe1f25608a4daf05e0636d46f2",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-001-v1.png",
+        "sha256": "557450ddd26203f91e4a46247b91bfefda29909169a0dcc0cca26fa75dabbe47",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "PENDING_VISUAL_REVIEW",
+        "reasons": []
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-002-v1",
+      "laneOrdinal": 2,
+      "promptSha256": "6ae6789ee80684418b6877dbd2e57566e495413841ffee439b70e264ef3e2ba6",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-002-v1.png",
+        "sha256": "c76d5ef81345d7eed8a713daa92ef325b341227418952023875b7f301f192333",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "REJECT",
+        "reasons": [
+          "Mirror reflective surface appears materially below the required 40% of the frame."
+        ]
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-003-v1",
+      "laneOrdinal": 3,
+      "promptSha256": "c4270f05626c072f4fddd66e9dc3e1dc4677a343b1f163fc0c99bc9899e6cf85",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-003-v1.png",
+        "sha256": "118bf755be081332b5cdd5cfffb828ff55c4fb97ca861f30af858fb615163eb7",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "REJECT",
+        "reasons": [
+          "Mirror reflective surface appears materially below the required 40% of the frame."
+        ]
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-004-v1",
+      "laneOrdinal": 4,
+      "promptSha256": "5399ef77b7e1b8bd90a185a573f96768cae096bab7455a94608ad89d98c91a59",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-004-v1.png",
+        "sha256": "b5c952b12104499be8034b81027534cabcc82a7e932b6727001ba6d4cd231fdf",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "REJECT",
+        "reasons": [
+          "Mirror reflective surface appears materially below the required 40% of the frame."
+        ]
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-005-v1",
+      "laneOrdinal": 5,
+      "promptSha256": "382990abd6222702aeea3fd3ca4a91ca76d192940cd39e4e885186b6d46df9d0",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-005-v1.png",
+        "sha256": "a673f206a2570e61c2f9330ee7bd4d987e3a1bad8e211a26724d544cc6cce0b2",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "PENDING_VISUAL_REVIEW",
+        "reasons": []
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-006-v1",
+      "laneOrdinal": 6,
+      "promptSha256": "d8c4bea85f69808c96146ce8e1714eb3b914d8487f3020e0bb501ebcd950919e",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-006-v1.png",
+        "sha256": "ecb94e01604c3bdf4bc602b33571a3d3bb87b30a03a5b068eadf146059a43262",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "REJECT",
+        "reasons": [
+          "Mirror reflective surface appears materially below the required 40% of the frame."
+        ]
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-007-v1",
+      "laneOrdinal": 7,
+      "promptSha256": "f8d4e168f8e85b5077d846347e37f6c6d811309a138dcba32ce81dce2e291456",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-007-v1.png",
+        "sha256": "89f2a00884cc99785b48ca86b1d9b1ef870fdd18c530d858854be7f2b1baf6d2",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "REJECT",
+        "reasons": [
+          "Mirror reflective surface appears materially below the required 40% of the frame."
+        ]
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-008-v1",
+      "laneOrdinal": 8,
+      "promptSha256": "6254e426bed73c9e9f682a5335d3fb1cef705dfb8bb743caf4a1faf597194715",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-008-v1.png",
+        "sha256": "b56ee6c5a048009f8258fd652ca6b2d9353509863bbe0c98a6644f3b67a81eb7",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "PENDING_VISUAL_REVIEW",
+        "reasons": []
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-009-v1",
+      "laneOrdinal": 9,
+      "promptSha256": "f305076feb4688ba82cf210949f0718cfe3dee415fc335c4e339be83e0b2d447",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-009-v1.png",
+        "sha256": "c084738838bf8d1b2f061c13298d107b20044fb91c726b139195a20eca75b415",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "PENDING_VISUAL_REVIEW",
+        "reasons": []
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-010-v1",
+      "laneOrdinal": 10,
+      "promptSha256": "cd11ab19b858eb9578fa5890dd8eaf6ea45fa9723121d2d8be2b4b08c53c8eea",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-010-v1.png",
+        "sha256": "b338fc444b9ceed0bce173f37c6139d63652ec0a24a193db045001e765e34d86",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "PENDING_VISUAL_REVIEW",
+        "reasons": []
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-011-v1",
+      "laneOrdinal": 11,
+      "promptSha256": "ab2d2bb3130007013043dd64e185b989f9428cc747a2fd9374ab9f671fd8a55c",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-011-v1.png",
+        "sha256": "72a46207bd8671c2ed084d349e8bc7e5ac885691945a28bf2978cc453edc592b",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "PENDING_VISUAL_REVIEW",
+        "reasons": []
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-012-v1",
+      "laneOrdinal": 12,
+      "promptSha256": "7fd9b03e72690305daf1a4f04c30d9a8595404661543b7427e481c39398c705f",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-012-v1.png",
+        "sha256": "4288aa75f196b96635cb1e0593555e50210dab7afac70cc303b82c59686acc14",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "PENDING_VISUAL_REVIEW",
+        "reasons": []
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-013-v1",
+      "laneOrdinal": 13,
+      "promptSha256": "4a3b0e1e5d43e6c2ff41777b58f0a96e705c960f9c077fb85f3fe2745954bac4",
+      "output": {
+        "path": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-013-v1.png",
+        "sha256": "9ebbeb582d8fc4b424ce4d04f5582947576493a73668a660090e2c4ffac99aba",
+        "width": 1672,
+        "height": 941
+      },
+      "visualQa": {
+        "status": "PENDING_VISUAL_REVIEW",
+        "reasons": []
+      }
+    }
+  ]
+}

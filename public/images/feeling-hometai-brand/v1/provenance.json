@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "feeling-hometai-brand-asset/v1",
+  "platformId": "feeling-hometai",
+  "assetId": "feeling-hometai-mark-openai-v1",
+  "createdAt": "2026-08-16T05:15:00+09:00",
+  "generationMethod": "OpenAI built-in image generation",
+  "sourceGeneratedPath": "/Users/ssm/.codex/generated_images/019fed72-9af2-70c2-9986-03c255f0b5be/exec-3794efa2-aacf-4dff-ab52-265b628d964e.png",
+  "outputPath": "public/images/feeling-hometai-brand/v1/feeling-hometai-mark-openai-v1.png",
+  "sha256": "6c7f7d743edb2b16800da24c225d2dc7076ca42027d90202e199d499cdfcbcd0",
+  "width": 1254,
+  "height": 1254,
+  "format": "png",
+  "hasAlpha": true,
+  "prompt": "Edit this logo into a production-ready flat identity mark. Preserve the overall rounded arch and the abstract internal ㅍ-inspired geometry, but simplify it substantially. Remove the small leaf entirely. Replace it with one tiny clean vertical gold notch centered in the negative-space doorway, like a warm light through a door. Use exactly two perfectly solid colors with no tonal variation: deep rosewood #6B2B38 and muted warm gold #C59A55. Eliminate every gradient, bevel, shadow, glow, texture, fringe, outline, and pseudo-3D effect. Crisp vector-like hard edges, optically balanced stroke widths, strong silhouette at 32px. Genuine transparent alpha background. Centered square symbol only with generous transparent margins. No text, no tile, no mockup, no stock house details, no person, no wave, no heart, no petal, no watermark.",
+  "promptSummary": "Rounded architectural arch and abstract ㅍ-inspired geometry with a small warm-gold doorway light; transparent background, boutique wellness identity, no text or logo tile.",
+  "referenceImageUsed": "OpenAI-generated concept iteration only; no third-party logo or brand asset was used."
+}

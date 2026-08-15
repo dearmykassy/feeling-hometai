@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "rang-therapy-template3-lane-receipt/v1",
+  "campaign": "template3-mirror-selfie-v1",
+  "lane": "H",
+  "status": "PENDING_ROOT_VISUAL_REVIEW",
+  "rootVisualApproval": false,
+  "routeAssignment": false,
+  "jobCount": 13,
+  "generatedWith": "codex-built-in-image_gen",
+  "sourceManifest": "/Users/ssm/Documents/Codex/rang-therapy/artifacts/image-campaign/template3-mirror-selfie-v1/campaign.v1.json",
+  "createdAt": "2026-08-15T19:13:57Z",
+  "jobs": [
+    {
+      "jobId": "rng-t3-rgn-092-v1",
+      "laneOrdinal": 1,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-092-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "large circular mirror occupies the right side, reflection surface is clear, and multiple frame edges are visible.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "7331f8df5b0c84201d00fb8402701c972433bf9ac4370c808357315dbb8f4ec7"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-093-v1",
+      "laneOrdinal": 2,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-093-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "circular mirror is unmistakable, mirror surface is dominant, and frame is readable on multiple sides.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "18868dff843df3d4cdbac92dd573e799f9b517429fe03416b4e0d24dccbecbab"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-094-v1",
+      "laneOrdinal": 3,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-094-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "large round mirror and reflected phone-selfie composition are clear with visible frame edges.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "8933382f60a41d04f2f4c9b9847794049287465d11d6862a7ccfd7af4be6b0fd"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-095-v1",
+      "laneOrdinal": 4,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-095-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "mirror is the primary right-side object, reflection is clear, and frame outline is visible on multiple sides.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "97882ee58a3c679d9f696ae91bfa8c326c52cce9a1636429fa8a2e058d50781a"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-096-v1",
+      "laneOrdinal": 5,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-096-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "mirror reflection surface is large and clearly distinct from the wall with visible round frame.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "2fc08a2521999b550e879e6d372376e0c9c73c4fb673fafffb78bd9b1cb196bc"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-097-v1",
+      "laneOrdinal": 6,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-097-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "seated mirror-selfie composition is clear, mirror surface is large, and frame edges are visible.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "db11a1c150b26519a00040998f09a740c3cf3a1c1a8452240fda2677e87d7bf0"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-098-v1",
+      "laneOrdinal": 7,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-098-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "large circular mirror exceeds the intended visual prominence and the reflection is unambiguous.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "4202f94883c2ee208f4ddbc39cd630dafdacd19c3f6ae70a0103046492ea8c89"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-099-v1",
+      "laneOrdinal": 8,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-099-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "mirror and reflected subject are clear, with frame visible on multiple sides.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "3c89dd6941119fbaf3cebc55ded0d174fa0d930a1cd4350e3cbc6e148ead4c26"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-100-v1",
+      "laneOrdinal": 9,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-100-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "cropped circular mirror still has two-plus readable frame edges and a clear reflected selfie composition.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "58fc49598299417b49a97d73d11740223b1ccefa26b0b68f12135066a0ef4739"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-101-v1",
+      "laneOrdinal": 10,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-101-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "mirror dominates the right side and reflected phone-selfie composition is clear.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "55fd266b854c29309a61a35b0962a4468fea7f51521f19ffd229bad025070f6c"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-102-v1",
+      "laneOrdinal": 11,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-102-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "wider architectural composition keeps the circular mirror outline and reflection clear.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "bc32e3a72b324c286df62dff74d64dbfaef4110490203eaf291825e9cb5aa303"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-103-v1",
+      "laneOrdinal": 12,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-103-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "seated mirror portrait has a large, clearly framed mirror and unambiguous reflection.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "6a02b58a410ef6a1d829f0d648be9d6645af5d9bcb0b449a1c1010a908408fac"
+      }
+    },
+    {
+      "jobId": "rng-t3-rgn-104-v1",
+      "laneOrdinal": 13,
+      "outputPath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-104-v1.png",
+      "status": "ACCEPT_CANDIDATE",
+      "reason": "mirror is clear and prominent with visible frame and actual reflection composition.",
+      "technical": {
+        "pngDecode": true,
+        "format": "PNG",
+        "dimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "sha256": "d8e33578ba5ba0ddadcbdc7a86f566f508ff9419711a4443af900172c9874efd"
+      }
+    }
+  ]
+}

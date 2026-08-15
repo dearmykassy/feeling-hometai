@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "rang-template3-mirror-selfie-lane-receipt/v1",
+  "campaign": "template3-mirror-selfie-v1",
+  "platform": "rang-therapy",
+  "lane": "D",
+  "provider": "codex-built-in-image_gen",
+  "generationMode": "codex-built-in-image_gen",
+  "jobs": [
+    {
+      "jobId": "rng-t3-rgn-040-v1",
+      "promptSha256": "a5aec12c2dd7c6d43feeee6c7315efcb8601d2af5fe32c1d8cf0c524341ad705",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-040-v1.png",
+      "outputSha256": "f903b9b59173468f780a88ec10d43869ed217de9de0d4d543248382e8e12ce4a",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-041-v1",
+      "promptSha256": "3378c2b1c27f9834968d966b8de23b65c739dcf4b86f25d2bda4c2b42fe6efc6",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-041-v1.png",
+      "outputSha256": "6409fd77e5870c8ee1ad58b815495ec91b219955e40dc283a09b20a0dee1d0b7",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-042-v1",
+      "promptSha256": "7cf8d8417cf381920933d0413d9e742fdafdc42e0555ba9dfb32bd56251b9bb2",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-042-v1.png",
+      "outputSha256": "4e5d910bcf5336cf8da6b42ea9822a1bc4ea87eec85673a05efc0c1d100979ac",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-043-v1",
+      "promptSha256": "1b9d678ac9133955a40b9bb1df69d2b726aa5db8fe6d1a4d2f3e8533246d21dc",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-043-v1.png",
+      "outputSha256": "e4cc9ecd1f1a6d720838113e7f48d94b0eb09362129f605e3a2ad1765c3bcab7",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-044-v1",
+      "promptSha256": "54f63d2b12c21bcb9256b062f2ca58671a57c751e138141dbf8ae0084f0493be",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-044-v1.png",
+      "outputSha256": "411eb0df21a7a79122d1616dd1a9c01210e25f2cf887fd9ad31501d7fc370ade",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-045-v1",
+      "promptSha256": "a44b587cbbde9fc0a5dea2ec465ea5c52f191292c5f08c8245400ee537546b9f",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-045-v1.png",
+      "outputSha256": "fadb422111bcbddbd9315a7f9b2f067aa01ba329c728052bf3792b08da938bfa",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-046-v1",
+      "promptSha256": "77d4e7271ba6f23254f8400b146e35bea6223b7ccbaff62279d3ea9dd998c361",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-046-v1.png",
+      "outputSha256": "fe3b93a1fa20f051672c961ce2c8276602096e8ad07fd18f7732559448fd1638",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-047-v1",
+      "promptSha256": "d9dda75c5112b9ca2cdf0b4ca58a2fdb0f2d9d17ac4d4ac5df8021fa930a6bd7",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-047-v1.png",
+      "outputSha256": "0c71b402629cddd74faf8bd627c34db4849ebcbc923999876ce89c1f759f2041",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-048-v1",
+      "promptSha256": "9ed97bb622afc62b4fa372830c85ea35df31d7e812177925158116835f31ab32",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-048-v1.png",
+      "outputSha256": "37dfef92caccfababbee99deca06618dc64b6f7737067de18f8f2bb4cdf08595",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-049-v1",
+      "promptSha256": "504317a7c9bd002e4ee8d0b0704bab68e7880248dbd438bb3607db6ae64f3584",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-049-v1.png",
+      "outputSha256": "d786749d2b66b95d0f017b566daa2fc1e9bb1ae36c259aafc3d957acdf6697e9",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-050-v1",
+      "promptSha256": "61b2913980956b700ffd810abc89f4a7a56aa65f571fd2f3fb106f92ccab28b6",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-050-v1.png",
+      "outputSha256": "893c5c314b8e962adc13d9b173b0dd0ee370758ceb12ee18a08b12a986406f0e",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-051-v1",
+      "promptSha256": "c5bdc41ed5fc8bccae74a6a6eabeb693c2204a8b193a17171c030632993c6fd6",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-051-v1.png",
+      "outputSha256": "4a91f48c351ce44a7b705b2930bc6406df7e096589a84f6fc947204bc8e25b8f",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    },
+    {
+      "jobId": "rng-t3-rgn-052-v1",
+      "promptSha256": "fb79bd5e99338b06a15dc8babac391b94c1e2f6316822ad4af9c412693774a80",
+      "outputPath": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-052-v1.png",
+      "outputSha256": "6e3cada421496a618cc55097afdc66bfa15e699804276d2d9e86d643b7ec432a",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "visualVerdict": "PENDING"
+    }
+  ]
+}
+

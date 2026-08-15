@@ -1,0 +1,23 @@
+# 필링홈타이 작업 규칙
+
+- 새 활동을 시작하기 전 이 파일과 `DIARY.md`를 끝까지 읽고, 작업 결과와 검증값을 `DIARY.md` 맨 위에 최신순으로 기록한다.
+- 시각·레이아웃 정본은 `/Users/ssm/Documents/Services/Templetes/Template3`다. 검증된 1,291개 지역 그래프와 경로별 상세 본문은 보존하되, 과거 Template2 모바일 셸·갤러리·악보 UI와 `/cadence`, `/score`, `/atelier`, `/journal` IA는 재사용하지 않는다.
+- 마사지봄에서는 사장님이 확정한 전화·가격·현장 후불·카드 결제·24시간 상담·이용 절차·Q&A 운영 사실을 공유할 수 있다. 다른 플랫폼의 브랜드명·이미지·지역별 메타 문장·지역별 소개 문장을 그대로 복사하지 않는다.
+- 브랜드는 `필링홈타이`, 플랫폼 ID는 `feeling-hometai`로 고정한다. 고객 화면과 메타에 이전 플랫폼 브랜드를 남기지 않는다.
+- 헤더와 파비콘의 정본 로고는 투명 배경 `/images/feeling-hometai-brand/v1/feeling-hometai-mark-openai-v1.png`다. 로고에 임의 타일·테두리·그림자를 덧씌우지 않는다.
+- 상단 지역 검색은 장식 링크가 아니라 1,291개 전체 지역명과 경로를 검색해 상세 지역 페이지로 바로 이동할 수 있어야 한다.
+- 실제 도메인, 법적 문구, 브랜드 승인 전까지 `.invalid` canonical, `noindex,nofollow`, robots 전체 차단을 유지한다.
+- Template3 지역 배너는 OpenAI 이미지 생성으로 만든 성인 한국인 여성의 고급스러운 거울 셀피 계열을 사용한다. 첨부 참고 사진의 인물·얼굴·정확한 포즈를 복제하지 않고 구도와 무드만 참고하며, 문자·로고·워터마크·선정적 의상은 허용하지 않는다.
+- 1,291개 지역은 원본 130장으로 배정하고 사진 1장당 최대 10회만 재사용한다. 새 자산은 Template3 전용 버전 경로와 원본/파생/배정 기록을 사용하며 기존 Template2 이미지 파일이나 릴리스 영수증을 덮어쓰지 않는다.
+- 지역 페이지와 sitemap은 같은 `ACTIVE_REGION_NODES`를 사용한다. 지역 정본은 `/Users/ssm/Documents/Codex/massagebom`의 활성 1,291개 경로·계층과 exact 동일해야 하며, 마사지봄에 없는 지역 페이지를 추가하지 않는다. 경로 집합이 다르거나 1,291개가 아니면 테스트와 빌드를 실패시킨다.
+- 일상 개발 검증은 지역 수·메타 중복·핵심 운영 사실·대표 렌더를 빠르게 확인하는 경량 절차로 유지한다. 과거 대규모 감사 영수증은 역사 기록이며 새 Template3 빌드 권한으로 재사용하지 않는다.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

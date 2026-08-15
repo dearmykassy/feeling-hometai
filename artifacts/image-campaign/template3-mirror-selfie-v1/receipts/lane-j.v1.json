@@ -1,0 +1,268 @@
+{
+  "schemaVersion": "rang-template3-mirror-selfie-lane-receipt/v1",
+  "platform": "rang-therapy",
+  "campaign": "template3-mirror-selfie-v1",
+  "lane": "J",
+  "status": "PENDING_ROOT_VISUAL_REVIEW",
+  "generationMode": "codex-built-in-image_gen",
+  "campaignManifest": "/Users/ssm/Documents/Codex/rang-therapy/artifacts/image-campaign/template3-mirror-selfie-v1/campaign.v1.json",
+  "totalJobs": 13,
+  "completedJobs": 13,
+  "acceptCandidates": 10,
+  "rejected": 3,
+  "rootApproval": false,
+  "routeAssignmentsCreated": false,
+  "notes": [
+    "No ROOT_APPROVED/PASS/route assignment is claimed by this lane receipt.",
+    "Existing files, if any, were not overwritten; new generated files were copied only when the target path did not already exist."
+  ],
+  "jobs": [
+    {
+      "id": "rng-t3-rgn-118-v1",
+      "lane": "J",
+      "laneOrdinal": 1,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-118-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-118-v1.png",
+      "promptSha256": "4dc7d168af478d2325be7926022e478874dfe139e8f6405d714c1dbc333af513",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "3632ccd476f653d070f74eaa6d2b30ea0839af5d7ec02c68424e7709b41b0dfe",
+        "bytes": 1619751
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-119-v1",
+      "lane": "J",
+      "laneOrdinal": 2,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-119-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-119-v1.png",
+      "promptSha256": "4e5b9b700b608c6306537d8e239bb5ca9fae55ba1714b277132a206210afe2d3",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "bb93bb8e6ea6ad3e983a813c744213232cc9f113cbdcce0dd29129ffb26a48a1",
+        "bytes": 1778003
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-120-v1",
+      "lane": "J",
+      "laneOrdinal": 3,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-120-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-120-v1.png",
+      "promptSha256": "b98eecbc7b12db57c26cddc9be288c3de4254ea4be2d5bfe601be26d8eaf18cd",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "141b70444e23b2171d08f2d89e166cc92ff0fa36a6c1b7d6f2031a78558f4e1c",
+        "bytes": 1731709
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-121-v1",
+      "lane": "J",
+      "laneOrdinal": 4,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-121-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-121-v1.png",
+      "promptSha256": "03e8df6eae55051ceee20de81057435adeff7a3206e01f410ce9cb7203a47ffc",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "5f52c749c735f52ef50548c5f602a63b2807879a49ed186891c2d77ea606ce7f",
+        "bytes": 1543051
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-122-v1",
+      "lane": "J",
+      "laneOrdinal": 5,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-122-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-122-v1.png",
+      "promptSha256": "9bed21891f6c0d879cb8cd84758522caec6a7c509766363d389bf5d9e69590ec",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "b0a9faaa5397149643f083a933c8ea1a241f485b5aa152a2e1523a4c30fe4622",
+        "bytes": 1617165
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-123-v1",
+      "lane": "J",
+      "laneOrdinal": 6,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-123-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-123-v1.png",
+      "promptSha256": "c5610e28943124234917af4130296d4187f4cac76bb3bcdb0b00ca81a6234c0d",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "bf4bcdc0a07293e93e3b8284031c6ca2e5244a6b02eb7da08aeab54ce6b23b46",
+        "bytes": 1615107
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-124-v1",
+      "lane": "J",
+      "laneOrdinal": 7,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-124-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-124-v1.png",
+      "promptSha256": "3a79ff2124bdd8f858abdb8e681833c942b56c94f2a8d7fa677b39a04a344fa8",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "5074d5529e6d7fb61fd230671fd5d84f5ff79ac12f1728c699fff15aba56fab7",
+        "bytes": 1736261
+      },
+      "visualQA": {
+        "status": "REJECT",
+        "reason": "REJECT: mirror and at least two frame edges are visible, but estimated reflective mirror surface is below the required 40% of the full photograph."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-125-v1",
+      "lane": "J",
+      "laneOrdinal": 8,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-125-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-125-v1.png",
+      "promptSha256": "4edec2d307bab7f1583f239d7cd3dc50619666e188351fe194049d4b3083a21c",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "a3b96dddbda596b0d61d4974dbbc8cd8866e5dec1db01455be924ec2a3807279",
+        "bytes": 1673508
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-126-v1",
+      "lane": "J",
+      "laneOrdinal": 9,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-126-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-126-v1.png",
+      "promptSha256": "46fd8d7b96ecc1c1ddb4e88d657cc0966b8f6a1831178e73ddf318846d714c26",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "172903d853fcfb714214e0de07699c4e900a04da8bd0df6ea2f2cfb45420b4b1",
+        "bytes": 1614223
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-127-v1",
+      "lane": "J",
+      "laneOrdinal": 10,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-127-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-127-v1.png",
+      "promptSha256": "1ded0781b6b33db5eabcdf2dd0616000e2244bd2aadcd604aa18ff2215618cf4",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "26c56c6d51b69881e98aa90108b24fd4f2d8630b3d4921b30f60f2852e081a1a",
+        "bytes": 1646731
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-128-v1",
+      "lane": "J",
+      "laneOrdinal": 11,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-128-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-128-v1.png",
+      "promptSha256": "bcb573022c28aa94bc485876a18e1a4ee1d7a16862fe7af24f12898a46cd6e94",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "1c3272a7a095e4de3517f1186b5c06c1ac7604510fcf76cb58949fb3be387e8b",
+        "bytes": 1728837
+      },
+      "visualQA": {
+        "status": "REJECT",
+        "reason": "REJECT: mirror outline is clear, but estimated reflective mirror surface is below the required 40% of the full photograph."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-129-v1",
+      "lane": "J",
+      "laneOrdinal": 12,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-129-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-129-v1.png",
+      "promptSha256": "d75b209b107c4298c139ff334054de2dbe6f8da112e06d08ee36a673031a8704",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "b95645329b16f0e2c60690e59df0ef2c48057e6c7f7a1e7159dc3806d6d5925e",
+        "bytes": 1628180
+      },
+      "visualQA": {
+        "status": "ACCEPT_CANDIDATE",
+        "reason": "ACCEPT_CANDIDATE: mirror reflection is visually clear, mirror surface is estimated at or above 40% of the photograph, at least two frame edges are visible, and no text/logo/watermark/bed/minor/duplicate reflection was observed in technical visual review."
+      }
+    },
+    {
+      "id": "rng-t3-rgn-130-v1",
+      "lane": "J",
+      "laneOrdinal": 13,
+      "output": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-130-v1.png",
+      "outputAbsolutePath": "/Users/ssm/Documents/Codex/rang-therapy/public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-130-v1.png",
+      "promptSha256": "0ee3c2487b0cfadfbaf7b0f6304f3f33320d9a68f7734ad08555c97b6bda63d2",
+      "technical": {
+        "pngDecoded": true,
+        "width": 1672,
+        "height": 941,
+        "sha256": "5315915e8397489faf1c84f38aa7b0749c3f383edb67185c4d7756b5eb1c4685",
+        "bytes": 1796379
+      },
+      "visualQA": {
+        "status": "REJECT",
+        "reason": "REJECT: mirror is clearly present, but estimated reflective mirror surface is below the required 40% of the full photograph."
+      }
+    }
+  ]
+}
