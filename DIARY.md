@@ -2,6 +2,20 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-16 21:00 KST — 랑테라피 복제형 카피 분리 완료
+
+- 사장님 피드백에 따라 랑테라피는 변경하지 않고 필링홈타이의 홈·지역 허브·가격·이용 안내·공지·블로그 허브·게시물 2개·공통 내비게이션과 1,291개 지역 본문을 다시 썼다. 24시간 전화상담, 공개 가격표, 선입금 없는 현장 후불, 현금·현장 카드 결제, 2인 동시 관리, 일회용 비품·소독처럼 확인된 운영 사실만 유지했고 과장·후기·배정·출발·도착 시각 약속은 넣지 않았다.
+- 지역 본문은 필링홈타이 전용 6개 섹션과 문장 bank로 분리했다. 랑테라피와 같은 1,291개 route를 비교한 결과 같은 위치의 section ID·heading·문단·문장은 각각 0/7,746, 0/7,746, 0/15,492, 0/30,984이고 정규화 문단 값 교집합도 0개다. 전체 문장 교집합은 공통 운영 사실인 카드 결제 문장 2개뿐이다. 고정 화면 12개 source의 고객 마케팅 문구 exact 교집합은 0이며, 남은 공통값은 접근성 라벨 `전체 메뉴 열기`와 브랜드 정규화 후 범용 제목 `{brand} 운영 지역`뿐이다.
+- 지역 graph 1,291개, metadata route 1,299개, 경로별 title·description·H1, 8개 keyword family 10,328개, 운영 도메인 canonical·index/follow·robots·sitemap, 기존 이미지·검색·GA4 계약은 보존했다. 새 콘텐츠 corpus SHA-256은 `53468a0cf09e1f37d3b648cacb548af1a5fb793eb97195c9f20d5782ad7b7f0c`, source manifest SHA-256은 `761d3130f7ea3069defa53b9f06ffaa8aa0299ef2400227970dce564e7ff6941`이다.
+- 검증: full Vitest 11 files/37 tests PASS, focused copy/content Vitest 4 files/18 tests PASS, typecheck PASS, lint error 0(기존 일반 `<img>` warning 2개), `pnpm build` PASS(정적 1,303페이지). built audit는 지역 1,291·metadata 1,299·키워드 10,328, canonical/robots/sitemap/OG/Twitter/source↔DOM/전화 CTA mismatch 0이다. corpus 내부 하위 `seoCopyBanks`의 title 예외는 사장님 지정 meta-title 형식 보존, `customerPhysicalMovement=11`은 `이동·이동면·대이동` 같은 실제 지명 예외이며 release gate가 정확히 허용한다. 기존 cross-platform exact 스크립트는 의도적으로 공통인 8개 SEO keyword와 운영 사실 원자까지 collision으로 보는 과거 정책이라 그 정책을 약화하지 않았고, 이번 교차 검수는 고객 노출 문장·문단을 별도로 직접 비교했다.
+
+## 2026-08-16 20:49 KST — 지역 본문 랑테라피 복제 구조 해소
+
+- 마사지봄과 같은 활성 1,291개 지역 경로, 경로별 고유 title·description·H1, 8개 SEO keyword 계약은 유지했다. 지역 본문은 `지역 선택 → 전화 문의 항목 → 시간·코스 → 가격표 → 현장 결제 → 변경·최종 확인`의 필링홈타이 전용 6개 섹션으로 다시 썼고, 제목·본문·지역 목록·마지막 안내 문구도 같은 평문 기준으로 정리했다. 24시간 상담, 예약금·선입금 없음, 이용 후 현장 결제, 현금·현장 카드 결제, 공개 가격표 사실만 남겼으며 배정·출발·도착 시간은 약속하지 않는다.
+- 1,291개 경로에서 지역 문단 15,492개는 전부 exact 고유하다. 랑테라피와 지역명을 제거한 교차 비교 결과 같은 위치의 section ID 0/7,746, heading 0/7,746, 문단 0/15,492, 문장 0/30,984이며 정규화 문단 값 교집합도 0개다. 전체 문장 값 교집합은 공통 운영 사실인 현장 카드 결제 문장 2개뿐이다. `한눈에·차분하게·부담 없이·맞춤·흐름·여유롭게·특별한·섬세한·나만의·해 보세요`와 다른 플랫폼 브랜드, 배정·ETA 표현은 지역 고객 문구에서 0건이다.
+- 새 전용 검사는 1,291 route와 8-keyword, 6개 section ID·순서, legacy ID/타 브랜드/금지 표현 0건, 확인된 운영 사실을 고정한다. focused Vitest 2 files/12 tests와 전체 Vitest 11 files/37 tests PASS, 변경 파일 ESLint PASS, `tsc --noEmit` PASS다. 콘텐츠 corpus 재생성은 COMPLETE이며 SHA-256 `de00aee0c20467ea97c54d35b11a3ec21bf4c265e1502dc487c42118ad4de234`, source manifest SHA-256 `7b642ee58e459d7b2cac18466d55a48dee76cea6e7270095b35b51c249c5e43f`다.
+- 기존 `audit:cross-platform:exact`는 두 플랫폼에 의도적으로 유지한 지역 SEO keyword와 공통 사실 `결제 시점`까지 exact collision으로 처리해 중단된다. 이번 작업은 보존 계약인 keyword를 바꾸거나 그 감사 정책을 약화하지 않았다. 홈·고정 페이지·블로그·이미지·분석·배포·git push는 이 지역 본문 작업 범위에서 변경하지 않았다.
+
 ## 2026-08-16 08:28 KST — GA4 페이지·전화 CTA 계측 스캐폴딩
 
 - `NEXT_PUBLIC_GA_MEASUREMENT_ID`가 유효한 `G-` 형식일 때만 GA4를 빌드 결과에 포함하도록 했다. App Router 최초 진입·경로 변경에는 query/hash 없는 `page_path`·`page_location`, 개인정보 형태를 제거하고 100자로 제한한 `page_title`, `page_type`, `platform_id=feeling-hometai`를 수동 `page_view`로 보낸다.

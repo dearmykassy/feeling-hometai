@@ -10,9 +10,9 @@ import { COURSE_GROUPS, NOTICE_ITEMS, SERVICE_FAQS, SERVICE_STEPS } from "@/lib/
 
 export const metadataContract = createRouteMetadataContract(
   "/",
-  "필링홈타이 | 전국 출장 마사지 지역·가격 안내",
-  "전국 출장 마사지 운영 지역, 코스별 시간과 가격, 24시간 전화상담과 현장 후불 기준을 확인하는 필링홈타이입니다.",
-  ["필링홈타이", "전국 출장 마사지", "출장안마", "출장타이마사지", "출장스웨디시", "출장홈타이"],
+  "필링홈타이 전국 지역 안내 | 출장마사지 코스·요금",
+  "필링홈타이의 운영 지역과 시간별 코스 금액을 확인하고, 서비스 주소와 희망 일정을 24시간 전화로 문의할 수 있습니다.",
+  ["필링홈타이", "출장마사지 지역", "출장마사지 요금", "출장홈타이", "출장타이마사지", "출장스웨디시"],
 );
 export const metadata: Metadata = toNextMetadata(metadataContract);
 
@@ -38,11 +38,11 @@ export default function Home() {
           <div className="home-hero-scrim" aria-hidden="true" />
           <div className="home-hero-copy">
             <p className="eyebrow">FEELING HOMETAI · 24H CONSULTATION</p>
-            <h1 id="home-hero-title">전국 출장 마사지,<br />지역부터 가격까지 한눈에</h1>
-            <p className="hero-body">서비스 주소와 희망 시각을 준비하고, 원하는 코스와 현장 결제 기준을 차례로 확인하세요.</p>
+            <h1 id="home-hero-title">필링홈타이<br />지역·코스 안내</h1>
+            <p className="hero-body">지역 페이지와 가격표를 확인한 뒤 서비스 받을 주소와 희망 날짜·시각을 전화로 알려 주세요.</p>
             <div className="hero-actions">
-              <Link className="button button--primary" href="/areas/">우리 지역 찾기</Link>
-              <a className="button button--glass" href={PHONE_HREF}>전화상담</a>
+              <Link className="button button--primary" href="/areas/">지역 검색</Link>
+              <a className="button button--glass" href={PHONE_HREF}>전화 문의</a>
             </div>
           </div>
 
@@ -59,8 +59,8 @@ export default function Home() {
         <div className="information-sections">
           <section className="info-section" id="prices" aria-labelledby="price-title">
             <header className="section-heading section-heading--link">
-              <div><span className="section-label">COURSE &amp; PRICE</span><h2 id="price-title">코스별 시간과 금액</h2><p>공개된 시간과 금액을 먼저 비교하고 상담에서 선택 내용을 확인하세요.</p></div>
-              <Link href="/pricing/">전체 가격표 →</Link>
+              <div><span className="section-label">COURSE &amp; PRICE</span><h2 id="price-title">시간별 코스 금액</h2><p>코스마다 이용 시간과 금액이 다릅니다. 전체 항목은 가격표에서 확인할 수 있습니다.</p></div>
+              <Link href="/pricing/">가격표 확인 →</Link>
             </header>
             <div className="price-grid">
               {COURSE_GROUPS.map((group) => (
@@ -74,8 +74,8 @@ export default function Home() {
 
           <section className="info-section" aria-labelledby="notice-title">
             <header className="section-heading section-heading--link">
-              <div><span className="section-label">NOTICE</span><h2 id="notice-title">이용 전 공지사항</h2><p>전화상담과 현장 결제처럼 확인된 운영 기준만 정리했습니다.</p></div>
-              <Link href="/notice/">전체 보기 →</Link>
+              <div><span className="section-label">NOTICE</span><h2 id="notice-title">운영 기준</h2><p>상담 시간, 상담 항목, 결제 시점과 카드 결제 방식을 안내합니다.</p></div>
+              <Link href="/notice/">공지 확인 →</Link>
             </header>
             <div className="info-grid info-grid--four notice-grid">
               {NOTICE_ITEMS.map((notice) => (
@@ -90,8 +90,8 @@ export default function Home() {
 
           <section className="info-section" aria-labelledby="blog-title">
             <header className="section-heading section-heading--link">
-              <div><span className="section-label">FEELING JOURNAL</span><h2 id="blog-title">이용 전 읽어보기</h2><p>주소·시간·코스를 준비할 때 필요한 내용을 두 편으로 나눴습니다.</p></div>
-              <Link href="/blog/">블로그 보기 →</Link>
+              <div><span className="section-label">FEELING NOTES</span><h2 id="blog-title">이용 정보</h2><p>외출 시간이 없을 때와 자택·숙소에서 이용할 때의 확인 항목을 정리했습니다.</p></div>
+              <Link href="/blog/">글 목록 →</Link>
             </header>
             <div className="blog-preview-grid">
               {BLOG_POSTS.map((post, index) => (
@@ -110,14 +110,14 @@ export default function Home() {
           </section>
 
           <section className="info-section" id="process" aria-labelledby="process-title">
-            <header className="section-heading"><span className="section-label">HOW TO USE</span><h2 id="process-title">이용 절차</h2></header>
+            <header className="section-heading"><span className="section-label">HOW TO USE</span><h2 id="process-title">상담부터 결제까지</h2></header>
             <ol className="process-list">
               {SERVICE_STEPS.map(([number, title, copy]) => <li key={number}><span>{number}</span><div><h3>{title}</h3><p>{copy}</p></div></li>)}
             </ol>
           </section>
 
           <section className="info-section" id="faq" aria-labelledby="faq-title">
-            <header className="section-heading"><span className="section-label">FAQ</span><h2 id="faq-title">자주 묻는 질문</h2></header>
+            <header className="section-heading"><span className="section-label">FAQ</span><h2 id="faq-title">문의가 많은 항목</h2></header>
             <div className="faq-list">
               {SERVICE_FAQS.map(([question, answer], index) => <details key={question} open={index === 0}><summary><span>{question}</span><b aria-hidden="true">＋</b></summary><p>{answer}</p></details>)}
             </div>
@@ -125,14 +125,14 @@ export default function Home() {
         </div>
 
         <section className="contact-panel" aria-labelledby="contact-title">
-          <div><span>24H CALL CENTER</span><h2 id="contact-title">주소와 희망 시간을 준비했다면<br />전화로 가능 여부를 확인하세요.</h2><p>{PHONE_DISPLAY} · 현장 후불 · 현장 카드 결제</p></div>
-          <div className="contact-actions"><a href={PHONE_HREF}>전화상담</a><Link href="/guide/">이용 안내</Link><Link href="/pricing/">가격표</Link></div>
+          <div><span>24H CALL CENTER</span><h2 id="contact-title">서비스 주소와 희망 일정을<br />전화로 알려 주세요.</h2><p>{PHONE_DISPLAY} · 이용 후 현장 결제 · 카드 결제 가능</p></div>
+          <div className="contact-actions"><a href={PHONE_HREF}>전화 문의</a><Link href="/guide/">이용 방법</Link><Link href="/pricing/">코스 가격</Link></div>
         </section>
 
         <section className="home-regions" aria-labelledby="regions-title">
           <header className="section-heading section-heading--link">
-            <div><span className="section-label">SERVICE AREA</span><h2 id="regions-title">전국 출장 마사지 지역 안내</h2><p>각 권역을 선택하면 연결된 상세 지역 페이지를 확인할 수 있습니다.</p></div>
-            <Link href="/areas/">전체 지역 →</Link>
+            <div><span className="section-label">SERVICE AREA</span><h2 id="regions-title">운영 지역 찾기</h2><p>권역을 선택하면 시·군·구와 동·읍·면별 안내 페이지가 열립니다.</p></div>
+            <Link href="/areas/">지역 목록 →</Link>
           </header>
           <div className="region-grid">
             {roots.map((root, index) => (
@@ -141,7 +141,7 @@ export default function Home() {
                   <Image alt="" aria-hidden="true" fill sizes="(max-width: 840px) 50vw, (max-width: 1099px) 33vw, 25vw" src={`/images/feeling-home-regions/v1/${root.key}.webp`} />
                   <small>{String(index + 1).padStart(2, "0")}</small>
                 </span>
-                <span className="region-card-copy"><strong>{root.name} 출장 마사지</strong><small>{root.count}개 연결 지역</small><b>지역 안내 →</b></span>
+                <span className="region-card-copy"><strong>{root.name} 출장 마사지</strong><small>{root.count}개 지역 페이지</small><b>목록 확인 →</b></span>
               </Link>
             ))}
           </div>

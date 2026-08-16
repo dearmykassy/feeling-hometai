@@ -128,10 +128,13 @@ const ROUTE_COUNTS = {
 } as const;
 const ALLOWED_TEL_ACTION_LABELS = [
   "전화상담",
+  "전화 문의",
   "☎ 전화상담",
   "☎ 상담",
   "☎ 전화상담 24시간 상담 안내",
+  "☎ 전화 문의 365일 24시간",
   `${PHONE_DISPLAY} 전화상담`,
+  `${PHONE_DISPLAY} 문의`,
   PHONE_DISPLAY,
 ] as const;
 
@@ -524,7 +527,7 @@ function blogPostArtifactElement(post: (typeof BLOG_POSTS)[number]) {
       React.createElement(
         "p",
         { className: "article-meta" },
-        `FEELING NOTE · ${post.publishedAt.slice(0, 10).replaceAll("-", ".")}`,
+        `FEELING GUIDE · ${post.publishedAt.slice(0, 10).replaceAll("-", ".")}`,
       ),
       ),
     ),
@@ -545,7 +548,7 @@ function blogPostArtifactElement(post: (typeof BLOG_POSTS)[number]) {
       React.createElement(
         "aside",
         { className: "article-checklist", "aria-labelledby": "blog-checklist-title" },
-        React.createElement("h2", { id: "blog-checklist-title" }, "통화 전 체크"),
+        React.createElement("h2", { id: "blog-checklist-title" }, "전화 문의 항목"),
         React.createElement(
           "ul",
           null,
@@ -562,10 +565,10 @@ function blogPostArtifactElement(post: (typeof BLOG_POSTS)[number]) {
               `관련 글: ${related.title}`,
             )
           : null,
-        React.createElement("a", { href: "/pricing/" }, "코스별 시간과 가격 보기"),
-        React.createElement("a", { href: "/guide/" }, "이용 순서 보기"),
-        React.createElement("a", { href: "/areas/" }, "서비스 지역 안내 보기"),
-        React.createElement("a", { href: PHONE_HREF }, "전화상담"),
+        React.createElement("a", { href: "/pricing/" }, "코스 가격 확인"),
+        React.createElement("a", { href: "/guide/" }, "이용 방법 확인"),
+        React.createElement("a", { href: "/areas/" }, "운영 지역 검색"),
+        React.createElement("a", { href: PHONE_HREF }, "전화 문의"),
       ),
     ),
     ),

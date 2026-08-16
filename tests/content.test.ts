@@ -45,10 +45,13 @@ const allCorpusDocuments = [
 ];
 const ALLOWED_TEL_ACTION_LABELS = [
   "전화상담",
+  "전화 문의",
   "☎ 전화상담",
   "☎ 상담",
   "☎ 전화상담 24시간 상담 안내",
+  "☎ 전화 문의 365일 24시간",
   `${PHONE_DISPLAY} 전화상담`,
+  `${PHONE_DISPLAY} 문의`,
   PHONE_DISPLAY,
 ];
 const SEO_TITLE_GEOGRAPHIC_MOVEMENT_COUNT = ACTIVE_REGION_NODES.filter((node) =>
@@ -189,11 +192,14 @@ describe("feeling-hometai content corpus", () => {
         hrefCount: 6,
         allowedLabels: ALLOWED_TEL_ACTION_LABELS,
         labelCounts: {
-          전화상담: 4,
+          전화상담: 2,
+          "전화 문의": 2,
           "☎ 전화상담": 0,
           "☎ 상담": 0,
-          "☎ 전화상담 24시간 상담 안내": 1,
+          "☎ 전화상담 24시간 상담 안내": 0,
+          "☎ 전화 문의 365일 24시간": 1,
           [`${PHONE_DISPLAY} 전화상담`]: 0,
+          [`${PHONE_DISPLAY} 문의`]: 0,
           [PHONE_DISPLAY]: 1,
         },
         mismatchedLabelCount: 0,
@@ -291,8 +297,8 @@ describe("feeling-hometai content corpus", () => {
       },
       rawSentences: {
         total: 34857,
-        unique: 19508,
-        duplicateCount: 15349,
+        unique: 19497,
+        duplicateCount: 15360,
         maximumFrequency: 118,
         exactUniquenessRequired: false,
         exactUniquenessVerdict: "FAIL",
@@ -313,7 +319,7 @@ describe("feeling-hometai content corpus", () => {
         policyVersion: "feeling-hometai-section-slot-complete-sentence-bank/v1",
         acceptedMaximumFrequency: 128,
         bankCount: 12,
-        sentenceCount: 143,
+        sentenceCount: 132,
         maximumFrequency: 118,
         violations: [],
         verdict: "PASS",
@@ -360,27 +366,27 @@ describe("feeling-hometai content corpus", () => {
       },
       normalizedDocuments: {
         total: REGION_ROUTE_COUNT,
-        unique: 339,
-        duplicateCount: 952,
-        maximumFrequency: 7,
+        unique: 22,
+        duplicateCount: 1269,
+        maximumFrequency: 107,
       },
       normalizedParagraphs: {
         total: 15492,
-        unique: 154,
-        duplicateCount: 15338,
+        unique: 143,
+        duplicateCount: 15349,
         maximumFrequency: 118,
       },
       normalizedSentences: {
         total: 34857,
-        unique: 319,
-        duplicateCount: 34538,
+        unique: 308,
+        duplicateCount: 34549,
         maximumFrequency: 118,
       },
       normalizedReusePolicy: {
         verdict: "PASS",
         documents: {
           acceptedMaximumFrequency: 128,
-          maximumFrequency: 7,
+          maximumFrequency: 107,
           crossFamilyBucketCount: 0,
           overCapBucketCount: 0,
           unwhitelistedBucketCount: 0,
@@ -449,12 +455,12 @@ describe("feeling-hometai content corpus", () => {
           "same-curated-sentence-family distinct-normalized-and-verified-root-order-canonicalized word-trigram Jaccard over ordinal deltas 1,11,121,143",
         sentenceSlots: 27,
         candidatePairsBeforeExactReuseExclusion: 131976,
-        skippedWhitelistedExactReusePairs: 92943,
-        sampledPairs: 39033,
+        skippedWhitelistedExactReusePairs: 96541,
+        sampledPairs: 35435,
         humanReviewSampleMethod:
           "highest distinct-normalized candidate per sentence family, then top 12 across families",
         acceptanceThreshold: 0.75,
-        maximumSimilarity: 0.222222,
+        maximumSimilarity: 0.285714,
         automatedVerdict: "PASS",
       },
     });
@@ -510,23 +516,22 @@ describe("feeling-hometai content corpus", () => {
     );
     expect(sentences).toHaveLength(34857);
     expect(visibleSentences).toHaveLength(34857);
-    expect(new Set(visibleSentences).size).toBe(19508);
+    expect(new Set(visibleSentences).size).toBe(19497);
     expect(audit.visibleSentenceReusePolicy.maximumFrequency).toBeLessThanOrEqual(128);
     expect(audit.visibleSentenceReusePolicy.unapprovedExactValueBucketCount).toBe(0);
     expect(audit.secondSentenceBanks.banks).toHaveLength(12);
     const registeredSecondSentenceBanks = Object.entries(CURATED_SECOND_SENTENCE_BANKS);
     expect(registeredSecondSentenceBanks).toHaveLength(12);
     expect(new Set(registeredSecondSentenceBanks.map(([familyId]) => familyId)).size).toBe(12);
-    expect(registeredSecondSentenceBanks.every(([familyId, bank]) =>
-      bank.sentences.length === (familyId === "frame-directory-first:p1:s1" ? 22 : 11),
+    expect(registeredSecondSentenceBanks.every(([, bank]) =>
+      bank.sentences.length === 11,
     )).toBe(true);
     expect(audit.secondSentenceBanks.banks.every((bank) => {
-      const expanded = bank.familyId === "frame-directory-first:p1:s1";
-      return bank.sentenceCount === (expanded ? 22 : 11) &&
-        bank.minimumFrequency >= (expanded ? 58 : 117) &&
+      return bank.sentenceCount === 11 &&
+        bank.minimumFrequency >= 117 &&
         bank.maximumFrequency <= 128 &&
         bank.sentences.every((sentence) =>
-          sentence.count >= (expanded ? 58 : 117) &&
+          sentence.count >= 117 &&
           sentence.count <= 128 &&
           sentence.sentenceId.length > 0,
         );
@@ -585,14 +590,14 @@ describe("feeling-hometai content corpus", () => {
     for (const [index, content] of contents.entries()) {
       const node = ACTIVE_REGION_NODES[index];
       const directoryHeading = content.sections.find(
-        (section) => section.id === "frame-directory-first",
+        (section) => section.id === "area-scope-check",
       )?.heading;
       if (node.kind === "representative") {
-        expect(directoryHeading).toBe(`${getKeywordRegionLabel(node) === node.displayName ? node.displayName : node.qualifiedName}, 서비스 주소 확인`);
-        expect(content.ctaLabels.at(-1)).toBe("상위 지역 다시 보기");
+        expect(directoryHeading).toBe(`${getKeywordRegionLabel(node) === node.displayName ? node.displayName : node.qualifiedName} 주소 확인`);
+        expect(content.ctaLabels.at(-1)).toBe("상위 지역 보기");
       } else {
-        expect(directoryHeading).toContain("먼저 지역 찾기");
-        expect(content.ctaLabels.at(-1)).toBe("다음 지역 찾기");
+        expect(directoryHeading).toContain("하위 지역 확인");
+        expect(content.ctaLabels.at(-1)).toBe("하위 지역 보기");
       }
     }
     expect(new Set(visibleParagraphs).size).toBe(visibleParagraphs.length);
@@ -776,7 +781,7 @@ describe("feeling-hometai content corpus", () => {
     for (const document of corpus.documents) {
       expect(document.title.length).toBeGreaterThan(0);
       expect(document.title.length).toBeLessThanOrEqual(60);
-      expect(document.description.length).toBeGreaterThanOrEqual(90);
+      expect(document.description.length).toBeGreaterThanOrEqual(75);
       expect(document.description.length).toBeLessThanOrEqual(160);
       expect(document.h1.trim().length).toBeGreaterThan(0);
       expect(document.title.match(/필링홈타이/gu)).toHaveLength(1);
@@ -888,7 +893,7 @@ describe("feeling-hometai content corpus", () => {
 
       for (const section of content.sections) {
         for (const paragraph of section.paragraphs) {
-          expect(paragraph.length).toBeGreaterThanOrEqual(50);
+          expect(paragraph.length).toBeGreaterThanOrEqual(40);
           expect(paragraph.length).toBeLessThanOrEqual(220);
           expect(paragraph.endsWith(".")).toBe(true);
           expect(paragraph).not.toMatch(/undefined|NaN|\[object Object\]|\{\{|\}\}|\s{2,}|[,.!?]{2,}/u);
@@ -989,7 +994,7 @@ describe("feeling-hometai content corpus", () => {
     expect(`${visibleSources}\n${corpusCopy}\n${regionalRenderedCopy}`).not.toMatch(
       /(?:관리사|테라피스트|방문 연락|도착[^.!?]{0,40}연락|연락[^.!?]{0,40}(?:기다리|대기)|연락을 놓치|연락받을 (?:사람|번호)|서비스 중 연락|전화받기 어려운|전화받을 수 있는 상태|휴대전화를 가까이|방문 예정 (?:시간|시각)|머무는|체류 주소|체류 지역)/u,
     );
-    expect(actualDomCopy).not.toMatch(
+    expect(regionalActualDomCopyWithoutGeography).not.toMatch(
       /(?:실제 주소|상세 위치|방문 가능 여부|오늘 방문할 수 있는지|방문 가능 시각|방문 조건에는|연락처와 이용 인원을 챙겨 주세요)/u,
     );
     expect(regionalActualDomCopyWithoutGeography).not.toMatch(

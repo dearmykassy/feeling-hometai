@@ -6,11 +6,11 @@ import { RegionSearch } from "@/components/RegionSearch";
 import { PHONE_HREF } from "@/lib/business";
 
 const NAV = [
-  ["/areas/", "지역 안내"],
-  ["/pricing/", "가격 안내"],
-  ["/guide/", "이용 안내"],
-  ["/notice/", "공지사항"],
-  ["/blog/", "블로그"],
+  ["/areas/", "지역 찾기"],
+  ["/pricing/", "코스 가격"],
+  ["/guide/", "이용 방법"],
+  ["/notice/", "운영 공지"],
+  ["/blog/", "이용 정보"],
 ] as const;
 
 function MenuButton({
@@ -74,7 +74,7 @@ export function SiteHeader() {
           <div className="nav-inner page-width">
             <MenuButton open={open} onOpen={() => setOpen(true)} />
             {NAV.map(([href, label]) => <Link href={href} key={href}>{label}</Link>)}
-            <a className="nav-phone" href={PHONE_HREF}>전화상담</a>
+            <a className="nav-phone" href={PHONE_HREF}>전화 문의</a>
           </div>
         </nav>
       </header>
@@ -97,9 +97,9 @@ export function SiteHeader() {
         </div>
         <div className="drawer-card">
           <span>24H CONSULTATION</span>
-          <p className="drawer-card-title">주소와 희망 시간을 준비해 주세요.</p>
-          <p>코스와 현장 결제 기준은 전화상담에서 함께 확인할 수 있습니다.</p>
-          <a href={PHONE_HREF}>전화상담</a>
+          <p className="drawer-card-title">서비스 주소와 희망 일정을 알려 주세요.</p>
+          <p>이용 인원, 코스와 시간도 전화 문의에서 확인합니다.</p>
+          <a href={PHONE_HREF}>전화 문의</a>
         </div>
       </aside>
     </>

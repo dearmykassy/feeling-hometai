@@ -49,7 +49,7 @@ export default async function BlogPostPage({ params }: Props) {
             <p className={"rang-fixed-eyebrow"}>{post.category}</p>
             <h1>{post.title}</h1>
             <p className={"rang-fixed-heroLead"}>{post.description}</p>
-            <p className={"rang-fixed-articleMeta"}>FEELING NOTE · {formatPublishedDate(post.publishedAt)}</p>
+            <p className={"rang-fixed-articleMeta"}>FEELING GUIDE · {formatPublishedDate(post.publishedAt)}</p>
           </div>
         </header>
 
@@ -63,16 +63,16 @@ export default async function BlogPostPage({ params }: Props) {
           ))}
 
           <aside className={"rang-fixed-checklist"} aria-labelledby="blog-checklist-title">
-            <h2 id="blog-checklist-title">통화 전 체크</h2>
+            <h2 id="blog-checklist-title">전화 문의 항목</h2>
             <ul>{post.checklist.map((item) => <li key={item}>{item}</li>)}</ul>
           </aside>
 
           <nav className={"rang-fixed-articleLinks"} aria-label="관련 안내">
             {related && <Link href={getBlogPostPath(related)}>관련 글: {related.title}</Link>}
-            <Link href="/pricing/">코스별 시간과 가격 보기</Link>
-            <Link href="/guide/">이용 순서 보기</Link>
-            <Link href="/areas/">서비스 지역 안내 보기</Link>
-            <a href={PHONE_HREF}>전화상담</a>
+            <Link href="/pricing/">코스 가격 확인</Link>
+            <Link href="/guide/">이용 방법 확인</Link>
+            <Link href="/areas/">운영 지역 검색</Link>
+            <a href={PHONE_HREF}>전화 문의</a>
           </nav>
         </article>
       </div>

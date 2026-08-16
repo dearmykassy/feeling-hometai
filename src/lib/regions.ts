@@ -269,7 +269,7 @@ export function getDirectChildren(node: RegionNode): RegionChild[] {
 }
 
 export function getBreadcrumbs(node: RegionNode): Array<{ name: string; path: string }> {
-  const breadcrumbs = [{ name: "지역 갤러리", path: "/areas/" }];
+  const breadcrumbs = [{ name: "지역 안내", path: "/areas/" }];
   for (let length = 1; length <= node.segments.length; length += 1) {
     const candidate = NODE_BY_KEY.get(keyForSegments(node.segments.slice(0, length)));
     if (candidate) breadcrumbs.push({ name: candidate.displayName, path: candidate.path });

@@ -138,7 +138,7 @@ function headingActionIds(value: string): string[] {
 export function createRegionPageModel(node: RegionNode): RegionPageModel {
   const content = createRegionContent(node);
   const directory = content.sections[0];
-  if (!directory || directory.id !== "frame-directory-first") {
+  if (!directory || directory.id !== "area-scope-check") {
     throw new Error(`FEELING_HOMETAI_REGION_DIRECTORY_SECTION_MISSING:${node.path}`);
   }
   if (content.hooks.length !== 2 || content.ctaLabels.length !== 3) {
@@ -155,30 +155,30 @@ export function createRegionPageModel(node: RegionNode): RegionPageModel {
     path: child.path,
     number: String(index + 1).padStart(2, "0"),
     name: child.name,
-    countLabel: `${child.representativeCount}개 연결 지역`,
+    countLabel: `${child.representativeCount}개 안내 지역`,
     numberCopyId: `gallery:item:${index}:number`,
     nameCopyId: `gallery:item:${index}:name`,
     countCopyId: `gallery:item:${index}:count`,
   }));
   const galleryHeading =
     children.length > 0
-      ? `${node.displayName} 연결 지역 한눈에`
-      : `${node.displayName} 이용 준비 이어보기`;
+      ? `${node.displayName} 하위 지역 목록`
+      : `${node.displayName} 상세 주소 안내`;
   const gallerySummary =
     children.length > 0
       ? `${children.length}개 하위 지역`
-      : "서비스 주소를 확인한 뒤 시간과 코스를 준비하는 지역";
-  const galleryTerminal = "희망 시각과 코스 후보는 전화상담 전에 함께 준비해 주세요.";
-  const sceneIndex = `LOCAL AREA · ${node.segments.length
+      : "도로명과 건물명을 전화로 확인하는 지역";
+  const galleryTerminal = "도로명과 건물명, 희망 시각은 전화상담에서 알려 주세요.";
+  const sceneIndex = `REGION INFO · ${node.segments.length
     .toString()
     .padStart(2, "0")}`;
-  const sceneCaption = "서비스 주소와 희망 시각을 미리 확인하세요.";
+  const sceneCaption = "주소와 희망 시각은 전화로 확인합니다.";
   const movements = content.sections.slice(1).map((section, index) => {
     const number = String(index + 2).padStart(2, "0");
     return {
       section,
       number,
-      kicker: `GUIDE ${number}`,
+      kicker: `확인 ${number}`,
       numberCopyId: `movement:${section.id}:number`,
       kickerCopyId: `movement:${section.id}:kicker`,
       headingCopyId: `movement:${section.id}:heading`,
@@ -230,7 +230,7 @@ export function createRegionPageModel(node: RegionNode): RegionPageModel {
     entry("scene:index", sceneIndex, "decorative"),
     entry("scene:name", node.displayName, "geography"),
     entry("scene:caption", sceneCaption, "owned-copy"),
-    entry("gallery:index", "SERVICE AREA", "decorative"),
+    entry("gallery:index", "REGION LIST", "decorative"),
     entry("gallery:heading", galleryHeading, "navigation-fact"),
     entry("gallery:summary", gallerySummary, "navigation-fact"),
     ...galleryItems.flatMap((item) => [
@@ -268,8 +268,8 @@ export function createRegionPageModel(node: RegionNode): RegionPageModel {
         "candidate-customer-guidance",
       ),
     ]),
-    entry("final:label", "CALL CENTER", "decorative"),
-    entry("final:heading", "서비스 주소와 희망 시각 확인하기", "owned-copy"),
+    entry("final:label", "24시간 전화상담", "verified-operating-fact"),
+    entry("final:heading", "주소와 희망 시각을 알려 주세요", "owned-copy"),
     entry("final:number", PHONE_DISPLAY, "verified-operating-fact"),
     entry("final:phone", "전화상담", "owned-copy"),
   ];
@@ -299,7 +299,7 @@ export function createRegionPageModel(node: RegionNode): RegionPageModel {
       captionCopyId: "scene:caption",
     },
     gallery: {
-      index: "SERVICE AREA",
+      index: "REGION LIST",
       heading: galleryHeading,
       summary: gallerySummary,
       terminal: galleryTerminal,
@@ -312,8 +312,8 @@ export function createRegionPageModel(node: RegionNode): RegionPageModel {
     },
     movements,
     finalBeat: {
-      label: "CALL CENTER",
-      heading: "서비스 주소와 희망 시각 확인하기",
+      label: "24시간 전화상담",
+      heading: "주소와 희망 시각을 알려 주세요",
       number: PHONE_DISPLAY,
       phone: "전화상담",
       labelCopyId: "final:label",

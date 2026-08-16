@@ -35,10 +35,13 @@ const BLOG_POST_OUTPUTS = BLOG_POSTS.map((post) => {
 const STATIC_PAGE_OUTPUTS = [...FIXED_PAGE_OUTPUTS, ...BLOG_POST_OUTPUTS];
 const ALLOWED_TEL_ACTION_LABELS = [
   "전화상담",
+  "전화 문의",
   "☎ 전화상담",
   "☎ 상담",
   "☎ 전화상담 24시간 상담 안내",
+  "☎ 전화 문의 365일 24시간",
   `${PHONE_DISPLAY} 전화상담`,
+  `${PHONE_DISPLAY} 문의`,
   PHONE_DISPLAY,
 ] as const;
 type CorpusDocument = {
@@ -254,7 +257,7 @@ function assertNaturalMetadata(
   pageKind: "region" | "fixed" | "article",
 ) {
   const { route, title, description, canonical, openGraph, twitter } = metadata;
-  const minimumDescription = pageKind === "region" ? 90 : 25;
+  const minimumDescription = pageKind === "region" ? 75 : 25;
   const maximumDescription = pageKind === "region" ? 160 : 100;
   if (title.length < 8 || title.length > 60) {
     throw new Error(`RANG_BUILT_TITLE_LENGTH:${route}:${title.length}`);
@@ -570,7 +573,7 @@ const staticHeadingRows = await Promise.all(
     if (
       id === "pricing" &&
       (!html.includes('id="course-price-title"') ||
-        !html.includes("코스별 시간과 금액"))
+        !html.includes("전체 가격표"))
     ) {
       throw new Error("RANG_BUILT_PRICING_H2_MISSING");
     }

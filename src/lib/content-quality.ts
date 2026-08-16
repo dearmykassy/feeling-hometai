@@ -84,12 +84,12 @@ export function completeCustomerSentences(content: RegionContent): string[] {
 }
 
 const SECTION_IDS = [
-  "frame-directory-first",
-  "pulse-coordinate-note",
-  "tempo-time-window",
-  "score-course-ledger",
-  "settlement-last-beat",
-  "coda-before-arrival",
+  "area-scope-check",
+  "call-detail-order",
+  "time-course-choice",
+  "price-reference",
+  "onsite-payment",
+  "final-change-check",
 ] as const;
 
 function completeSentences(value: string): string[] {

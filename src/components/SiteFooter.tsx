@@ -17,17 +17,17 @@ export function SiteFooter() {
             />
             <h2>필링홈타이</h2>
           </Link>
-          <p>지역 안내와 코스·가격, 현장 결제 기준을 차분하게 정리합니다.</p>
+          <p>운영 지역, 코스별 금액과 이용 후 결제 기준을 안내합니다.</p>
         </div>
         <div className="footer-links">
-          <Link href="/areas/">지역 안내</Link>
-          <Link href="/pricing/">가격 안내</Link>
-          <Link href="/guide/">이용 안내</Link>
-          <Link href="/notice/">공지사항</Link>
-          <Link href="/blog/">블로그</Link>
+          <Link href="/areas/">지역 찾기</Link>
+          <Link href="/pricing/">코스 가격</Link>
+          <Link href="/guide/">이용 방법</Link>
+          <Link href="/notice/">운영 공지</Link>
+          <Link href="/blog/">이용 정보</Link>
           <a href={PHONE_HREF}>{PHONE_DISPLAY}</a>
         </div>
-        <p className="footer-meta">24시간 전화상담 · 선입금 없는 100% 현장 후불 · 현장 카드 결제 가능</p>
+        <p className="footer-meta">24시간 전화 문의 · 예약금 없음 · 이용 후 현금·카드 결제</p>
       </div>
     </footer>
   );

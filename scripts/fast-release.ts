@@ -34,11 +34,15 @@ const CHROME_PATH = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrom
 const PNG_MAGIC_HEX = "89504e470d0a1a0a";
 const ALLOWED_TEL_ACTION_LABELS = [
   "전화상담",
+  "전화 문의",
   "☎ 전화상담",
   "☎ 상담",
   "☎ 전화상담 24시간 상담 안내",
   "☎전화상담24시간 상담 안내",
+  "☎ 전화 문의 365일 24시간",
+  "☎전화 문의365일 24시간",
   `${PHONE_DISPLAY} 전화상담`,
+  `${PHONE_DISPLAY} 문의`,
   PHONE_DISPLAY,
 ] as const;
 const ROLE_PATTERNS = {

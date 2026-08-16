@@ -7,9 +7,9 @@ import { createRouteMetadataContract, toNextMetadata } from "@/lib/metadata";
 
 export const metadataContract = createRouteMetadataContract(
   "/blog/",
-  "필링홈타이 블로그 | 출장마사지 이용 전 체크",
-  "외출이 부담스러운 날과 집·숙소에서 출장마사지를 알아볼 때 서비스 주소, 희망 시각, 코스, 현장 결제를 정리하는 필링홈타이 블로그입니다.",
-  ["필링홈타이 블로그", "출장마사지 이용 전 체크", "출장마사지 준비", "출장마사지 안내"],
+  "필링홈타이 이용 정보 | 외출 시간·자택·숙소 안내",
+  "외출할 시간이 없을 때와 자택·숙소에서 필링홈타이를 이용할 때 확인할 시간, 주소, 코스와 결제 정보를 제공합니다.",
+  ["필링홈타이 이용 정보", "출장마사지 문의 순서", "자택 출장마사지", "숙소 출장마사지"],
 );
 export const metadata: Metadata = toNextMetadata(metadataContract);
 
@@ -24,15 +24,15 @@ export default function BlogIndexPage() {
         <header className={"rang-fixed-hero"}>
           <div className={"rang-fixed-heroCopy"}>
             <p className={"rang-fixed-eyebrow"}>FEELING HOMETAI · USEFUL NOTES</p>
-            <h1>이용 전에 읽는<br />필링홈타이 안내.</h1>
+            <h1>출장마사지 문의에<br />필요한 정보</h1>
             <p className={"rang-fixed-heroLead"}>
-              서비스 주소와 시간, 코스와 결제를 정리할 때 도움이 되는 기본 내용을 짧고 명확하게 담았습니다.
+              이용할 수 있는 시간, 서비스 주소, 코스와 결제 방식을 주제별로 정리했습니다.
             </p>
           </div>
           <div className={"rang-fixed-statRow"} aria-label="블로그 안내 요약">
-            <div><span>이용 노트</span><strong>2편</strong></div>
-            <div><span>먼저 확인</span><strong>주소 · 시각</strong></div>
-            <div><span>상담 안내</span><strong>24시간</strong></div>
+            <div><span>게시물</span><strong>2편</strong></div>
+            <div><span>주제</span><strong>시간 · 장소</strong></div>
+            <div><span>문의 시간</span><strong>24시간</strong></div>
           </div>
         </header>
 
@@ -40,10 +40,10 @@ export default function BlogIndexPage() {
           <div className={"rang-fixed-sectionHeader"}>
             <div>
               <p className={"rang-fixed-sectionKicker"}>FEELING BLOG</p>
-              <h2 id="blog-list-title">최신 글</h2>
-              <p>통화 전에 필요한 내용을 정리하는 두 가지 방법을 읽어 보세요.</p>
+              <h2 id="blog-list-title">게시물</h2>
+              <p>상황에 맞는 글을 선택해 전화 문의 항목을 확인하세요.</p>
             </div>
-            <Link className={"rang-fixed-textLink"} href="/guide/">이용 안내 보기 →</Link>
+            <Link className={"rang-fixed-textLink"} href="/guide/">이용 방법 →</Link>
           </div>
           <div className={"rang-fixed-blogGrid"}>
             {BLOG_POSTS.map((post, index) => (
@@ -73,11 +73,11 @@ export default function BlogIndexPage() {
 
         <section className={`${"rang-fixed-section"} ${"rang-fixed-contactPanel"}`} aria-label="상담 바로가기">
           <p className={"rang-fixed-sectionKicker"}>24H CONSULTATION</p>
-          <h2>읽은 내용을 바탕으로 상담을 이어가세요.</h2>
-          <p>서비스 주소, 희망 시각, 코스와 이용 시간을 준비하면 실제 일정과 결제 기준을 차례로 확인할 수 있습니다.</p>
+          <h2>주소와 희망 일정을 전화로 전달하세요.</h2>
+          <p>이용 인원, 코스와 시간도 함께 알려주시면 실제 가능 여부를 확인할 수 있습니다.</p>
           <div className={"rang-fixed-buttonRow"}>
-            <a className={"rang-fixed-button"} href={PHONE_HREF}>{PHONE_DISPLAY} 전화상담</a>
-            <Link className={"rang-fixed-buttonAlt"} href="/pricing/">가격 안내 보기</Link>
+            <a className={"rang-fixed-button"} href={PHONE_HREF}>{PHONE_DISPLAY} 문의</a>
+            <Link className={"rang-fixed-buttonAlt"} href="/pricing/">코스 가격</Link>
           </div>
         </section>
       </div>

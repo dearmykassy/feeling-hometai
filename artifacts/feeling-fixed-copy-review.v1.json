@@ -1,0 +1,59 @@
+{
+  "schema": "feeling-hometai-fixed-copy-review/v1",
+  "reviewedAt": "2026-08-16T21:00:00+09:00",
+  "status": "PASS",
+  "scope": {
+    "platform": "feeling-hometai",
+    "comparator": "rang-therapy",
+    "routes": [
+      "/",
+      "/areas/",
+      "/pricing/",
+      "/guide/",
+      "/notice/",
+      "/blog/",
+      "/blog/masaji-shop-gagi-himdeul-ttae/",
+      "/blog/jibeseo-masaji-badeul-su-issnayo/"
+    ],
+    "sourceFiles": 12
+  },
+  "method": [
+    "Compared TypeScript and TSX string literals plus JSX text in the fixed customer surfaces.",
+    "Normalized only the two brand names and whitespace before exact comparison.",
+    "Kept navigation, price, phone, payment, card, two-person and hygiene facts when those facts were confirmed operational data.",
+    "Excluded region generator, region page model, region graph, images, analytics and artifact-generation scripts from the edit scope."
+  ],
+  "results": {
+    "meaningfulFeelingLiterals": 167,
+    "meaningfulRangLiterals": 125,
+    "brandNormalizedExactOverlaps": [
+      {
+        "value": "전체 메뉴 열기",
+        "classification": "functional accessibility label",
+        "allowed": true
+      },
+      {
+        "value": "{brand} 운영 지역",
+        "classification": "generic region directory heading after brand normalization",
+        "allowed": true
+      }
+    ],
+    "customerMarketingExactOverlaps": 0,
+    "bannedGenericPhraseMatches": 0,
+    "fixedMetadataBrandSwapMatches": 0,
+    "routesPreserved": true,
+    "imageReferencesPreserved": true,
+    "blogPostingSchemaPreserved": true,
+    "internalLinksPreserved": true
+  },
+  "verifiedFactsRetained": [
+    "0508-202-3906",
+    "365일 24시간 전화상담",
+    "선입금 없음",
+    "서비스 종료 후 현장 결제",
+    "현장 카드 결제 가능",
+    "커플·부부 2인 동시 관리",
+    "일회용 비품 사용",
+    "관리 전후 소독"
+  ]
+}
