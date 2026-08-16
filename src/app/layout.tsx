@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     "출장홈타이",
   ],
   robots: { index: true, follow: true },
+  verification: {
+    other: {
+      "naver-site-verification": "d2c39b4186096faf05a953e783bc85e4038bce1a",
+    },
+  },
   icons: {
     icon: [{ url: "/images/feeling-hometai-brand/v1/feeling-hometai-mark-openai-v1.png", type: "image/png" }],
     shortcut: "/images/feeling-hometai-brand/v1/feeling-hometai-mark-openai-v1.png",

@@ -2,6 +2,11 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-16 21:29 KST — 네이버 서치어드바이저 소유확인 태그 배포
+
+- 네이버 서치어드바이저가 `https://feelinghometai.kr`에 발급한 고유 `naver-site-verification` 값을 root metadata의 custom verification 태그로 추가했다. 검색 메타·지역 그래프·고객 문구·이미지·GA4 계약은 변경하지 않았다.
+- 회귀 테스트에 exact verification 값을 고정했다. focused Vitest 2/2, typecheck, production static build가 PASS했고 정적 1,303페이지와 built audit의 metadata 1,299·sitemap 1,299·canonical/robots/OG/Twitter mismatch 0을 확인했다. 갱신 corpus SHA-256은 `f7a5743f8ee9588ba4ca0d24609f9ce2b9547249b4fd4b0b1a03729bfafc9a1f`, source manifest SHA-256은 `e73fe25222b2f9b7531f472a8bc6f38aac636099528fdc3af9f2a7c9ae4d0450`이다.
+
 ## 2026-08-16 21:00 KST — 랑테라피 복제형 카피 분리 완료
 
 - 사장님 피드백에 따라 랑테라피는 변경하지 않고 필링홈타이의 홈·지역 허브·가격·이용 안내·공지·블로그 허브·게시물 2개·공통 내비게이션과 1,291개 지역 본문을 다시 썼다. 24시간 전화상담, 공개 가격표, 선입금 없는 현장 후불, 현금·현장 카드 결제, 2인 동시 관리, 일회용 비품·소독처럼 확인된 운영 사실만 유지했고 과장·후기·배정·출발·도착 시각 약속은 넣지 않았다.

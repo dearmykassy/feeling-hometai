@@ -12,6 +12,9 @@ describe("static release guards and responsive shell", () => {
     expect(SITE_ORIGIN).toBe("https://feelinghometai.kr");
     expect(rootMetadata.metadataBase?.toString()).toBe("https://feelinghometai.kr/");
     expect(rootMetadata.robots).toMatchObject({ index: true, follow: true });
+    expect(rootMetadata.verification?.other).toMatchObject({
+      "naver-site-verification": "d2c39b4186096faf05a953e783bc85e4038bce1a",
+    });
     expect(robots().rules).toEqual({ userAgent: "*", allow: "/" });
     expect(robots().sitemap).toBe("https://feelinghometai.kr/sitemap.xml");
     const expectedCount = ACTIVE_REGION_NODES.length + FIXED_SITEMAP_PATHS.length + BLOG_POSTS.length;
