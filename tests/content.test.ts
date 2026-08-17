@@ -110,6 +110,9 @@ describe("feeling-hometai content corpus", () => {
       "src/lib/regional-image-runtime.ts",
     );
     expect(corpus.sourceManifest.map((entry) => entry.path)).toEqual(
+      expect.arrayContaining(["src/app/rss.xml/route.ts", "src/lib/rss.ts"]),
+    );
+    expect(corpus.sourceManifest.map((entry) => entry.path)).toEqual(
       expect.arrayContaining([
         "src/components/RegionSearch.tsx",
         "src/lib/region-search.ts",
