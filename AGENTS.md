@@ -6,11 +6,13 @@
 - 브랜드는 `필링홈타이`, 플랫폼 ID는 `feeling-hometai`로 고정한다. 고객 화면과 메타에 이전 플랫폼 브랜드를 남기지 않는다.
 - 헤더와 파비콘의 정본 로고는 투명 배경 `/images/feeling-hometai-brand/v1/feeling-hometai-mark-openai-v1.png`다. 로고에 임의 타일·테두리·그림자를 덧씌우지 않는다.
 - 상단 지역 검색은 장식 링크가 아니라 1,291개 전체 지역명과 경로를 검색해 상세 지역 페이지로 바로 이동할 수 있어야 한다.
-- 실제 도메인, 법적 문구, 브랜드 승인 전까지 `.invalid` canonical, `noindex,nofollow`, robots 전체 차단을 유지한다.
+- 실제 운영 도메인은 `https://feelinghometai.kr`이다. canonical·Open Graph·JSON-LD·sitemap·RSS는 이 origin만 사용하고 `index,follow` 및 robots 허용 상태를 유지한다.
 - Template3 지역 배너는 OpenAI 이미지 생성으로 만든 성인 한국인 여성의 고급스러운 거울 셀피 계열을 사용한다. 첨부 참고 사진의 인물·얼굴·정확한 포즈를 복제하지 않고 구도와 무드만 참고하며, 문자·로고·워터마크·선정적 의상은 허용하지 않는다.
 - 1,291개 지역은 원본 130장으로 배정하고 사진 1장당 최대 10회만 재사용한다. 새 자산은 Template3 전용 버전 경로와 원본/파생/배정 기록을 사용하며 기존 Template2 이미지 파일이나 릴리스 영수증을 덮어쓰지 않는다.
 - 지역 페이지와 sitemap은 같은 `ACTIVE_REGION_NODES`를 사용한다. 지역 정본은 `/Users/ssm/Documents/Codex/massagebom`의 활성 1,291개 경로·계층과 exact 동일해야 하며, 마사지봄에 없는 지역 페이지를 추가하지 않는다. 경로 집합이 다르거나 1,291개가 아니면 테스트와 빌드를 실패시킨다.
 - 현재 플랫폼과 이후 새 플랫폼은 sitemap과 함께 `/rss.xml` RSS 2.0 feed를 제공한다. RSS에는 실제 발행·수정일이 있는 indexable canonical 문서만 넣고, same-origin 절대 URL·영구 GUID·`ko-KR`·XML escaping을 유지하며 빌드 시각을 새 콘텐츠 시각처럼 만들지 않는다.
+- 네이버 서치어드바이저에 새 플랫폼을 등록할 때는 소유확인·sitemap·RSS 제출 뒤 `설정 → 수집 주기 설정 → 빠르게`를 선택한다.
+- 토닥이 계열을 제외한 모든 마사지 서비스·코스 이미지에서 마사지사는 성인 여성으로 표현한다. 고객의 성별과 마사지사의 성별을 별도 역할로 취급하며, 남성전용 코스도 고객만 성인 남성이고 마사지사는 성인 여성이다.
 - 일상 개발 검증은 지역 수·메타 중복·핵심 운영 사실·대표 렌더를 빠르게 확인하는 경량 절차로 유지한다. 과거 대규모 감사 영수증은 역사 기록이며 새 Template3 빌드 권한으로 재사용하지 않는다.
 
 <!-- BEGIN:nextjs-agent-rules -->
