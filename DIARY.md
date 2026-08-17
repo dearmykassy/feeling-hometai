@@ -2,6 +2,12 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-17 18:29 KST — RSS 실제 블로그 본문 전체 수록
+
+- `/rss.xml`의 각 item `description`을 짧은 메타 요약에서 해당 블로그 페이지가 실제로 표시하는 intro, 4개 섹션의 제목·모든 문단, `전화 문의 항목` 제목과 모든 체크 항목의 전체 평문으로 교체했다. 기존 XML 5종 escape, 운영 HTTPS canonical link, `isPermaLink=true` GUID, 실제 `publishedAt`·`modifiedAt`, 2개 item과 `ko-KR` 계약은 그대로 유지했다.
+- 회귀 테스트는 RSS 본문이 원본 데이터에서 구성한 전체 평문과 exact 일치하고 메타 요약만 출력하지 않는지 각 글마다 확인한다. focused RSS Vitest 3/3, 전체 Vitest 12 files/40 tests, typecheck PASS, lint error 0(기존 일반 `<img>` warning 2)이다.
+- artifact 생성 PASS(corpus SHA-256 `6b88eb7014ff4d412404f96061fef18d2b9f4e658a7e068fa71012d0e99f5cd3`, source manifest SHA-256 `3b779acc9b25996838f621c03d64e986e6e928b23943da589fac8bac84bbf24a`), Next production build PASS(정적 1,304페이지), built-output audit PASS(지역 1,291·metadata 1,299·sitemap 1,299·mismatch 0)다. `xmllint` PASS, item 2개, item description 길이 792/772자, link=GUID exact, RSS SHA-256 `d80dd1214ad92c17623590a30aa17b58da5beab073a6b4c6d07df8a5854dd33d`를 확인했다. `pnpm build` wrapper의 `tsx` IPC는 작업 샌드박스의 Unix socket 제한으로 중단되어, 같은 세 단계를 `node --import tsx` artifact 생성 → `next build` → `node --import tsx` built audit 순서로 각각 실행했다.
+
 ## 2026-08-17 17:35 KST — 플랫폼 공통 영구 운영 규칙 기록
 
 - 이후 네이버 서치어드바이저 온보딩은 소유확인·sitemap·RSS 제출과 함께 `설정 → 수집 주기 설정 → 빠르게`를 적용한다.
