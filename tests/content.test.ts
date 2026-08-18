@@ -28,7 +28,11 @@ import {
   REVIEW_SOURCE_PATHS,
   reviewSha256,
 } from "@/lib/review-candidate";
-import { ACTIVE_REGION_NODES, getKeywordRegionLabel } from "@/lib/regions";
+import {
+  ACTIVE_REGION_NODES,
+  getOfficialRegionLabel,
+  getSearchRegionLabel,
+} from "@/lib/regions";
 
 const contents = ACTIVE_REGION_NODES.map((node) => createRegionContent(node));
 const pageModels = ACTIVE_REGION_NODES.map((node) => createRegionPageModel(node));
@@ -55,7 +59,7 @@ const ALLOWED_TEL_ACTION_LABELS = [
   PHONE_DISPLAY,
 ];
 const SEO_TITLE_GEOGRAPHIC_MOVEMENT_COUNT = ACTIVE_REGION_NODES.filter((node) =>
-  /(?:이동|출발|도착|찾아가|오시는 길)/u.test(getKeywordRegionLabel(node)),
+  /(?:이동|출발|도착|찾아가|오시는 길)/u.test(getSearchRegionLabel(node)),
 ).length;
 
 function collectTsx(directory: string): string[] {
@@ -596,7 +600,7 @@ describe("feeling-hometai content corpus", () => {
         (section) => section.id === "area-scope-check",
       )?.heading;
       if (node.kind === "representative") {
-        expect(directoryHeading).toBe(`${getKeywordRegionLabel(node) === node.displayName ? node.displayName : node.qualifiedName} 주소 확인`);
+        expect(directoryHeading).toBe(`${getOfficialRegionLabel(node)} 주소 확인`);
         expect(content.ctaLabels.at(-1)).toBe("상위 지역 보기");
       } else {
         expect(directoryHeading).toContain("하위 지역 확인");
@@ -1011,9 +1015,7 @@ describe("feeling-hometai content corpus", () => {
     expect(corpusCopy).not.toMatch(/예약 내역|목적지|방문 위치/u);
     const corpusCopyWithoutRouteLabels = contents.flatMap((content, index) => {
       const node = ACTIVE_REGION_NODES[index];
-      const keywordLabel = getKeywordRegionLabel(node);
-      const routeLabel =
-        keywordLabel === node.displayName ? node.displayName : node.qualifiedName;
+      const routeLabel = getOfficialRegionLabel(node);
       return customerText(content).map((value) => value.replaceAll(routeLabel, " "));
     }).join("\n");
     expect(corpusCopyWithoutRouteLabels).not.toMatch(

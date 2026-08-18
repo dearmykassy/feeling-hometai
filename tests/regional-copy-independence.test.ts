@@ -4,7 +4,7 @@ import {
   KEYWORD_FAMILIES,
 } from "@/lib/content";
 import { customerText } from "@/lib/content-quality";
-import { ACTIVE_REGION_NODES, getKeywordRegionLabel } from "@/lib/regions";
+import { ACTIVE_REGION_NODES, getSearchRegionLabel } from "@/lib/regions";
 
 const contents = ACTIVE_REGION_NODES.map(createRegionContent);
 const copy = contents.map(customerText).join("\n");
@@ -23,7 +23,7 @@ describe("Feeling Hometai regional copy independence", () => {
     expect(KEYWORD_FAMILIES).toHaveLength(8);
 
     for (const [index, content] of contents.entries()) {
-      const keywordLabel = getKeywordRegionLabel(ACTIVE_REGION_NODES[index]);
+      const keywordLabel = getSearchRegionLabel(ACTIVE_REGION_NODES[index]);
       expect(content.title).toBe(
         `${keywordLabel}홈타이 ${keywordLabel}출장마사지 | 필링홈타이`,
       );

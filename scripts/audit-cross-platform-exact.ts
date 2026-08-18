@@ -202,6 +202,7 @@ const SHARED_STRUCTURAL_ATOMS = new Set([
   "현장 결제 가능",
   "선입금 없는 100% 현장 후불",
   "현장 카드 결제 가능",
+  "결제 시점",
   "카드",
   "타이",
   "아로마",
@@ -217,9 +218,29 @@ const SHARED_STRUCTURAL_ATOMS = new Set([
 function sharedAtomicReason(
   value: string,
   geography: ReadonlySet<string>,
-): "geography" | "structural-ui" | "operating-fact-atom" | "decorative-numeric" | null {
+): "geography" | "structural-ui" | "operating-fact-atom" | "decorative-numeric" | "owner-mandated-regional-keyword" | null {
   if (completeSentences(value).length > 0) return null;
   if (geography.has(value)) return "geography";
+  const regionalKeywordSuffixes = [
+    "출장마사지",
+    "출장안마",
+    "출장타이마사지",
+    "출장스웨디시",
+    "출장홈타이",
+    "토닥이",
+    "남성전용마사지",
+    "여성전용마사지",
+  ];
+  for (const suffix of regionalKeywordSuffixes) {
+    if (value.endsWith(suffix) && geography.has(value.slice(0, -suffix.length))) {
+      return "owner-mandated-regional-keyword";
+    }
+  }
+  for (const suffix of [" 상세 안내", " 가격표 확인"]) {
+    if (value.endsWith(suffix) && geography.has(value.slice(0, -suffix.length))) {
+      return "structural-ui";
+    }
+  }
   if (SHARED_STRUCTURAL_ATOMS.has(value)) {
     return /(?:후불|결제|카드|타이|아로마|힐링|스페셜|남성전용|24(?:H|시간))/u.test(value)
       ? "operating-fact-atom"
@@ -558,6 +579,7 @@ async function main() {
     "structural-ui": 0,
     "operating-fact-atom": 0,
     "decorative-numeric": 0,
+    "owner-mandated-regional-keyword": 0,
   };
 
   for (const definition of snapshot.manifest.platforms) {
@@ -684,7 +706,7 @@ async function main() {
       ],
       acceptedCollisionCount: 0,
       permittedSharedAtomicOverlap:
-        "완전문장은 예외 없이 감사합니다. 지역명, 구조 UI 단어, 단독 가격·시간·결제 사실, 장식 기호만 exact 분류해 owned-copy collision에서 제외하며 raw overlap 수치는 별도로 보존합니다.",
+        "완전문장은 예외 없이 감사합니다. 지역명, 지역명과 owner 지정 8개 검색어의 정확한 결합, 지역별 구조 UI 라벨, 단독 가격·시간·결제 사실, 장식 기호만 exact 분류해 owned-copy collision에서 제외하며 raw overlap 수치는 별도로 보존합니다.",
       finalization: "마사지봄·스타 토닥이·마사지러브·Mixed Love 네 플랫폼 모두 독립 GO의 exact corpus/evidence SHA가 manifest에 명시되기 전에는 PENDING입니다.",
       dependencyRules: {
         missingOrTamperedLocalSnapshot:

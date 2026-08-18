@@ -1,5 +1,9 @@
 import type { RegionNode } from "@/lib/regions";
-import { ACTIVE_REGION_NODES, getKeywordRegionLabel } from "@/lib/regions";
+import {
+  ACTIVE_REGION_NODES,
+  getOfficialRegionLabel,
+  getSearchRegionLabel,
+} from "@/lib/regions";
 
 export const KEYWORD_FAMILIES = [
   "필링홈타이",
@@ -406,8 +410,8 @@ function makeSection(id: string, heading: string, plans: readonly [ParagraphPlan
 
 export function createRegionContent(node: RegionNode): RegionContent {
   const ordinal = ordinalFor(node);
-  const keywordLabel = getKeywordRegionLabel(node);
-  const label = keywordLabel === node.displayName ? node.displayName : node.qualifiedName;
+  const searchLabel = getSearchRegionLabel(node);
+  const officialLabel = getOfficialRegionLabel(node);
   const section = (id: string, heading: string, salt: number): ContentSection => makeSection(
     id,
     heading,
@@ -415,25 +419,25 @@ export function createRegionContent(node: RegionNode): RegionContent {
     ordinal,
     salt,
     node,
-    label,
+    officialLabel,
   );
   return {
-    title: `${keywordLabel}홈타이 ${keywordLabel}출장마사지 | 필링홈타이`,
-    description: curatedRegionalSentence(ordinal, 40, "description", node, label),
-    keywords: KEYWORD_FAMILIES.map((family) => `${keywordLabel}${family}`),
-    h1: curatedSeoCopy(ordinal, 39, CURATED_H1_BANK, label),
+    title: `${searchLabel}홈타이 ${searchLabel}출장마사지 | 필링홈타이`,
+    description: curatedRegionalSentence(ordinal, 40, "description", node, searchLabel),
+    keywords: KEYWORD_FAMILIES.map((family) => `${searchLabel}${family}`),
+    h1: curatedSeoCopy(ordinal, 39, CURATED_H1_BANK, officialLabel),
     eyebrow: "FEELING HOMETAI · LOCAL INFO",
     hooks: [
-      curatedRegionalSentence(ordinal, 41, "hook:0:0", node, label),
-      curatedRegionalSentence(ordinal, 42, "hook:1:0", node, label),
+      curatedRegionalSentence(ordinal, 41, "hook:0:0", node, officialLabel),
+      curatedRegionalSentence(ordinal, 42, "hook:1:0", node, officialLabel),
     ],
     sections: [
-      section("area-scope-check", node.kind === "representative" ? `${label} 주소 확인` : `${label} 하위 지역 확인`, 0),
-      section("call-detail-order", `${label} 전화상담에 필요한 내용`, 4),
-      section("time-course-choice", `${label} 시간과 코스 정하기`, 8),
-      section("price-reference", `${label} 가격표 확인`, 12),
-      section("onsite-payment", `${label} 현장 결제 기준`, 16),
-      section("final-change-check", `${label} 변경 사항과 최종 확인`, 20),
+      section("area-scope-check", node.kind === "representative" ? `${officialLabel} 주소 확인` : `${officialLabel} 하위 지역 확인`, 0),
+      section("call-detail-order", `${officialLabel} 전화상담에 필요한 내용`, 4),
+      section("time-course-choice", `${officialLabel} 시간과 코스 정하기`, 8),
+      section("price-reference", `${officialLabel} 가격표 확인`, 12),
+      section("onsite-payment", `${officialLabel} 현장 결제 기준`, 16),
+      section("final-change-check", `${officialLabel} 변경 사항과 최종 확인`, 20),
     ],
     ctaLabels: [
       "전화상담",

@@ -122,7 +122,7 @@ export function RegionExperience({ node }: { node: RegionNode }) {
         <div className="rang-t3-section-heading">
           <div>
             <span className="rang-t3-section-label">COURSE &amp; PRICE</span>
-            <h2 id="regional-price-title">코스별 시간과 금액</h2>
+            <h2 id="regional-price-title">필링 코스 시간·금액표</h2>
           </div>
           <Link className="rang-t3-heading-link" href="/pricing/">전체 보기</Link>
         </div>
