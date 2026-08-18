@@ -5,6 +5,12 @@ import {
   extractActualDomSurface,
   type ActualDomSurface,
 } from "../src/lib/dom-surface";
+import {
+  BLOG_INDEX_SITEMAP_LAST_MODIFIED,
+  FIXED_SITEMAP_LAST_MODIFIED,
+  FIXED_SITEMAP_PATHS,
+  REGION_SITEMAP_LAST_MODIFIED,
+} from "../src/app/sitemap";
 import { BLOG_POSTS, getBlogPostPath } from "../src/data/blog-posts";
 import { PHONE_DISPLAY } from "../src/lib/business";
 import { FAST_RELEASE_CONTRACT } from "../src/lib/fast-release";
@@ -626,15 +632,56 @@ if (robotsText !== expectedRobotsText) {
   throw new Error(`RANG_BUILT_ROBOTS_TXT:${JSON.stringify(robotsText)}`);
 }
 const sitemapXml = await readFile(SITEMAP_OUTPUT, "utf8");
-const sitemapUrls = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/gu)]
-  .map((match) => decodeHtml(match[1]));
+const sitemapEntries = [...sitemapXml.matchAll(/<url>([\s\S]*?)<\/url>/gu)].map(
+  (match, index) => {
+    const block = match[1];
+    const locations = [...block.matchAll(/<loc>([^<]+)<\/loc>/gu)];
+    const lastModifiedValues = [...block.matchAll(/<lastmod>([^<]+)<\/lastmod>/gu)];
+    if (locations.length !== 1 || lastModifiedValues.length !== 1) {
+      throw new Error(
+        `RANG_BUILT_SITEMAP_ENTRY_CONTRACT:${index}:${locations.length}:${lastModifiedValues.length}`,
+      );
+    }
+    return {
+      url: decodeHtml(locations[0][1]),
+      lastModified: lastModifiedValues[0][1],
+    };
+  },
+);
+const sitemapUrls = sitemapEntries.map((entry) => entry.url);
 const expectedSitemapUrls = new Set(allMetadata.map((entry) => entry.canonical));
 if (
   sitemapUrls.length !== expectedMetadataRoutes ||
   new Set(sitemapUrls).size !== expectedMetadataRoutes ||
-  sitemapUrls.some((url) => !expectedSitemapUrls.has(url))
+  sitemapUrls.some((url) => !expectedSitemapUrls.has(url)) ||
+  /<(?:changefreq|priority)>/u.test(sitemapXml)
 ) {
   throw new Error(`RANG_BUILT_SITEMAP_EXACT:${sitemapUrls.length}`);
+}
+const expectedSitemapLastModified = new Map<string, string>([
+  ...FIXED_SITEMAP_PATHS.map((path) => [
+    new URL(path, SITE_ORIGIN).href,
+    path === "/blog/" ? BLOG_INDEX_SITEMAP_LAST_MODIFIED : FIXED_SITEMAP_LAST_MODIFIED,
+  ] as const),
+  ...BLOG_POSTS.map((post) => [
+    new URL(getBlogPostPath(post), SITE_ORIGIN).href,
+    post.modifiedAt,
+  ] as const),
+  ...rows.map((row) => [row.canonical, REGION_SITEMAP_LAST_MODIFIED] as const),
+]);
+if (expectedSitemapLastModified.size !== expectedMetadataRoutes) {
+  throw new Error(`RANG_BUILT_SITEMAP_EXPECTED_LASTMOD_COUNT:${expectedSitemapLastModified.size}`);
+}
+for (const entry of sitemapEntries) {
+  const actualTimestamp = Date.parse(entry.lastModified);
+  const expectedTimestamp = Date.parse(expectedSitemapLastModified.get(entry.url) ?? "");
+  if (
+    !Number.isFinite(actualTimestamp) ||
+    actualTimestamp > Date.now() ||
+    actualTimestamp !== expectedTimestamp
+  ) {
+    throw new Error(`RANG_BUILT_SITEMAP_LASTMOD:${entry.url}:${entry.lastModified}`);
+  }
 }
 for (const field of ["title", "description", "canonical"] as const) {
   if (new Set(allMetadata.map((entry) => entry[field])).size !== allMetadata.length) {
@@ -682,6 +729,9 @@ const result = {
   robotsTxtMismatches: 0,
   sitemapMismatches: 0,
   sitemapUrls: sitemapUrls.length,
+  sitemapLastmodEntries: sitemapEntries.length,
+  sitemapLastmodMismatches: 0,
+  sitemapIgnoredHintTags: 0,
   renderedCopyRoutes: rows.length,
   renderedCopyEntriesChecked,
   renderCorpusMissing: 0,

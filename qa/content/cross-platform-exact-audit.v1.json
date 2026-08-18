@@ -9,8 +9,8 @@
     "hashScope": "ORDER_AND_LIVE_PROBE_PATH_INDEPENDENT_AUTHORITY_FIELDS",
     "refreshPolicy": "EXPLICIT_ONLY"
   },
-  "rangCorpusSha256": "604429ba7f946c96122c83894d9c29ed73de9a638bf662a45455ec52698ce4d9",
-  "rangSourceManifestSha256": "4f1f4bd57915fda5a79df40b79ed366c71a3c4819ce6c642a749b78bbf77a827",
+  "rangCorpusSha256": "a7f733e8174175edbfaa80d0e10acdaa88838953e243232a7cbf9c35337b8b43",
+  "rangSourceManifestSha256": "9104f1446a983fa265888ef0600f953aff9d53bf6ad54729451b6c1f75b8f620",
   "policy": {
     "comparison": "raw NFC-trimmed exact equality",
     "rangSurfaceSource": "actualDomSurface.directText+fullBlockText+accessibilityText",

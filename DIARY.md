@@ -2,6 +2,12 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-19 03:00 KST — sitemap 실제 변경일 `lastmod` 계약 적용
+
+- 1,299개 sitemap URL 모두에 안정적인 `lastmod`를 추가했다. 고정 페이지는 플랫폼 고유 고정 화면·문구가 최종 분리된 Git commit `d5ca337`의 `2026-08-16T21:04:18+09:00`, 1,291개 지역 페이지는 지역 검색 메타 전수 변경 commit `f3ab5c8`의 `2026-08-19T00:39:24+09:00`에 고정했다. 블로그 글 2개와 블로그 목록은 기존 글 데이터의 `modifiedAt` 최댓값을 그대로 사용한다. 빌드 시각·현재 시각은 출력값에 사용하지 않는다.
+- 검색엔진이 무시하는 `changefreq`·`priority`를 제거했다. 새 source 회귀 테스트는 URL 1,299개·고유 1,299개, 두 번 호출 결과 exact 안정성, 전 항목 날짜 파싱·비미래성, 블로그 `modifiedAt` exact, 고정·지역 영수증 시각 exact, 금지 속성 부재를 검사한다. built-output auditor도 실제 XML의 1,299개 `<url>`마다 `<loc>`·`<lastmod>` 1개를 요구하고 날짜와 route별 기대값을 전수 대조한다. URL·canonical·meta·본문은 변경하지 않았다.
+- `pnpm verify` PASS: Vitest 14 files/45 tests, typecheck, lint error 0(기존 `<img>` warning 2), Next 16.3.0 정적 1,304페이지, built audit의 metadata/sitemap 1,299·`lastmod` 1,299·mismatch 0·ignored hint tag 0이다. corpus SHA-256 `a7f733e8174175edbfaa80d0e10acdaa88838953e243232a7cbf9c35337b8b43`, source manifest SHA-256 `9104f1446a983fa265888ef0600f953aff9d53bf6ad54729451b6c1f75b8f620`다. 외부 사람 검수와 인앱 브라우저 영수증은 기존 계약대로 fail-closed `PENDING`이며 이 sitemap 변경의 자동 검증 실패는 아니다. 커밋·push·배포는 수행하지 않았다.
+
 ## 2026-08-19 00:38 KST — 고객 검색형 지역 메타 영구 규칙 적용
 
 - 사장님 확정 규칙에 따라 1,291개 지역의 검색 메타 title·description·keywords에서 각 행정구역 토큰 끝의 `특별자치도|특별자치시|특별시|광역시|도|시`만 제거했다. `서울특별시→서울`, `인천광역시→인천`, `경기도→경기`, `수원시→수원`을 고정했고 `구|군|읍|면|동|리`는 유지한다. 축약 뒤 동명이인은 `서울 강서구`, `부산 강서구`처럼 축약한 상위 지역을 붙여 1,291개 검색 지역명을 모두 고유하게 만들었다.
