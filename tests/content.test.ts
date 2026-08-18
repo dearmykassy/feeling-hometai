@@ -119,6 +119,8 @@ describe("feeling-hometai content corpus", () => {
     expect(corpus.sourceManifest.map((entry) => entry.path)).toEqual(
       expect.arrayContaining([
         "src/components/RegionSearch.tsx",
+        "src/components/SiteLink.tsx",
+        "src/lib/link-prefetch.ts",
         "src/lib/region-search.ts",
         "public/images/feeling-hometai-brand/v1/provenance.json",
         "public/images/feeling-hometai-brand/v1/feeling-hometai-mark-openai-v1.png",

@@ -2,6 +2,12 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-19 03:05 KST — 운영 내부 링크 RSC prefetch 차단
+
+- 내부 `next/link` 사용을 단일 `SiteLink` 경계로 모으고 운영 빌드에서는 호출부 값과 관계없이 `prefetch={false}`를 강제했다. NextLink가 출력하는 실제 `<a href>`, 클라이언트 전환, 클릭·탐색 handler와 앵커 ARIA 속성은 그대로 전달한다.
+- 새 회귀 테스트는 production/development/test 환경별 prefetch 결정값, 중앙 래퍼 외 `next/link` direct/static/dynamic/require import 0건, props spread 뒤의 최종 prefetch override를 검사한다. 콘텐츠·메타·이미지·route·canonical·sitemap 계약은 변경하지 않았다.
+- `pnpm verify` PASS: Vitest 15 files/48 tests, typecheck, lint error 0(기존 `<img>` warning 2), Next 16.3.0 정적 1,304페이지, built audit의 지역 1,291·metadata/sitemap 1,299·`lastmod` 1,299 및 모든 mismatch 0이다. production RSC 산출물의 component `prefetch` 58,557개는 전부 `false`이고 다른 값은 0개이며, HTML의 실제 `<a href>` 44,209개를 확인했다. 변경 전후 region/fixed/article document와 count SHA가 각각 exact 동일하고 `pnpm audit --prod`의 알려진 취약점도 0건이다. corpus SHA-256 `f94c6a2542d5744792092efad70d099954e6d71ec323ca184a50e8467b1f015e`, source manifest SHA-256 `83e536f59b66c71b3a4ee7aa032dfb6a0c0387436f84eebb8fe589d8b80fd56c`다. 외부 사람·인앱 브라우저 영수증은 기존 계약대로 fail-closed `PENDING`이며, 커밋·push·배포는 수행하지 않았다.
+
 ## 2026-08-19 03:00 KST — sitemap 실제 변경일 `lastmod` 계약 적용
 
 - 1,299개 sitemap URL 모두에 안정적인 `lastmod`를 추가했다. 고정 페이지는 플랫폼 고유 고정 화면·문구가 최종 분리된 Git commit `d5ca337`의 `2026-08-16T21:04:18+09:00`, 1,291개 지역 페이지는 지역 검색 메타 전수 변경 commit `f3ab5c8`의 `2026-08-19T00:39:24+09:00`에 고정했다. 블로그 글 2개와 블로그 목록은 기존 글 데이터의 `modifiedAt` 최댓값을 그대로 사용한다. 빌드 시각·현재 시각은 출력값에 사용하지 않는다.
